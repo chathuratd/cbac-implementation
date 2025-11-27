@@ -1,0 +1,268 @@
+{
+  "scenario_id": "incremental_update",
+  "name": "Incremental Clustering Test",
+  "description": "Add new behaviors to existing user, test incremental processing",
+  "base_user_id": "user_stable_users_01",
+  "base_state": {
+    "behavior_count": 35,
+    "prompt_count": 105,
+    "established_domains": [
+      "gardening",
+      "cooking",
+      "photography"
+    ]
+  },
+  "incremental_behaviors": [
+    {
+      "behavior_id": "beh_f50c08e0",
+      "behavior_text": "experiments with companion planting",
+      "credibility": 0.73,
+      "reinforcement_count": 6,
+      "decay_rate": 0.02,
+      "created_at": 1761148773,
+      "last_seen": 1761560394,
+      "prompt_history_ids": [
+        "prompt_incr_0000"
+      ],
+      "clarity_score": 0.73,
+      "extraction_confidence": 0.75,
+      "session_id": "session_003",
+      "user_id": "user_stable_users_01",
+      "domain": "gardening",
+      "expertise_level": "intermediate"
+    },
+    {
+      "behavior_id": "beh_0865e342",
+      "behavior_text": "experiments with companion planting",
+      "credibility": 0.83,
+      "reinforcement_count": 5,
+      "decay_rate": 0.01,
+      "created_at": 1761667173,
+      "last_seen": 1761862951,
+      "prompt_history_ids": [
+        "prompt_incr_0001"
+      ],
+      "clarity_score": 0.88,
+      "extraction_confidence": 0.8,
+      "session_id": "session_004",
+      "user_id": "user_stable_users_01",
+      "domain": "gardening",
+      "expertise_level": "intermediate"
+    },
+    {
+      "behavior_id": "beh_e3881f33",
+      "behavior_text": "discusses pest management strategies",
+      "credibility": 0.76,
+      "reinforcement_count": 4,
+      "decay_rate": 0.02,
+      "created_at": 1762185573,
+      "last_seen": 1762558587,
+      "prompt_history_ids": [
+        "prompt_incr_0002"
+      ],
+      "clarity_score": 0.83,
+      "extraction_confidence": 0.84,
+      "session_id": "session_004",
+      "user_id": "user_stable_users_01",
+      "domain": "gardening",
+      "expertise_level": "intermediate"
+    },
+    {
+      "behavior_id": "beh_0a369e8c",
+      "behavior_text": "interested in soil composition",
+      "credibility": 0.72,
+      "reinforcement_count": 5,
+      "decay_rate": 0.02,
+      "created_at": 1762703973,
+      "last_seen": 1762719165,
+      "prompt_history_ids": [
+        "prompt_incr_0003"
+      ],
+      "clarity_score": 0.69,
+      "extraction_confidence": 0.73,
+      "session_id": "session_003",
+      "user_id": "user_stable_users_01",
+      "domain": "gardening",
+      "expertise_level": "intermediate"
+    },
+    {
+      "behavior_id": "beh_4287c3ef",
+      "behavior_text": "interested in soil composition",
+      "credibility": 0.76,
+      "reinforcement_count": 3,
+      "decay_rate": 0.02,
+      "created_at": 1763222373,
+      "last_seen": 1763315939,
+      "prompt_history_ids": [
+        "prompt_incr_0004"
+      ],
+      "clarity_score": 0.84,
+      "extraction_confidence": 0.82,
+      "session_id": "session_005",
+      "user_id": "user_stable_users_01",
+      "domain": "gardening",
+      "expertise_level": "intermediate"
+    },
+    {
+      "behavior_id": "beh_1d501306",
+      "behavior_text": "interested in beginner tutorials",
+      "credibility": 0.6,
+      "reinforcement_count": 1,
+      "decay_rate": 0.02,
+      "created_at": 1761148773,
+      "last_seen": 1761416309,
+      "prompt_history_ids": [
+        "prompt_incr_0005"
+      ],
+      "clarity_score": 0.58,
+      "extraction_confidence": 0.68,
+      "session_id": "session_001",
+      "user_id": "user_stable_users_01",
+      "domain": "programming",
+      "expertise_level": "novice"
+    },
+    {
+      "behavior_id": "beh_ac7dec02",
+      "behavior_text": "prefers visual programming tools",
+      "credibility": 0.59,
+      "reinforcement_count": 2,
+      "decay_rate": 0.02,
+      "created_at": 1761796773,
+      "last_seen": 1762167119,
+      "prompt_history_ids": [
+        "prompt_incr_0006"
+      ],
+      "clarity_score": 0.55,
+      "extraction_confidence": 0.66,
+      "session_id": "session_004",
+      "user_id": "user_stable_users_01",
+      "domain": "programming",
+      "expertise_level": "novice"
+    },
+    {
+      "behavior_id": "beh_2a488d86",
+      "behavior_text": "prefers visual programming tools",
+      "credibility": 0.62,
+      "reinforcement_count": 3,
+      "decay_rate": 0.02,
+      "created_at": 1762444773,
+      "last_seen": 1762645868,
+      "prompt_history_ids": [
+        "prompt_incr_0007"
+      ],
+      "clarity_score": 0.7,
+      "extraction_confidence": 0.65,
+      "session_id": "session_005",
+      "user_id": "user_stable_users_01",
+      "domain": "programming",
+      "expertise_level": "novice"
+    },
+    {
+      "behavior_id": "beh_0c977ef7",
+      "behavior_text": "asks about syntax basics",
+      "credibility": 0.69,
+      "reinforcement_count": 2,
+      "decay_rate": 0.02,
+      "created_at": 1763092773,
+      "last_seen": 1763353987,
+      "prompt_history_ids": [
+        "prompt_incr_0008"
+      ],
+      "clarity_score": 0.68,
+      "extraction_confidence": 0.75,
+      "session_id": "session_005",
+      "user_id": "user_stable_users_01",
+      "domain": "programming",
+      "expertise_level": "novice"
+    }
+  ],
+  "incremental_prompts": [
+    {
+      "prompt_id": "prompt_incr_0000",
+      "prompt_text": "What's the best way to {gardening_action}?",
+      "timestamp": 1761153078,
+      "session_id": "session_003",
+      "tokens": 33,
+      "domain": "gardening",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0001",
+      "prompt_text": "What's the best way to {gardening_action}?",
+      "timestamp": 1761205880,
+      "session_id": "session_002",
+      "tokens": 140,
+      "domain": "gardening",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0002",
+      "prompt_text": "Can you help me with {gardening_problem}?",
+      "timestamp": 1761198977,
+      "session_id": "session_001",
+      "tokens": 175,
+      "domain": "gardening",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0003",
+      "prompt_text": "Can you help me with {gardening_problem}?",
+      "timestamp": 1761162917,
+      "session_id": "session_003",
+      "tokens": 146,
+      "domain": "gardening",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0004",
+      "prompt_text": "I'm planning a {garden_type} garden",
+      "timestamp": 1761152173,
+      "session_id": "session_001",
+      "tokens": 75,
+      "domain": "gardening",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0005",
+      "prompt_text": "What's the best way to {coding_task}?",
+      "timestamp": 1761203571,
+      "session_id": "session_005",
+      "tokens": 59,
+      "domain": "programming",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0006",
+      "prompt_text": "Can you help debug {error_type}?",
+      "timestamp": 1761173163,
+      "session_id": "session_004",
+      "tokens": 66,
+      "domain": "programming",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0007",
+      "prompt_text": "Explain {programming_topic}",
+      "timestamp": 1761225946,
+      "session_id": "session_004",
+      "tokens": 192,
+      "domain": "programming",
+      "user_id": "user_stable_users_01"
+    },
+    {
+      "prompt_id": "prompt_incr_0008",
+      "prompt_text": "What's the best way to {coding_task}?",
+      "timestamp": 1761194953,
+      "session_id": "session_003",
+      "tokens": 186,
+      "domain": "programming",
+      "user_id": "user_stable_users_01"
+    }
+  ],
+  "expected_outcomes": {
+    "new_behavior_count": 9,
+    "gardening_cluster_should_grow": true,
+    "programming_cluster_should_form": true,
+    "no_full_reclustering": true
+  }
+}

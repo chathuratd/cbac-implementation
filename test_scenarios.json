@@ -1,0 +1,86 @@
+[
+  {
+    "scenario_id": "dev_baseline",
+    "name": "Development Baseline",
+    "description": "Small controlled set for initial testing",
+    "user_ids": [
+      "user_stable_users_01",
+      "user_stable_users_02"
+    ],
+    "expected_outcomes": {
+      "core_behaviors_per_user": 3,
+      "domains_per_user": 3,
+      "min_cluster_size": 3
+    }
+  },
+  {
+    "scenario_id": "integration_full",
+    "name": "Full Integration Test",
+    "description": "All user types for comprehensive testing",
+    "user_ids": [
+      "user_stable_users_01",
+      "user_stable_users_02",
+      "user_stable_users_03",
+      "user_multi_domain_experts_01",
+      "user_multi_domain_experts_02",
+      "user_expertise_evolution_01",
+      "user_expertise_evolution_02",
+      "user_noisy_data_01",
+      "user_noisy_data_02",
+      "user_sparse_clusters_01"
+    ],
+    "expected_outcomes": {
+      "total_users": 10,
+      "varied_cluster_counts": true,
+      "expertise_range": [
+        "novice",
+        "intermediate",
+        "advanced"
+      ]
+    }
+  },
+  {
+    "scenario_id": "stable_only",
+    "name": "Stable Users Baseline",
+    "description": "Only stable patterns for clean clustering validation",
+    "user_ids": [
+      "user_stable_users_01",
+      "user_stable_users_02",
+      "user_stable_users_03"
+    ],
+    "expected_outcomes": {
+      "high_confidence": true,
+      "clear_clusters": true,
+      "core_behaviors_per_user": 3
+    }
+  },
+  {
+    "scenario_id": "edge_cases",
+    "name": "Edge Case Testing",
+    "description": "Challenging scenarios for robustness",
+    "user_ids": [
+      "user_noisy_data_01",
+      "user_noisy_data_02",
+      "user_sparse_clusters_01"
+    ],
+    "expected_outcomes": {
+      "some_low_confidence": true,
+      "variable_cluster_counts": true,
+      "orphan_behaviors_expected": true
+    }
+  },
+  {
+    "scenario_id": "expertise_progression",
+    "name": "Expertise Evolution Testing",
+    "description": "Users showing skill progression over time",
+    "user_ids": [
+      "user_expertise_evolution_01",
+      "user_expertise_evolution_02"
+    ],
+    "expected_outcomes": {
+      "temporal_patterns": true,
+      "expertise_level_changes": true,
+      "final_expertise": "advanced"
+    }
+  }
+]

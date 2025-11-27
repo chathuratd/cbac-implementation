@@ -1,0 +1,6507 @@
+[
+  {
+    "behavior_id": "beh_c439c009",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756330778,
+    "prompt_history_ids": [
+      "prompt_0022",
+      "prompt_0050",
+      "prompt_0018"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.77,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_6acfe555",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.82,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756670188,
+    "prompt_history_ids": [
+      "prompt_0043",
+      "prompt_0058",
+      "prompt_0047"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.89,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_294b5265",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.69,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756325480,
+    "prompt_history_ids": [
+      "prompt_0008"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.75,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_42e9eeb2",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.85,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1756655973,
+    "last_seen": 1756913933,
+    "prompt_history_ids": [
+      "prompt_0087",
+      "prompt_0082",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.86,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_1d9e2673",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1756742373,
+    "last_seen": 1756858014,
+    "prompt_history_ids": [
+      "prompt_0057",
+      "prompt_0022",
+      "prompt_0000"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.77,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b7cf1c3d",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.67,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1756958373,
+    "last_seen": 1757027987,
+    "prompt_history_ids": [
+      "prompt_0065"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.77,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3dd5a107",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.76,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1757001573,
+    "last_seen": 1757179644,
+    "prompt_history_ids": [
+      "prompt_0030",
+      "prompt_0019"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.78,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_be8217c6",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.83,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1757174373,
+    "last_seen": 1757325933,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0034",
+      "prompt_0099",
+      "prompt_0059"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.9,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_c54ea9fa",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757444487,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.77,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7817a99e",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1758021294,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0094"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.83,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_bdee24cc",
+    "behavior_text": "interested in filters and presets",
+    "credibility": 0.55,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757660879,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0102"
+    ],
+    "clarity_score": 0.56,
+    "extraction_confidence": 0.55,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_62f350ae",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.77,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1757692773,
+    "last_seen": 1757932724,
+    "prompt_history_ids": [
+      "prompt_0078",
+      "prompt_0016",
+      "prompt_0014"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3c3572f0",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.84,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758038373,
+    "last_seen": 1758280436,
+    "prompt_history_ids": [
+      "prompt_0002",
+      "prompt_0095",
+      "prompt_0051",
+      "prompt_0074"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.8,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_22ef40d0",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758038373,
+    "last_seen": 1758249184,
+    "prompt_history_ids": [
+      "prompt_0098",
+      "prompt_0094",
+      "prompt_0052",
+      "prompt_0032"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.74,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e17edcaa",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.56,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758626944,
+    "prompt_history_ids": [
+      "prompt_0023",
+      "prompt_0004",
+      "prompt_0048",
+      "prompt_0010"
+    ],
+    "clarity_score": 0.63,
+    "extraction_confidence": 0.66,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_f89d5ba2",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.72,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758694641,
+    "prompt_history_ids": [
+      "prompt_0020",
+      "prompt_0040",
+      "prompt_0088",
+      "prompt_0044"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.78,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_01b0a0e6",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.84,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758470373,
+    "last_seen": 1758574198,
+    "prompt_history_ids": [
+      "prompt_0024",
+      "prompt_0071",
+      "prompt_0046"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.94,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d0dcbe6b",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.83,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758729573,
+    "last_seen": 1758783256,
+    "prompt_history_ids": [
+      "prompt_0059",
+      "prompt_0033",
+      "prompt_0097",
+      "prompt_0089"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.86,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_16b66bd6",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.74,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759004906,
+    "prompt_history_ids": [
+      "prompt_0046",
+      "prompt_0087"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b2e21c3f",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.63,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759010866,
+    "prompt_history_ids": [
+      "prompt_0057",
+      "prompt_0055"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.6,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_e4cc1727",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759075173,
+    "last_seen": 1759339900,
+    "prompt_history_ids": [
+      "prompt_0099",
+      "prompt_0020",
+      "prompt_0080",
+      "prompt_0029"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.89,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_95562978",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1759334373,
+    "last_seen": 1759729171,
+    "prompt_history_ids": [
+      "prompt_0011"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.83,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_2a23246b",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759695112,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0050",
+      "prompt_0049"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.83,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_40bf0dcc",
+    "behavior_text": "interested in filters and presets",
+    "credibility": 0.56,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759550373,
+    "last_seen": 1759820937,
+    "prompt_history_ids": [
+      "prompt_0101",
+      "prompt_0030",
+      "prompt_0069"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.57,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_97878092",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.84,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1759840982,
+    "prompt_history_ids": [
+      "prompt_0011",
+      "prompt_0074"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.88,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_cf1ce8cc",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.84,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1759980790,
+    "prompt_history_ids": [
+      "prompt_0055"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_189fd019",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.81,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760111973,
+    "last_seen": 1760278868,
+    "prompt_history_ids": [
+      "prompt_0067",
+      "prompt_0099",
+      "prompt_0076"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.86,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_0bc0f1ac",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760241148,
+    "prompt_history_ids": [
+      "prompt_0080",
+      "prompt_0032"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.78,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_0640f258",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.65,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760396199,
+    "prompt_history_ids": [
+      "prompt_0093"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.61,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_19979720",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.78,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760574632,
+    "prompt_history_ids": [
+      "prompt_0062",
+      "prompt_0099"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.84,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_16ee1fcf",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.77,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760630373,
+    "last_seen": 1760942829,
+    "prompt_history_ids": [
+      "prompt_0045"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.8,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_2198a928",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1760803173,
+    "last_seen": 1761035082,
+    "prompt_history_ids": [
+      "prompt_0039",
+      "prompt_0100",
+      "prompt_0077"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.71,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_606ae7f1",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.59,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1760846373,
+    "last_seen": 1761242553,
+    "prompt_history_ids": [
+      "prompt_0034",
+      "prompt_0045"
+    ],
+    "clarity_score": 0.62,
+    "extraction_confidence": 0.61,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_5afd86f4",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.71,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1761062373,
+    "last_seen": 1761364580,
+    "prompt_history_ids": [
+      "prompt_0093",
+      "prompt_0062",
+      "prompt_0099",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.79,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_07a58319",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.83,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761148773,
+    "last_seen": 1761320748,
+    "prompt_history_ids": [
+      "prompt_0062",
+      "prompt_0067"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.89,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_01",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_97fb1af8",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.82,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756691058,
+    "prompt_history_ids": [
+      "prompt_0031"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.87,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_561662f7",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.75,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756560299,
+    "prompt_history_ids": [
+      "prompt_0100",
+      "prompt_0038",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.74,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a8a554d6",
+    "behavior_text": "prefers smartphone photography",
+    "credibility": 0.62,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756318678,
+    "prompt_history_ids": [
+      "prompt_0099",
+      "prompt_0033",
+      "prompt_0010"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.62,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_e6704b48",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.8,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1756655973,
+    "last_seen": 1756726349,
+    "prompt_history_ids": [
+      "prompt_0088"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.8,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e4e552e6",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.78,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1756742373,
+    "last_seen": 1756939318,
+    "prompt_history_ids": [
+      "prompt_0008",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.88,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a7c4176e",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756958373,
+    "last_seen": 1757340147,
+    "prompt_history_ids": [
+      "prompt_0100",
+      "prompt_0016"
+    ],
+    "clarity_score": 0.56,
+    "extraction_confidence": 0.54,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c58bb1bd",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.81,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1757001573,
+    "last_seen": 1757025119,
+    "prompt_history_ids": [
+      "prompt_0088"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.84,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f0df50cc",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.75,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1757174373,
+    "last_seen": 1757301042,
+    "prompt_history_ids": [
+      "prompt_0001"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.84,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_797f12a5",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757442820,
+    "prompt_history_ids": [
+      "prompt_0014",
+      "prompt_0059"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d9e4f744",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.72,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1758031531,
+    "prompt_history_ids": [
+      "prompt_0036",
+      "prompt_0099",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.74,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_34d64776",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.6,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757763004,
+    "prompt_history_ids": [
+      "prompt_0100",
+      "prompt_0087",
+      "prompt_0033"
+    ],
+    "clarity_score": 0.62,
+    "extraction_confidence": 0.62,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_de0803d3",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757692773,
+    "last_seen": 1757774597,
+    "prompt_history_ids": [
+      "prompt_0033",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.91,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_6a2dcfcc",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.73,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758038373,
+    "last_seen": 1758331952,
+    "prompt_history_ids": [
+      "prompt_0069"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.81,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_bbd158f7",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758038373,
+    "last_seen": 1758258591,
+    "prompt_history_ids": [
+      "prompt_0008"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.84,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7645947c",
+    "behavior_text": "prefers smartphone photography",
+    "credibility": 0.64,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758673444,
+    "prompt_history_ids": [
+      "prompt_0055",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.72,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_829e99d3",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758383973,
+    "last_seen": 1758662918,
+    "prompt_history_ids": [
+      "prompt_0019",
+      "prompt_0085"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.77,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3996a5aa",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758470373,
+    "last_seen": 1758592909,
+    "prompt_history_ids": [
+      "prompt_0030",
+      "prompt_0013",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.8,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_8fb9f555",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.8,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758729573,
+    "last_seen": 1759022112,
+    "prompt_history_ids": [
+      "prompt_0084",
+      "prompt_0104",
+      "prompt_0070",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.84,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_eeab1c85",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.75,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759290907,
+    "prompt_history_ids": [
+      "prompt_0068"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.77,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7b22f70b",
+    "behavior_text": "prefers smartphone photography",
+    "credibility": 0.59,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759086157,
+    "prompt_history_ids": [
+      "prompt_0064",
+      "prompt_0054",
+      "prompt_0025",
+      "prompt_0020"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.63,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_1f2a4380",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.81,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759075173,
+    "last_seen": 1759160682,
+    "prompt_history_ids": [
+      "prompt_0084",
+      "prompt_0039"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.81,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3b83378e",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.8,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759334373,
+    "last_seen": 1759431430,
+    "prompt_history_ids": [
+      "prompt_0025",
+      "prompt_0102",
+      "prompt_0081",
+      "prompt_0079"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.85,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e91f78b1",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.77,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1759420773,
+    "last_seen": 1759530095,
+    "prompt_history_ids": [
+      "prompt_0098",
+      "prompt_0005",
+      "prompt_0016",
+      "prompt_0082"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.83,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_54a273b1",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.63,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1759550373,
+    "last_seen": 1759676092,
+    "prompt_history_ids": [
+      "prompt_0065",
+      "prompt_0053",
+      "prompt_0033"
+    ],
+    "clarity_score": 0.61,
+    "extraction_confidence": 0.67,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_25774262",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1759766373,
+    "last_seen": 1759892783,
+    "prompt_history_ids": [
+      "prompt_0050",
+      "prompt_0036"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.72,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_710e56eb",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.73,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1759766373,
+    "last_seen": 1760197640,
+    "prompt_history_ids": [
+      "prompt_0003",
+      "prompt_0055",
+      "prompt_0098",
+      "prompt_0031"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.78,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_4022d96c",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760111973,
+    "last_seen": 1760437912,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0012",
+      "prompt_0061"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.82,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_9c8cf52b",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.77,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760435269,
+    "prompt_history_ids": [
+      "prompt_0098",
+      "prompt_0054",
+      "prompt_0060",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.75,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_1f72161a",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.67,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760445401,
+    "prompt_history_ids": [
+      "prompt_0086",
+      "prompt_0027",
+      "prompt_0008",
+      "prompt_0006"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.76,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3a0d44ab",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.72,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760765643,
+    "prompt_history_ids": [
+      "prompt_0075",
+      "prompt_0025",
+      "prompt_0006",
+      "prompt_0092"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.72,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_cb847974",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760813089,
+    "prompt_history_ids": [
+      "prompt_0082"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.85,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_34741bc9",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.8,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760803173,
+    "last_seen": 1760997606,
+    "prompt_history_ids": [
+      "prompt_0027",
+      "prompt_0017",
+      "prompt_0022"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.9,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7bee4934",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.61,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760846373,
+    "last_seen": 1761124304,
+    "prompt_history_ids": [
+      "prompt_0011",
+      "prompt_0027",
+      "prompt_0029",
+      "prompt_0054"
+    ],
+    "clarity_score": 0.67,
+    "extraction_confidence": 0.67,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_02",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_17c099ae",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1761062373,
+    "last_seen": 1761213377,
+    "prompt_history_ids": [
+      "prompt_0025",
+      "prompt_0088",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.71,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d1dcf177",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.84,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761148773,
+    "last_seen": 1761195650,
+    "prompt_history_ids": [
+      "prompt_0010",
+      "prompt_0029",
+      "prompt_0074",
+      "prompt_0021"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.8,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_02",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_427dba81",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.71,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756526420,
+    "prompt_history_ids": [
+      "prompt_0072"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.73,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_17a0f429",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.85,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756499741,
+    "prompt_history_ids": [
+      "prompt_0075",
+      "prompt_0086"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.94,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e6ca79fb",
+    "behavior_text": "prefers smartphone photography",
+    "credibility": 0.63,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756413836,
+    "prompt_history_ids": [
+      "prompt_0069",
+      "prompt_0029",
+      "prompt_0000",
+      "prompt_0046"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.68,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_54d36252",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.85,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1756655973,
+    "last_seen": 1756722614,
+    "prompt_history_ids": [
+      "prompt_0050"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.93,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_13f50080",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.7,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1756742373,
+    "last_seen": 1757101694,
+    "prompt_history_ids": [
+      "prompt_0061",
+      "prompt_0016",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.79,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_1ee52078",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.58,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756958373,
+    "last_seen": 1757134315,
+    "prompt_history_ids": [
+      "prompt_0094"
+    ],
+    "clarity_score": 0.55,
+    "extraction_confidence": 0.61,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_fb7c1523",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1757001573,
+    "last_seen": 1757144486,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0034",
+      "prompt_0020",
+      "prompt_0085"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.85,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_074bff46",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.71,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1757174373,
+    "last_seen": 1757335673,
+    "prompt_history_ids": [
+      "prompt_0018",
+      "prompt_0069",
+      "prompt_0051",
+      "prompt_0026"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.78,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_739f5295",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1757347173,
+    "last_seen": 1757458078,
+    "prompt_history_ids": [
+      "prompt_0032",
+      "prompt_0071",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.92,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7a4a7020",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.81,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1757606373,
+    "last_seen": 1757793304,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0099"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.81,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_1e5eca4b",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.62,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757743800,
+    "prompt_history_ids": [
+      "prompt_0047"
+    ],
+    "clarity_score": 0.64,
+    "extraction_confidence": 0.61,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_83ed1314",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.71,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757692773,
+    "last_seen": 1758113806,
+    "prompt_history_ids": [
+      "prompt_0057",
+      "prompt_0056",
+      "prompt_0002"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.74,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_207c2fdb",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.7,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1758038373,
+    "last_seen": 1758395266,
+    "prompt_history_ids": [
+      "prompt_0059",
+      "prompt_0079",
+      "prompt_0023"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.76,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e39cc4a7",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758038373,
+    "last_seen": 1758281967,
+    "prompt_history_ids": [
+      "prompt_0079",
+      "prompt_0093",
+      "prompt_0015",
+      "prompt_0076"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.76,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a07fdb9d",
+    "behavior_text": "prefers smartphone photography",
+    "credibility": 0.66,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758452688,
+    "prompt_history_ids": [
+      "prompt_0049",
+      "prompt_0012",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.66,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_05d6d128",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.74,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758660475,
+    "prompt_history_ids": [
+      "prompt_0009",
+      "prompt_0072",
+      "prompt_0093"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.84,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a0316299",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.83,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758470373,
+    "last_seen": 1758837926,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0031",
+      "prompt_0033",
+      "prompt_0054"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.92,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_0fbb9261",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.81,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758729573,
+    "last_seen": 1758870736,
+    "prompt_history_ids": [
+      "prompt_0002",
+      "prompt_0048"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.77,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_df079384",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.7,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759248120,
+    "prompt_history_ids": [
+      "prompt_0029",
+      "prompt_0097",
+      "prompt_0083",
+      "prompt_0054"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.75,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_5204ef18",
+    "behavior_text": "uses automatic camera modes",
+    "credibility": 0.63,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759324523,
+    "prompt_history_ids": [
+      "prompt_0019",
+      "prompt_0027",
+      "prompt_0069",
+      "prompt_0084"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.63,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_09d63303",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.74,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1759075173,
+    "last_seen": 1759366155,
+    "prompt_history_ids": [
+      "prompt_0024",
+      "prompt_0070",
+      "prompt_0069",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.72,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_8266fda8",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759334373,
+    "last_seen": 1759644283,
+    "prompt_history_ids": [
+      "prompt_0047",
+      "prompt_0012",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.84,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_fa0f3004",
+    "behavior_text": "experiments with companion planting",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759750230,
+    "prompt_history_ids": [
+      "prompt_0049"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.89,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_23a611c9",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.64,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759550373,
+    "last_seen": 1759586340,
+    "prompt_history_ids": [
+      "prompt_0022"
+    ],
+    "clarity_score": 0.62,
+    "extraction_confidence": 0.61,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_08c6f193",
+    "behavior_text": "discusses pest management strategies",
+    "credibility": 0.79,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1759766373,
+    "last_seen": 1760071505,
+    "prompt_history_ids": [
+      "prompt_0036",
+      "prompt_0065",
+      "prompt_0068"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.84,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ae54abb8",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.79,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1759766373,
+    "last_seen": 1760013345,
+    "prompt_history_ids": [
+      "prompt_0061",
+      "prompt_0104",
+      "prompt_0012"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.85,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b9b660d3",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.83,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760111973,
+    "last_seen": 1760185305,
+    "prompt_history_ids": [
+      "prompt_0044"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.8,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ddd78de5",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.72,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760586371,
+    "prompt_history_ids": [
+      "prompt_0023",
+      "prompt_0055",
+      "prompt_0015"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.69,
+    "session_id": "session_005",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3c8e3492",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.58,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760547571,
+    "prompt_history_ids": [
+      "prompt_0076",
+      "prompt_0034",
+      "prompt_0078"
+    ],
+    "clarity_score": 0.63,
+    "extraction_confidence": 0.54,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_5176e7b8",
+    "behavior_text": "interested in soil composition",
+    "credibility": 0.81,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760457573,
+    "last_seen": 1760580590,
+    "prompt_history_ids": [
+      "prompt_0058",
+      "prompt_0018",
+      "prompt_0064"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.89,
+    "session_id": "session_004",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e04bfc2b",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760634389,
+    "prompt_history_ids": [
+      "prompt_0058",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.81,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e1882d5f",
+    "behavior_text": "prefers native perennial species",
+    "credibility": 0.78,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1760803173,
+    "last_seen": 1761049489,
+    "prompt_history_ids": [
+      "prompt_0061",
+      "prompt_0073",
+      "prompt_0089",
+      "prompt_0016"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.76,
+    "session_id": "session_003",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_04fab799",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.65,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760846373,
+    "last_seen": 1760976472,
+    "prompt_history_ids": [
+      "prompt_0094",
+      "prompt_0035"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.74,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_12e6f0a1",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.75,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1761062373,
+    "last_seen": 1761264122,
+    "prompt_history_ids": [
+      "prompt_0082",
+      "prompt_0012",
+      "prompt_0015",
+      "prompt_0098"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.8,
+    "session_id": "session_001",
+    "user_id": "user_stable_users_03",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_cf5ce844",
+    "behavior_text": "understands seasonal planting cycles",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761148773,
+    "last_seen": 1761227134,
+    "prompt_history_ids": [
+      "prompt_0094"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.87,
+    "session_id": "session_002",
+    "user_id": "user_stable_users_03",
+    "domain": "gardening",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_bbfffac5",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.95,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756437035,
+    "prompt_history_ids": [
+      "prompt_0008"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.95,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9c64f58e",
+    "behavior_text": "composes multi-movement pieces",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756472718,
+    "prompt_history_ids": [
+      "prompt_0116",
+      "prompt_0007",
+      "prompt_0015",
+      "prompt_0083"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.94,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_33b9aced",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.75,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756692953,
+    "prompt_history_ids": [
+      "prompt_0033",
+      "prompt_0035",
+      "prompt_0045",
+      "prompt_0115"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.74,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7d88541e",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.94,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756742373,
+    "last_seen": 1756915592,
+    "prompt_history_ids": [
+      "prompt_0116"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.93,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bf16b21e",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.89,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1756828773,
+    "last_seen": 1757079293,
+    "prompt_history_ids": [
+      "prompt_0020",
+      "prompt_0089"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.92,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_4a6410d6",
+    "behavior_text": "understands muscle group splits",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1757087973,
+    "last_seen": 1757151873,
+    "prompt_history_ids": [
+      "prompt_0005"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.87,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ac5f7b6e",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.86,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1757174373,
+    "last_seen": 1757386847,
+    "prompt_history_ids": [
+      "prompt_0068",
+      "prompt_0113",
+      "prompt_0098",
+      "prompt_0019"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.84,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_8d135c4e",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.93,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1757347173,
+    "last_seen": 1757683972,
+    "prompt_history_ids": [
+      "prompt_0080",
+      "prompt_0070"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.91,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_cbad8eff",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.89,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757606373,
+    "last_seen": 1757776484,
+    "prompt_history_ids": [
+      "prompt_0105",
+      "prompt_0070"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.95,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5318993e",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.86,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1757865573,
+    "last_seen": 1758109053,
+    "prompt_history_ids": [
+      "prompt_0045",
+      "prompt_0098",
+      "prompt_0057",
+      "prompt_0091"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.84,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_c964eb6b",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1757865573,
+    "last_seen": 1757942005,
+    "prompt_history_ids": [
+      "prompt_0014"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.72,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ea74348d",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.87,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1758038373,
+    "last_seen": 1758147277,
+    "prompt_history_ids": [
+      "prompt_0102"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.96,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f372e6aa",
+    "behavior_text": "masters polyrhythmic patterns",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758383973,
+    "last_seen": 1758391542,
+    "prompt_history_ids": [
+      "prompt_0074"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.84,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_3c869787",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.91,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758470373,
+    "last_seen": 1758490364,
+    "prompt_history_ids": [
+      "prompt_0111",
+      "prompt_0061",
+      "prompt_0115",
+      "prompt_0069"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.95,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d79765f1",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.79,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1758643173,
+    "last_seen": 1758679818,
+    "prompt_history_ids": [
+      "prompt_0046"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.87,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_0112c4e6",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.94,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759325857,
+    "prompt_history_ids": [
+      "prompt_0098",
+      "prompt_0014",
+      "prompt_0057",
+      "prompt_0002"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_91ad5ed0",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.8,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759281054,
+    "prompt_history_ids": [
+      "prompt_0056"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.83,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0ce2fac2",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.84,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1759334373,
+    "last_seen": 1759467449,
+    "prompt_history_ids": [
+      "prompt_0016",
+      "prompt_0032",
+      "prompt_0013",
+      "prompt_0017"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.93,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1d454f64",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.94,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759651212,
+    "prompt_history_ids": [
+      "prompt_0090",
+      "prompt_0025",
+      "prompt_0074",
+      "prompt_0001"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.98,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5c4fc2cc",
+    "behavior_text": "prefers structured training programs",
+    "credibility": 0.83,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759650538,
+    "prompt_history_ids": [
+      "prompt_0007"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.79,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a50b72ce",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.87,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1760106994,
+    "prompt_history_ids": [
+      "prompt_0028",
+      "prompt_0031",
+      "prompt_0069",
+      "prompt_0017"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b6883694",
+    "behavior_text": "composes multi-movement pieces",
+    "credibility": 0.92,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1759939173,
+    "last_seen": 1760339478,
+    "prompt_history_ids": [
+      "prompt_0083",
+      "prompt_0103",
+      "prompt_0108"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.93,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d8984e6c",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.9,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760198373,
+    "last_seen": 1760570321,
+    "prompt_history_ids": [
+      "prompt_0056",
+      "prompt_0015",
+      "prompt_0035"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.97,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0a227aba",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.73,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760504022,
+    "prompt_history_ids": [
+      "prompt_0128",
+      "prompt_0083",
+      "prompt_0093"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.76,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ff0a972d",
+    "behavior_text": "masters polyrhythmic patterns",
+    "credibility": 0.86,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1760457573,
+    "last_seen": 1760676850,
+    "prompt_history_ids": [
+      "prompt_0004",
+      "prompt_0114"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.81,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bd75ee81",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.86,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760785496,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0022",
+      "prompt_0079",
+      "prompt_0036"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.96,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0e406b19",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.89,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760975973,
+    "last_seen": 1761082227,
+    "prompt_history_ids": [
+      "prompt_0074",
+      "prompt_0106",
+      "prompt_0088",
+      "prompt_0068"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.93,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1e34ece7",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.81,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760975973,
+    "last_seen": 1761237369,
+    "prompt_history_ids": [
+      "prompt_0002",
+      "prompt_0109",
+      "prompt_0034"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.81,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e4ad5a81",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.86,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1761062373,
+    "last_seen": 1761248326,
+    "prompt_history_ids": [
+      "prompt_0078"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.95,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0314813b",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.93,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761799709,
+    "prompt_history_ids": [
+      "prompt_0031"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.9,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9f2d9042",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.94,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761505431,
+    "prompt_history_ids": [
+      "prompt_0047",
+      "prompt_0027"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.98,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a3a5b19d",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.77,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1761753573,
+    "last_seen": 1761928517,
+    "prompt_history_ids": [
+      "prompt_0093",
+      "prompt_0070",
+      "prompt_0117"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.86,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_741b6771",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.95,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1761926373,
+    "last_seen": 1762283618,
+    "prompt_history_ids": [
+      "prompt_0078",
+      "prompt_0109",
+      "prompt_0060"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.98,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a3ebe267",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.92,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1762012773,
+    "last_seen": 1762374266,
+    "prompt_history_ids": [
+      "prompt_0089"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.98,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0493b26a",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.84,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1762358373,
+    "last_seen": 1762427525,
+    "prompt_history_ids": [
+      "prompt_0056",
+      "prompt_0111"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.86,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_3f33fe32",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.95,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762531173,
+    "last_seen": 1762834181,
+    "prompt_history_ids": [
+      "prompt_0007",
+      "prompt_0019",
+      "prompt_0031"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.97,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_45c606f7",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1762531173,
+    "last_seen": 1762661516,
+    "prompt_history_ids": [
+      "prompt_0000",
+      "prompt_0058",
+      "prompt_0031",
+      "prompt_0028"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.69,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_5c7774bf",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.88,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1762790373,
+    "last_seen": 1763112798,
+    "prompt_history_ids": [
+      "prompt_0033"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.85,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9c8dda13",
+    "behavior_text": "masters polyrhythmic patterns",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1763049573,
+    "last_seen": 1763256581,
+    "prompt_history_ids": [
+      "prompt_0044",
+      "prompt_0127"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.91,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bdcd5a3f",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.87,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1763222373,
+    "last_seen": 1763481238,
+    "prompt_history_ids": [
+      "prompt_0004",
+      "prompt_0051"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.83,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d0e50ad4",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1763308773,
+    "last_seen": 1763718514,
+    "prompt_history_ids": [
+      "prompt_0063",
+      "prompt_0109",
+      "prompt_0056",
+      "prompt_0045"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.76,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_00c21bf2",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.94,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1763567973,
+    "last_seen": 1763967729,
+    "prompt_history_ids": [
+      "prompt_0001",
+      "prompt_0018"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.9,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_c1d8d00a",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.8,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1763654373,
+    "last_seen": 1763922446,
+    "prompt_history_ids": [
+      "prompt_0062"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.9,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0bf56530",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.9,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756430050,
+    "prompt_history_ids": [
+      "prompt_0004",
+      "prompt_0015",
+      "prompt_0057"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.98,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1c3f6f67",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.92,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756624540,
+    "prompt_history_ids": [
+      "prompt_0128",
+      "prompt_0098",
+      "prompt_0025",
+      "prompt_0074"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.98,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_93a313b6",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.77,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756320037,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0004"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_75efe943",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.86,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756742373,
+    "last_seen": 1756881257,
+    "prompt_history_ids": [
+      "prompt_0005",
+      "prompt_0036",
+      "prompt_0093"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.83,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_ac963f06",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.9,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756828773,
+    "last_seen": 1757126646,
+    "prompt_history_ids": [
+      "prompt_0060",
+      "prompt_0030",
+      "prompt_0051"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.86,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_dc586980",
+    "behavior_text": "prefers structured training programs",
+    "credibility": 0.76,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757087973,
+    "last_seen": 1757215116,
+    "prompt_history_ids": [
+      "prompt_0003",
+      "prompt_0060"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.84,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_22cc3d36",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757174373,
+    "last_seen": 1757526247,
+    "prompt_history_ids": [
+      "prompt_0047",
+      "prompt_0056",
+      "prompt_0081",
+      "prompt_0037"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.87,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_e2874b88",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.92,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1757347173,
+    "last_seen": 1757503571,
+    "prompt_history_ids": [
+      "prompt_0079",
+      "prompt_0104"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.95,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_592dae74",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.95,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1757606373,
+    "last_seen": 1757682659,
+    "prompt_history_ids": [
+      "prompt_0056",
+      "prompt_0032",
+      "prompt_0075"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_34178183",
+    "behavior_text": "composes multi-movement pieces",
+    "credibility": 0.82,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1757865573,
+    "last_seen": 1757910895,
+    "prompt_history_ids": [
+      "prompt_0061"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.87,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_91819207",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.77,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757865573,
+    "last_seen": 1757954918,
+    "prompt_history_ids": [
+      "prompt_0003",
+      "prompt_0109"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.73,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a267a4f2",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758038373,
+    "last_seen": 1758364437,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.79,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_ea5321ac",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.85,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1758383973,
+    "last_seen": 1758679390,
+    "prompt_history_ids": [
+      "prompt_0013"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.95,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5b9a1fa9",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.95,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1758470373,
+    "last_seen": 1758744911,
+    "prompt_history_ids": [
+      "prompt_0059",
+      "prompt_0002"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_7f3b9325",
+    "behavior_text": "tracks progressive overload",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758643173,
+    "last_seen": 1759055824,
+    "prompt_history_ids": [
+      "prompt_0034",
+      "prompt_0031"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.75,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_027ac99a",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.89,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759083640,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0116"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.85,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b446343f",
+    "behavior_text": "applies advanced modal concepts",
+    "credibility": 0.9,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759187250,
+    "prompt_history_ids": [
+      "prompt_0018",
+      "prompt_0095",
+      "prompt_0106",
+      "prompt_0026"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.98,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bc63d0f0",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.89,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1759334373,
+    "last_seen": 1759404181,
+    "prompt_history_ids": [
+      "prompt_0043",
+      "prompt_0035"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.91,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_3f784167",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.8,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759779126,
+    "prompt_history_ids": [
+      "prompt_0033",
+      "prompt_0068",
+      "prompt_0001"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.86,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b2b3c081",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.83,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759771096,
+    "prompt_history_ids": [
+      "prompt_0093",
+      "prompt_0022",
+      "prompt_0000"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.92,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_fb7c3ffe",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.83,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1759857794,
+    "prompt_history_ids": [
+      "prompt_0113"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.83,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_fdf0dbd7",
+    "behavior_text": "composes multi-movement pieces",
+    "credibility": 0.9,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1759939173,
+    "last_seen": 1760108824,
+    "prompt_history_ids": [
+      "prompt_0000",
+      "prompt_0044",
+      "prompt_0023",
+      "prompt_0086"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.92,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_c039bf7b",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.89,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1760198373,
+    "last_seen": 1760212278,
+    "prompt_history_ids": [
+      "prompt_0022",
+      "prompt_0062",
+      "prompt_0067",
+      "prompt_0111"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.88,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_eda3a011",
+    "behavior_text": "monitors form technique",
+    "credibility": 0.78,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760252185,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0064",
+      "prompt_0007",
+      "prompt_0082"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.83,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_eeca997d",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.83,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760457573,
+    "last_seen": 1760579384,
+    "prompt_history_ids": [
+      "prompt_0029",
+      "prompt_0104"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_8fa9c756",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.89,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760989082,
+    "prompt_history_ids": [
+      "prompt_0033",
+      "prompt_0057",
+      "prompt_0055",
+      "prompt_0004"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.98,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a47eff85",
+    "behavior_text": "composes multi-movement pieces",
+    "credibility": 0.82,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1760975973,
+    "last_seen": 1761195610,
+    "prompt_history_ids": [
+      "prompt_0031",
+      "prompt_0002",
+      "prompt_0046"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.78,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_8b8a6ba5",
+    "behavior_text": "monitors form technique",
+    "credibility": 0.74,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1760975973,
+    "last_seen": 1761319637,
+    "prompt_history_ids": [
+      "prompt_0010"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.71,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_957bd951",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.82,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1761062373,
+    "last_seen": 1761078996,
+    "prompt_history_ids": [
+      "prompt_0050",
+      "prompt_0096",
+      "prompt_0098",
+      "prompt_0001"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.91,
+    "session_id": "session_003",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_eb865952",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.91,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761685493,
+    "prompt_history_ids": [
+      "prompt_0041"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.9,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_275e2da8",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.8,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761859114,
+    "prompt_history_ids": [
+      "prompt_0063",
+      "prompt_0095"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.87,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_00d742a2",
+    "behavior_text": "discusses nutrition timing",
+    "credibility": 0.84,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761753573,
+    "last_seen": 1762122314,
+    "prompt_history_ids": [
+      "prompt_0057"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.89,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_345831d6",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.83,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1761926373,
+    "last_seen": 1762093023,
+    "prompt_history_ids": [
+      "prompt_0064"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.9,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_15b34e60",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.92,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762012773,
+    "last_seen": 1762413152,
+    "prompt_history_ids": [
+      "prompt_0084",
+      "prompt_0073",
+      "prompt_0078",
+      "prompt_0099"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.98,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a086de49",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762358373,
+    "last_seen": 1762381582,
+    "prompt_history_ids": [
+      "prompt_0023",
+      "prompt_0013",
+      "prompt_0104",
+      "prompt_0026"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.84,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5d62762c",
+    "behavior_text": "produces professional recordings",
+    "credibility": 0.91,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1762531173,
+    "last_seen": 1762556226,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_971274b7",
+    "behavior_text": "prefers structured training programs",
+    "credibility": 0.75,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1762531173,
+    "last_seen": 1762547792,
+    "prompt_history_ids": [
+      "prompt_0104",
+      "prompt_0067",
+      "prompt_0022"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.78,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_26a8fdd1",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.92,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762790373,
+    "last_seen": 1762839333,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0019"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.9,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_de0d684e",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.88,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1763049573,
+    "last_seen": 1763342372,
+    "prompt_history_ids": [
+      "prompt_0040",
+      "prompt_0072",
+      "prompt_0028",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.88,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1534a4f2",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.93,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1763222373,
+    "last_seen": 1763228653,
+    "prompt_history_ids": [
+      "prompt_0012",
+      "prompt_0083",
+      "prompt_0015",
+      "prompt_0009"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.95,
+    "session_id": "session_004",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0b1dde13",
+    "behavior_text": "prefers structured training programs",
+    "credibility": 0.71,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1763308773,
+    "last_seen": 1763402502,
+    "prompt_history_ids": [
+      "prompt_0064",
+      "prompt_0045",
+      "prompt_0049",
+      "prompt_0103"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.7,
+    "session_id": "session_001",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_48d6093d",
+    "behavior_text": "analyzes orchestration techniques",
+    "credibility": 0.89,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1763567973,
+    "last_seen": 1763937622,
+    "prompt_history_ids": [
+      "prompt_0035",
+      "prompt_0018"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.96,
+    "session_id": "session_002",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "music",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_277d214f",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.88,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1763654373,
+    "last_seen": 1763752180,
+    "prompt_history_ids": [
+      "prompt_0100",
+      "prompt_0050",
+      "prompt_0111"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.86,
+    "session_id": "session_005",
+    "user_id": "user_multi_domain_experts_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_6ec56028",
+    "behavior_text": "asks about syntax basics",
+    "credibility": 0.55,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756543558,
+    "prompt_history_ids": [
+      "prompt_0019"
+    ],
+    "clarity_score": 0.51,
+    "extraction_confidence": 0.61,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_f2ac474b",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.83,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756464137,
+    "prompt_history_ids": [
+      "prompt_0085"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.79,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_94d623f2",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756438634,
+    "prompt_history_ids": [
+      "prompt_0031",
+      "prompt_0038",
+      "prompt_0061"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.88,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b61d9ce9",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757174373,
+    "last_seen": 1757456112,
+    "prompt_history_ids": [
+      "prompt_0048"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.97,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_2c8e9469",
+    "behavior_text": "discusses algorithm efficiency",
+    "credibility": 0.71,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757439084,
+    "prompt_history_ids": [
+      "prompt_0076",
+      "prompt_0009",
+      "prompt_0028"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.68,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_83904e5a",
+    "behavior_text": "seeks step-by-step code examples",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757769559,
+    "prompt_history_ids": [
+      "prompt_0085",
+      "prompt_0080",
+      "prompt_0000"
+    ],
+    "clarity_score": 0.61,
+    "extraction_confidence": 0.56,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_85870c45",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.89,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1758038373,
+    "last_seen": 1758278462,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_98206466",
+    "behavior_text": "prefers object-oriented patterns",
+    "credibility": 0.71,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758595555,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0031",
+      "prompt_0010",
+      "prompt_0006"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.73,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7a72904d",
+    "behavior_text": "struggles with debugging concepts",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759156439,
+    "prompt_history_ids": [
+      "prompt_0031"
+    ],
+    "clarity_score": 0.56,
+    "extraction_confidence": 0.65,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_bc8d6532",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.82,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759070201,
+    "prompt_history_ids": [
+      "prompt_0036",
+      "prompt_0080",
+      "prompt_0066",
+      "prompt_0010"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.8,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f937c27f",
+    "behavior_text": "prefers object-oriented patterns",
+    "credibility": 0.83,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759811620,
+    "prompt_history_ids": [
+      "prompt_0037"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.89,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_fdb95136",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.94,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1760033020,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0040",
+      "prompt_0020"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.95,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f3917af4",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.55,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760614932,
+    "prompt_history_ids": [
+      "prompt_0030"
+    ],
+    "clarity_score": 0.61,
+    "extraction_confidence": 0.55,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_8d697de6",
+    "behavior_text": "prefers object-oriented patterns",
+    "credibility": 0.74,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760743459,
+    "prompt_history_ids": [
+      "prompt_0080",
+      "prompt_0015",
+      "prompt_0008"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.71,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_73327697",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760970183,
+    "prompt_history_ids": [
+      "prompt_0067",
+      "prompt_0087",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.86,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_33e4ad6a",
+    "behavior_text": "struggles with debugging concepts",
+    "credibility": 0.68,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1761494373,
+    "last_seen": 1761688777,
+    "prompt_history_ids": [
+      "prompt_0088"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.65,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_017099c4",
+    "behavior_text": "understands data structures",
+    "credibility": 0.84,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761642727,
+    "prompt_history_ids": [
+      "prompt_0073",
+      "prompt_0017",
+      "prompt_0019"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.88,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d083fc2c",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.9,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761730260,
+    "prompt_history_ids": [
+      "prompt_0079"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.93,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_3ea804d2",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762358373,
+    "last_seen": 1762662013,
+    "prompt_history_ids": [
+      "prompt_0046"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.9,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_6801da55",
+    "behavior_text": "uses version control systems",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1762531173,
+    "last_seen": 1762804878,
+    "prompt_history_ids": [
+      "prompt_0053",
+      "prompt_0060",
+      "prompt_0059",
+      "prompt_0063"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.74,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ad66fb20",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.62,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1762790373,
+    "last_seen": 1762899216,
+    "prompt_history_ids": [
+      "prompt_0080",
+      "prompt_0001",
+      "prompt_0083",
+      "prompt_0038"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.61,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_1c91d9a2",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.89,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1763222373,
+    "last_seen": 1763245934,
+    "prompt_history_ids": [
+      "prompt_0024",
+      "prompt_0003",
+      "prompt_0018"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.85,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_66dcecf1",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.74,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1763567973,
+    "last_seen": 1763664130,
+    "prompt_history_ids": [
+      "prompt_0032",
+      "prompt_0035",
+      "prompt_0042",
+      "prompt_0014"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.81,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a8a7d9ce",
+    "behavior_text": "interested in beginner tutorials",
+    "credibility": 0.59,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1764086373,
+    "last_seen": 1764377830,
+    "prompt_history_ids": [
+      "prompt_0006",
+      "prompt_0028",
+      "prompt_0016",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.57,
+    "extraction_confidence": 0.55,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_82da08f9",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.86,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1764086373,
+    "last_seen": 1764253829,
+    "prompt_history_ids": [
+      "prompt_0083"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.85,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a06deef4",
+    "behavior_text": "uses version control systems",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1764604773,
+    "last_seen": 1764662891,
+    "prompt_history_ids": [
+      "prompt_0042",
+      "prompt_0072",
+      "prompt_0073"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.75,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a1b176f6",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.83,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1764950373,
+    "last_seen": 1765152462,
+    "prompt_history_ids": [
+      "prompt_0009"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.83,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_70d5e606",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.62,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1765382373,
+    "last_seen": 1765464127,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0078",
+      "prompt_0028"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.59,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_aee08e17",
+    "behavior_text": "discusses algorithm efficiency",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1765641573,
+    "last_seen": 1765804232,
+    "prompt_history_ids": [
+      "prompt_0012"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.8,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_23df0ce9",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.83,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1765814373,
+    "last_seen": 1765827573,
+    "prompt_history_ids": [
+      "prompt_0002",
+      "prompt_0055",
+      "prompt_0034",
+      "prompt_0072"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.89,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_01",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_759c5c42",
+    "behavior_text": "asks about syntax basics",
+    "credibility": 0.67,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756705944,
+    "prompt_history_ids": [
+      "prompt_0045",
+      "prompt_0018",
+      "prompt_0089",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.67,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b53e80e9",
+    "behavior_text": "uses version control systems",
+    "credibility": 0.85,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756389834,
+    "prompt_history_ids": [
+      "prompt_0031"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f6ecc6b5",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.8,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756665428,
+    "prompt_history_ids": [
+      "prompt_0004"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.8,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d2cc62f2",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.92,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757174373,
+    "last_seen": 1757249883,
+    "prompt_history_ids": [
+      "prompt_0028"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.9,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_2170395d",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.72,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757744380,
+    "prompt_history_ids": [
+      "prompt_0059",
+      "prompt_0052",
+      "prompt_0035",
+      "prompt_0069"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.7,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_1d8480c4",
+    "behavior_text": "interested in beginner tutorials",
+    "credibility": 0.58,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757835277,
+    "prompt_history_ids": [
+      "prompt_0005",
+      "prompt_0074",
+      "prompt_0057",
+      "prompt_0035"
+    ],
+    "clarity_score": 0.58,
+    "extraction_confidence": 0.62,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_36e83f51",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.83,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758038373,
+    "last_seen": 1758059132,
+    "prompt_history_ids": [
+      "prompt_0073"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.78,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1a5cd649",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.85,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758383973,
+    "last_seen": 1758778790,
+    "prompt_history_ids": [
+      "prompt_0089"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.92,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_6d24863f",
+    "behavior_text": "asks about syntax basics",
+    "credibility": 0.6,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759318965,
+    "prompt_history_ids": [
+      "prompt_0087",
+      "prompt_0019",
+      "prompt_0050",
+      "prompt_0015"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.59,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_d265c060",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.92,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759072555,
+    "prompt_history_ids": [
+      "prompt_0073",
+      "prompt_0072"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.98,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_da935d62",
+    "behavior_text": "understands data structures",
+    "credibility": 0.71,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759420773,
+    "last_seen": 1759473034,
+    "prompt_history_ids": [
+      "prompt_0010",
+      "prompt_0073"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.7,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_70e9b673",
+    "behavior_text": "implements custom algorithms",
+    "credibility": 0.93,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1759766373,
+    "last_seen": 1759932305,
+    "prompt_history_ids": [
+      "prompt_0070",
+      "prompt_0003",
+      "prompt_0024"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.98,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_93c10feb",
+    "behavior_text": "seeks step-by-step code examples",
+    "credibility": 0.58,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1760198373,
+    "last_seen": 1760476241,
+    "prompt_history_ids": [
+      "prompt_0006",
+      "prompt_0032",
+      "prompt_0066"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.64,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_76975548",
+    "behavior_text": "understands data structures",
+    "credibility": 0.71,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760649514,
+    "prompt_history_ids": [
+      "prompt_0044"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_757cf08f",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.81,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760630373,
+    "last_seen": 1760639737,
+    "prompt_history_ids": [
+      "prompt_0009"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.83,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1c0c2a4d",
+    "behavior_text": "seeks step-by-step code examples",
+    "credibility": 0.61,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1761494373,
+    "last_seen": 1761692787,
+    "prompt_history_ids": [
+      "prompt_0056",
+      "prompt_0079"
+    ],
+    "clarity_score": 0.58,
+    "extraction_confidence": 0.68,
+    "session_id": "session_003",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_e51630f1",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.78,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1761494373,
+    "last_seen": 1761747458,
+    "prompt_history_ids": [
+      "prompt_0027",
+      "prompt_0034",
+      "prompt_0069"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.75,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_152408cc",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.89,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1761494373,
+    "last_seen": 1761714062,
+    "prompt_history_ids": [
+      "prompt_0005"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.87,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a4785795",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.81,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1762358373,
+    "last_seen": 1762520689,
+    "prompt_history_ids": [
+      "prompt_0046"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.85,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d67fa159",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1762531173,
+    "last_seen": 1762674437,
+    "prompt_history_ids": [
+      "prompt_0085",
+      "prompt_0051"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.79,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3efbbb4e",
+    "behavior_text": "asks about syntax basics",
+    "credibility": 0.63,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1762790373,
+    "last_seen": 1763066804,
+    "prompt_history_ids": [
+      "prompt_0057",
+      "prompt_0012",
+      "prompt_0073"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.69,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4c2bef86",
+    "behavior_text": "analyzes computational complexity",
+    "credibility": 0.82,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1763222373,
+    "last_seen": 1763446782,
+    "prompt_history_ids": [
+      "prompt_0069"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d44b7614",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.74,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1763567973,
+    "last_seen": 1763716880,
+    "prompt_history_ids": [
+      "prompt_0089",
+      "prompt_0069",
+      "prompt_0031"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.8,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a962baf3",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.64,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1764086373,
+    "last_seen": 1764461100,
+    "prompt_history_ids": [
+      "prompt_0018"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.63,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_05871a1c",
+    "behavior_text": "contributes to open source projects",
+    "credibility": 0.88,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1764086373,
+    "last_seen": 1764238026,
+    "prompt_history_ids": [
+      "prompt_0027",
+      "prompt_0065",
+      "prompt_0000"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.92,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_e2362852",
+    "behavior_text": "implements API integrations",
+    "credibility": 0.76,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1764604773,
+    "last_seen": 1764695949,
+    "prompt_history_ids": [
+      "prompt_0065",
+      "prompt_0075"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.72,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_56758fa9",
+    "behavior_text": "optimizes compiler performance",
+    "credibility": 0.83,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1764950373,
+    "last_seen": 1765071002,
+    "prompt_history_ids": [
+      "prompt_0009",
+      "prompt_0032",
+      "prompt_0018",
+      "prompt_0064"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_1522bdbb",
+    "behavior_text": "interested in beginner tutorials",
+    "credibility": 0.55,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1765382373,
+    "last_seen": 1765789669,
+    "prompt_history_ids": [
+      "prompt_0009",
+      "prompt_0061",
+      "prompt_0046"
+    ],
+    "clarity_score": 0.64,
+    "extraction_confidence": 0.53,
+    "session_id": "session_001",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_af0e29c9",
+    "behavior_text": "discusses algorithm efficiency",
+    "credibility": 0.78,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1765641573,
+    "last_seen": 1765891869,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0062",
+      "prompt_0059",
+      "prompt_0087"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.79,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d7aaeab0",
+    "behavior_text": "designs distributed architectures",
+    "credibility": 0.86,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1765814373,
+    "last_seen": 1766127806,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0087",
+      "prompt_0022"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_expertise_evolution_02",
+    "domain": "programming",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_55415a02",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.84,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756594181,
+    "prompt_history_ids": [
+      "prompt_0067",
+      "prompt_0063",
+      "prompt_0075",
+      "prompt_0012"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.87,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_4df8b008",
+    "behavior_text": "interested in microwave cooking tips",
+    "credibility": 0.58,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756423651,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0004"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.65,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_f9544eb9",
+    "behavior_text": "analyzes body composition metrics",
+    "credibility": 0.91,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756414816,
+    "prompt_history_ids": [
+      "prompt_0007",
+      "prompt_0032",
+      "prompt_0021",
+      "prompt_0049"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_603a0aa8",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.59,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756559308,
+    "prompt_history_ids": [
+      "prompt_0008"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.57,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_a4b959cf",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.73,
+    "reinforcement_count": 6,
+    "decay_rate": 0.02,
+    "created_at": 1756828773,
+    "last_seen": 1756915154,
+    "prompt_history_ids": [
+      "prompt_0052",
+      "prompt_0040"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.77,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d536af4b",
+    "behavior_text": "implements advanced recovery protocols",
+    "credibility": 0.93,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1756958373,
+    "last_seen": 1756987557,
+    "prompt_history_ids": [
+      "prompt_0072",
+      "prompt_0078",
+      "prompt_0085",
+      "prompt_0060"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.9,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_52ffdb58",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.61,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757050944,
+    "last_seen": 1757448874,
+    "prompt_history_ids": [
+      "prompt_0076",
+      "prompt_0081",
+      "prompt_0055"
+    ],
+    "clarity_score": 0.63,
+    "extraction_confidence": 0.63,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b7ae7187",
+    "behavior_text": "experiments with flavor combinations",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757549713,
+    "prompt_history_ids": [
+      "prompt_0007",
+      "prompt_0045"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.79,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7236c3dc",
+    "behavior_text": "asks about basic cooking times",
+    "credibility": 0.61,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757571838,
+    "prompt_history_ids": [
+      "prompt_0046",
+      "prompt_0060",
+      "prompt_0040"
+    ],
+    "clarity_score": 0.58,
+    "extraction_confidence": 0.7,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_a2279afd",
+    "behavior_text": "optimizes biomechanical efficiency",
+    "credibility": 0.87,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1757606373,
+    "last_seen": 1757939294,
+    "prompt_history_ids": [
+      "prompt_0023",
+      "prompt_0078"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.92,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_89eaf155",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.63,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1757791515,
+    "last_seen": 1758080569,
+    "prompt_history_ids": [
+      "prompt_0078",
+      "prompt_0028"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.66,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4545c605",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757865573,
+    "last_seen": 1757921332,
+    "prompt_history_ids": [
+      "prompt_0068",
+      "prompt_0016",
+      "prompt_0009",
+      "prompt_0014"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.82,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7fbddb0b",
+    "behavior_text": "optimizes biomechanical efficiency",
+    "credibility": 0.95,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758254373,
+    "last_seen": 1758456475,
+    "prompt_history_ids": [
+      "prompt_0043"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_dc0fe767",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.84,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758383973,
+    "last_seen": 1758512978,
+    "prompt_history_ids": [
+      "prompt_0018",
+      "prompt_0043",
+      "prompt_0067",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.8,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_48792d83",
+    "behavior_text": "asks about basic cooking times",
+    "credibility": 0.57,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758611586,
+    "prompt_history_ids": [
+      "prompt_0051"
+    ],
+    "clarity_score": 0.54,
+    "extraction_confidence": 0.64,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_7ea20d4e",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758532087,
+    "last_seen": 1758629668,
+    "prompt_history_ids": [
+      "prompt_0004",
+      "prompt_0069",
+      "prompt_0022",
+      "prompt_0060"
+    ],
+    "clarity_score": 0.62,
+    "extraction_confidence": 0.57,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3828e9d4",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759013469,
+    "prompt_history_ids": [
+      "prompt_0019",
+      "prompt_0072"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.81,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_98819f4e",
+    "behavior_text": "designs sport-specific programs",
+    "credibility": 0.89,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759315930,
+    "prompt_history_ids": [
+      "prompt_0011",
+      "prompt_0031"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.98,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_055b004b",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.64,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759272658,
+    "last_seen": 1759539941,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0087"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.6,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_7462d9ac",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.71,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1759420773,
+    "last_seen": 1759743403,
+    "prompt_history_ids": [
+      "prompt_0005",
+      "prompt_0062",
+      "prompt_0021",
+      "prompt_0016"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.74,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f5e154d5",
+    "behavior_text": "asks about basic cooking times",
+    "credibility": 0.57,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1759420773,
+    "last_seen": 1759657109,
+    "prompt_history_ids": [
+      "prompt_0014"
+    ],
+    "clarity_score": 0.53,
+    "extraction_confidence": 0.53,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_a051abbb",
+    "behavior_text": "optimizes biomechanical efficiency",
+    "credibility": 0.86,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1759550373,
+    "last_seen": 1759739445,
+    "prompt_history_ids": [
+      "prompt_0036"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.84,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_33633a67",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.81,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759939173,
+    "last_seen": 1760337762,
+    "prompt_history_ids": [
+      "prompt_0066",
+      "prompt_0003"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.87,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3b332643",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.66,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760013230,
+    "last_seen": 1760032330,
+    "prompt_history_ids": [
+      "prompt_0052",
+      "prompt_0058"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.76,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_922a576f",
+    "behavior_text": "periodizes training cycles",
+    "credibility": 0.87,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1760198373,
+    "last_seen": 1760578403,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.83,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_58863e3d",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.8,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760457573,
+    "last_seen": 1760851797,
+    "prompt_history_ids": [
+      "prompt_0042",
+      "prompt_0007",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.84,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f048248e",
+    "behavior_text": "asks about basic cooking times",
+    "credibility": 0.61,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760650925,
+    "prompt_history_ids": [
+      "prompt_0040"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.56,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_f08eb295",
+    "behavior_text": "asks about basic plant care",
+    "credibility": 0.61,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760753801,
+    "last_seen": 1761108444,
+    "prompt_history_ids": [
+      "prompt_0075",
+      "prompt_0087",
+      "prompt_0054",
+      "prompt_0046"
+    ],
+    "clarity_score": 0.62,
+    "extraction_confidence": 0.6,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_1c659662",
+    "behavior_text": "optimizes biomechanical efficiency",
+    "credibility": 0.91,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1760846373,
+    "last_seen": 1761276555,
+    "prompt_history_ids": [
+      "prompt_0030",
+      "prompt_0040"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.97,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_01",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a2ad0bbf",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760975973,
+    "last_seen": 1761268444,
+    "prompt_history_ids": [
+      "prompt_0062",
+      "prompt_0042"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.81,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_01",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_324f3a7d",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.83,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756675440,
+    "prompt_history_ids": [
+      "prompt_0078",
+      "prompt_0086",
+      "prompt_0018",
+      "prompt_0033"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.81,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_689c8f61",
+    "behavior_text": "interested in microwave cooking tips",
+    "credibility": 0.62,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756490834,
+    "prompt_history_ids": [
+      "prompt_0015",
+      "prompt_0073",
+      "prompt_0074",
+      "prompt_0072"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.63,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_9f32048a",
+    "behavior_text": "periodizes training cycles",
+    "credibility": 0.93,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1756310373,
+    "last_seen": 1756733800,
+    "prompt_history_ids": [
+      "prompt_0075"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.92,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9697884d",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756651583,
+    "prompt_history_ids": [
+      "prompt_0059",
+      "prompt_0087",
+      "prompt_0035"
+    ],
+    "clarity_score": 0.63,
+    "extraction_confidence": 0.61,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_d7374a56",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.75,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1756828773,
+    "last_seen": 1757093483,
+    "prompt_history_ids": [
+      "prompt_0044"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.76,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_8dce5c0a",
+    "behavior_text": "implements advanced recovery protocols",
+    "credibility": 0.89,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1756958373,
+    "last_seen": 1757389846,
+    "prompt_history_ids": [
+      "prompt_0067",
+      "prompt_0023"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.96,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_fd5f03c5",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.63,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1757050944,
+    "last_seen": 1757131318,
+    "prompt_history_ids": [
+      "prompt_0036",
+      "prompt_0027",
+      "prompt_0040",
+      "prompt_0028"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.72,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c1bbd9b1",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.71,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757538846,
+    "prompt_history_ids": [
+      "prompt_0063",
+      "prompt_0053",
+      "prompt_0035",
+      "prompt_0083"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.74,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b45b5f1f",
+    "behavior_text": "follows recipes exactly",
+    "credibility": 0.68,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1757347173,
+    "last_seen": 1757441075,
+    "prompt_history_ids": [
+      "prompt_0077",
+      "prompt_0032"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.64,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_35c207b7",
+    "behavior_text": "implements advanced recovery protocols",
+    "credibility": 0.81,
+    "reinforcement_count": 7,
+    "decay_rate": 0.01,
+    "created_at": 1757606373,
+    "last_seen": 1757708643,
+    "prompt_history_ids": [
+      "prompt_0074",
+      "prompt_0004",
+      "prompt_0002"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.9,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d39b36a5",
+    "behavior_text": "interested in easy-to-grow plants",
+    "credibility": 0.64,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757791515,
+    "last_seen": 1757853704,
+    "prompt_history_ids": [
+      "prompt_0063",
+      "prompt_0039",
+      "prompt_0002"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.64,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_6fc23d77",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1757865573,
+    "last_seen": 1758188894,
+    "prompt_history_ids": [
+      "prompt_0036",
+      "prompt_0067"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.76,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b6e2cfc0",
+    "behavior_text": "analyzes body composition metrics",
+    "credibility": 0.83,
+    "reinforcement_count": 6,
+    "decay_rate": 0.01,
+    "created_at": 1758254373,
+    "last_seen": 1758450022,
+    "prompt_history_ids": [
+      "prompt_0045",
+      "prompt_0026",
+      "prompt_0013",
+      "prompt_0048"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_4bdc995c",
+    "behavior_text": "prefers making sauces from scratch",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758518875,
+    "prompt_history_ids": [
+      "prompt_0008",
+      "prompt_0084",
+      "prompt_0007",
+      "prompt_0088"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.77,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a6584e4a",
+    "behavior_text": "follows recipes exactly",
+    "credibility": 0.69,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758383973,
+    "last_seen": 1758565366,
+    "prompt_history_ids": [
+      "prompt_0013",
+      "prompt_0043",
+      "prompt_0008"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.78,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_d48bfb28",
+    "behavior_text": "likes colorful beginner plants",
+    "credibility": 0.61,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758532087,
+    "last_seen": 1758751827,
+    "prompt_history_ids": [
+      "prompt_0033",
+      "prompt_0074",
+      "prompt_0004"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.65,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_9002b6cf",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.77,
+    "reinforcement_count": 5,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759123484,
+    "prompt_history_ids": [
+      "prompt_0089",
+      "prompt_0056",
+      "prompt_0024",
+      "prompt_0072"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.75,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_78fe4bc4",
+    "behavior_text": "analyzes body composition metrics",
+    "credibility": 0.93,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1758902373,
+    "last_seen": 1759284162,
+    "prompt_history_ids": [
+      "prompt_0024",
+      "prompt_0086"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.98,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_198466d8",
+    "behavior_text": "interested in easy-to-grow plants",
+    "credibility": 0.61,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759272658,
+    "last_seen": 1759685077,
+    "prompt_history_ids": [
+      "prompt_0018",
+      "prompt_0013",
+      "prompt_0078"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.69,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_80bb9172",
+    "behavior_text": "interested in regional cuisines",
+    "credibility": 0.82,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759420773,
+    "last_seen": 1759549336,
+    "prompt_history_ids": [
+      "prompt_0076",
+      "prompt_0035",
+      "prompt_0073"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.9,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b6a9b85b",
+    "behavior_text": "interested in microwave cooking tips",
+    "credibility": 0.59,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1759420773,
+    "last_seen": 1759451582,
+    "prompt_history_ids": [
+      "prompt_0046",
+      "prompt_0017"
+    ],
+    "clarity_score": 0.56,
+    "extraction_confidence": 0.63,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_67df8537",
+    "behavior_text": "periodizes training cycles",
+    "credibility": 0.8,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759550373,
+    "last_seen": 1759859423,
+    "prompt_history_ids": [
+      "prompt_0078"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.85,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_0b674b4e",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.83,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759939173,
+    "last_seen": 1760343112,
+    "prompt_history_ids": [
+      "prompt_0078",
+      "prompt_0000",
+      "prompt_0029"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.92,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_660e97a4",
+    "behavior_text": "asks about basic plant care",
+    "credibility": 0.69,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1760013230,
+    "last_seen": 1760207032,
+    "prompt_history_ids": [
+      "prompt_0035",
+      "prompt_0085",
+      "prompt_0048"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.68,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_f0d4c55b",
+    "behavior_text": "designs sport-specific programs",
+    "credibility": 0.95,
+    "reinforcement_count": 8,
+    "decay_rate": 0.01,
+    "created_at": 1760198373,
+    "last_seen": 1760603957,
+    "prompt_history_ids": [
+      "prompt_0023",
+      "prompt_0007"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.94,
+    "session_id": "session_005",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_cc3bd7da",
+    "behavior_text": "understands basic cooking chemistry",
+    "credibility": 0.77,
+    "reinforcement_count": 4,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760831209,
+    "prompt_history_ids": [
+      "prompt_0084",
+      "prompt_0059",
+      "prompt_0065",
+      "prompt_0043"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.86,
+    "session_id": "session_003",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_6b1990ac",
+    "behavior_text": "uses pre-made sauces",
+    "credibility": 0.6,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760457573,
+    "last_seen": 1760776909,
+    "prompt_history_ids": [
+      "prompt_0074",
+      "prompt_0057",
+      "prompt_0089",
+      "prompt_0070"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.69,
+    "session_id": "session_002",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_99189c11",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.61,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1760753801,
+    "last_seen": 1760995689,
+    "prompt_history_ids": [
+      "prompt_0022",
+      "prompt_0033",
+      "prompt_0017"
+    ],
+    "clarity_score": 0.64,
+    "extraction_confidence": 0.66,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_2b330d25",
+    "behavior_text": "designs sport-specific programs",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760846373,
+    "last_seen": 1761238425,
+    "prompt_history_ids": [
+      "prompt_0071",
+      "prompt_0045"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.88,
+    "session_id": "session_004",
+    "user_id": "user_noisy_data_02",
+    "domain": "fitness",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_70e71fcd",
+    "behavior_text": "discusses knife techniques",
+    "credibility": 0.82,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760975973,
+    "last_seen": 1761403972,
+    "prompt_history_ids": [
+      "prompt_0067"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.83,
+    "session_id": "session_001",
+    "user_id": "user_noisy_data_02",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ce7a43eb",
+    "behavior_text": "asks about basic plant care",
+    "credibility": 0.61,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756654495,
+    "prompt_history_ids": [
+      "prompt_0056"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.69,
+    "session_id": "session_001",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_aad0c151",
+    "behavior_text": "uses pre-made sauces",
+    "credibility": 0.57,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756502556,
+    "prompt_history_ids": [
+      "prompt_0027"
+    ],
+    "clarity_score": 0.59,
+    "extraction_confidence": 0.54,
+    "session_id": "session_005",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_cefc0932",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.66,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756735637,
+    "prompt_history_ids": [
+      "prompt_0018",
+      "prompt_0038",
+      "prompt_0052",
+      "prompt_0013"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.65,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_acde6414",
+    "behavior_text": "asks about basic exercises",
+    "credibility": 0.65,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756460139,
+    "prompt_history_ids": [
+      "prompt_0055",
+      "prompt_0010"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.74,
+    "session_id": "session_003",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "fitness",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3d114c51",
+    "behavior_text": "follows tablature notation",
+    "credibility": 0.55,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756497364,
+    "prompt_history_ids": [
+      "prompt_0003",
+      "prompt_0002",
+      "prompt_0006",
+      "prompt_0052"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.62,
+    "session_id": "session_001",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "music",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4ed24768",
+    "behavior_text": "seeks step-by-step code examples",
+    "credibility": 0.62,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1756310373,
+    "last_seen": 1756614774,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0047",
+      "prompt_0048",
+      "prompt_0001"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.65,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_6efaa42a",
+    "behavior_text": "seeks watering schedule advice",
+    "credibility": 0.6,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757282373,
+    "last_seen": 1757554656,
+    "prompt_history_ids": [
+      "prompt_0035"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.61,
+    "session_id": "session_001",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_ea0e68fa",
+    "behavior_text": "prefers simple one-pot meals",
+    "credibility": 0.61,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757282373,
+    "last_seen": 1757545476,
+    "prompt_history_ids": [
+      "prompt_0026",
+      "prompt_0042",
+      "prompt_0050"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.67,
+    "session_id": "session_005",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_1353d36e",
+    "behavior_text": "asks about basic exercises",
+    "credibility": 0.69,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757282373,
+    "last_seen": 1757660492,
+    "prompt_history_ids": [
+      "prompt_0041",
+      "prompt_0012",
+      "prompt_0053",
+      "prompt_0063"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.67,
+    "session_id": "session_003",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "fitness",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_8f91eb0e",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.67,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1757282373,
+    "last_seen": 1757333509,
+    "prompt_history_ids": [
+      "prompt_0014"
+    ],
+    "clarity_score": 0.69,
+    "extraction_confidence": 0.74,
+    "session_id": "session_005",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_62af9f98",
+    "behavior_text": "asks about basic composition",
+    "credibility": 0.69,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757990444,
+    "prompt_history_ids": [
+      "prompt_0001",
+      "prompt_0014",
+      "prompt_0000",
+      "prompt_0004"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.72,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_2f629a60",
+    "behavior_text": "practices scales regularly",
+    "credibility": 0.56,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1757606373,
+    "last_seen": 1757640886,
+    "prompt_history_ids": [
+      "prompt_0029",
+      "prompt_0061",
+      "prompt_0047"
+    ],
+    "clarity_score": 0.58,
+    "extraction_confidence": 0.65,
+    "session_id": "session_005",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "music",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c6209c92",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.56,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758415759,
+    "prompt_history_ids": [
+      "prompt_0028",
+      "prompt_0041",
+      "prompt_0048"
+    ],
+    "clarity_score": 0.63,
+    "extraction_confidence": 0.63,
+    "session_id": "session_003",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3990ea75",
+    "behavior_text": "asks about basic cooking times",
+    "credibility": 0.64,
+    "reinforcement_count": 3,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758586116,
+    "prompt_history_ids": [
+      "prompt_0024",
+      "prompt_0047"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.7,
+    "session_id": "session_002",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_54009170",
+    "behavior_text": "interested in general fitness tips",
+    "credibility": 0.69,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758402046,
+    "prompt_history_ids": [
+      "prompt_0038",
+      "prompt_0039",
+      "prompt_0057",
+      "prompt_0024"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.7,
+    "session_id": "session_001",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "fitness",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_5fd24daf",
+    "behavior_text": "prefers visual programming tools",
+    "credibility": 0.67,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1758254373,
+    "last_seen": 1758310888,
+    "prompt_history_ids": [
+      "prompt_0063",
+      "prompt_0020",
+      "prompt_0032",
+      "prompt_0049"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.76,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_296d4c2e",
+    "behavior_text": "learns basic photo editing",
+    "credibility": 0.66,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759027507,
+    "prompt_history_ids": [
+      "prompt_0056",
+      "prompt_0031",
+      "prompt_0033"
+    ],
+    "clarity_score": 0.67,
+    "extraction_confidence": 0.63,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "photography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_fd7aceac",
+    "behavior_text": "prefers simple song structures",
+    "credibility": 0.59,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1758902373,
+    "last_seen": 1759137896,
+    "prompt_history_ids": [
+      "prompt_0057",
+      "prompt_0036"
+    ],
+    "clarity_score": 0.68,
+    "extraction_confidence": 0.67,
+    "session_id": "session_005",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "music",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4e2522cf",
+    "behavior_text": "prefers low-maintenance flowers",
+    "credibility": 0.6,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1759226373,
+    "last_seen": 1759434201,
+    "prompt_history_ids": [
+      "prompt_0046",
+      "prompt_0000",
+      "prompt_0015"
+    ],
+    "clarity_score": 0.65,
+    "extraction_confidence": 0.61,
+    "session_id": "session_002",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "gardening",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_dadc9358",
+    "behavior_text": "interested in microwave cooking tips",
+    "credibility": 0.61,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1759226373,
+    "last_seen": 1759561156,
+    "prompt_history_ids": [
+      "prompt_0046",
+      "prompt_0030"
+    ],
+    "clarity_score": 0.6,
+    "extraction_confidence": 0.68,
+    "session_id": "session_001",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_39423b59",
+    "behavior_text": "seeks motivation strategies",
+    "credibility": 0.65,
+    "reinforcement_count": 2,
+    "decay_rate": 0.02,
+    "created_at": 1759226373,
+    "last_seen": 1759303851,
+    "prompt_history_ids": [
+      "prompt_0041"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.7,
+    "session_id": "session_002",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "fitness",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_96303376",
+    "behavior_text": "interested in beginner tutorials",
+    "credibility": 0.65,
+    "reinforcement_count": 1,
+    "decay_rate": 0.02,
+    "created_at": 1759226373,
+    "last_seen": 1759240578,
+    "prompt_history_ids": [
+      "prompt_0022"
+    ],
+    "clarity_score": 0.66,
+    "extraction_confidence": 0.68,
+    "session_id": "session_004",
+    "user_id": "user_sparse_clusters_01",
+    "domain": "programming",
+    "expertise_level": "novice"
+  }
+]

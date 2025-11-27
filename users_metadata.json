@@ -1,0 +1,500 @@
+[
+  {
+    "user_id": "user_stable_users_01",
+    "scenario_type": "stable_user",
+    "behavior_count": 35,
+    "prompt_count": 105,
+    "ground_truth": {
+      "expected_clusters": {
+        "gardening_intermediate": 15,
+        "cooking_intermediate": 12,
+        "photography_novice": 8
+      },
+      "expected_domains": [
+        "gardening",
+        "photography",
+        "cooking"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "gardening": "intermediate",
+        "cooking": "intermediate",
+        "photography": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 105,
+      "total_behaviors": 35,
+      "time_span_days": 60,
+      "domains_config": [
+        [
+          "gardening",
+          "intermediate",
+          15
+        ],
+        [
+          "cooking",
+          "intermediate",
+          12
+        ],
+        [
+          "photography",
+          "novice",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_stable_users_02",
+    "scenario_type": "stable_user",
+    "behavior_count": 35,
+    "prompt_count": 105,
+    "ground_truth": {
+      "expected_clusters": {
+        "gardening_intermediate": 15,
+        "cooking_intermediate": 12,
+        "photography_novice": 8
+      },
+      "expected_domains": [
+        "gardening",
+        "photography",
+        "cooking"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "gardening": "intermediate",
+        "cooking": "intermediate",
+        "photography": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 105,
+      "total_behaviors": 35,
+      "time_span_days": 60,
+      "domains_config": [
+        [
+          "gardening",
+          "intermediate",
+          15
+        ],
+        [
+          "cooking",
+          "intermediate",
+          12
+        ],
+        [
+          "photography",
+          "novice",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_stable_users_03",
+    "scenario_type": "stable_user",
+    "behavior_count": 35,
+    "prompt_count": 105,
+    "ground_truth": {
+      "expected_clusters": {
+        "gardening_intermediate": 15,
+        "cooking_intermediate": 12,
+        "photography_novice": 8
+      },
+      "expected_domains": [
+        "gardening",
+        "photography",
+        "cooking"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "gardening": "intermediate",
+        "cooking": "intermediate",
+        "photography": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 105,
+      "total_behaviors": 35,
+      "time_span_days": 60,
+      "domains_config": [
+        [
+          "gardening",
+          "intermediate",
+          15
+        ],
+        [
+          "cooking",
+          "intermediate",
+          12
+        ],
+        [
+          "photography",
+          "novice",
+          8
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_multi_domain_experts_01",
+    "scenario_type": "multi_domain_expert",
+    "behavior_count": 43,
+    "prompt_count": 129,
+    "ground_truth": {
+      "expected_clusters": {
+        "programming_advanced": 18,
+        "music_advanced": 15,
+        "fitness_intermediate": 10
+      },
+      "expected_domains": [
+        "fitness",
+        "programming",
+        "music"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "programming": "advanced",
+        "music": "advanced",
+        "fitness": "intermediate"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 129,
+      "total_behaviors": 43,
+      "time_span_days": 90,
+      "domains_config": [
+        [
+          "programming",
+          "advanced",
+          18
+        ],
+        [
+          "music",
+          "advanced",
+          15
+        ],
+        [
+          "fitness",
+          "intermediate",
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_multi_domain_experts_02",
+    "scenario_type": "multi_domain_expert",
+    "behavior_count": 43,
+    "prompt_count": 129,
+    "ground_truth": {
+      "expected_clusters": {
+        "programming_advanced": 18,
+        "music_advanced": 15,
+        "fitness_intermediate": 10
+      },
+      "expected_domains": [
+        "fitness",
+        "programming",
+        "music"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "programming": "advanced",
+        "music": "advanced",
+        "fitness": "intermediate"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 129,
+      "total_behaviors": 43,
+      "time_span_days": 90,
+      "domains_config": [
+        [
+          "programming",
+          "advanced",
+          18
+        ],
+        [
+          "music",
+          "advanced",
+          15
+        ],
+        [
+          "fitness",
+          "intermediate",
+          10
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_expertise_evolution_01",
+    "scenario_type": "expertise_evolution",
+    "behavior_count": 30,
+    "prompt_count": 90,
+    "ground_truth": {
+      "expected_clusters": {
+        "programming_novice": 8,
+        "programming_intermediate": 10,
+        "programming_advanced": 12
+      },
+      "expected_domains": [
+        "programming"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "programming": "advanced"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 90,
+      "total_behaviors": 30,
+      "time_span_days": 120,
+      "domains_config": [
+        [
+          "programming",
+          "novice",
+          8
+        ],
+        [
+          "programming",
+          "intermediate",
+          10
+        ],
+        [
+          "programming",
+          "advanced",
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_expertise_evolution_02",
+    "scenario_type": "expertise_evolution",
+    "behavior_count": 30,
+    "prompt_count": 90,
+    "ground_truth": {
+      "expected_clusters": {
+        "programming_novice": 8,
+        "programming_intermediate": 10,
+        "programming_advanced": 12
+      },
+      "expected_domains": [
+        "programming"
+      ],
+      "expected_core_behaviors": 3,
+      "expertise_levels": {
+        "programming": "advanced"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 90,
+      "total_behaviors": 30,
+      "time_span_days": 120,
+      "domains_config": [
+        [
+          "programming",
+          "novice",
+          8
+        ],
+        [
+          "programming",
+          "intermediate",
+          10
+        ],
+        [
+          "programming",
+          "advanced",
+          12
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_noisy_data_01",
+    "scenario_type": "noisy_data",
+    "behavior_count": 30,
+    "prompt_count": 90,
+    "ground_truth": {
+      "expected_clusters": {
+        "cooking_intermediate": 10,
+        "cooking_novice": 5,
+        "fitness_advanced": 8,
+        "gardening_novice": 7
+      },
+      "expected_domains": [
+        "gardening",
+        "fitness",
+        "cooking"
+      ],
+      "expected_core_behaviors": 4,
+      "expertise_levels": {
+        "cooking": "novice",
+        "fitness": "advanced",
+        "gardening": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 90,
+      "total_behaviors": 30,
+      "time_span_days": 60,
+      "domains_config": [
+        [
+          "cooking",
+          "intermediate",
+          10
+        ],
+        [
+          "cooking",
+          "novice",
+          5
+        ],
+        [
+          "fitness",
+          "advanced",
+          8
+        ],
+        [
+          "gardening",
+          "novice",
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_noisy_data_02",
+    "scenario_type": "noisy_data",
+    "behavior_count": 30,
+    "prompt_count": 90,
+    "ground_truth": {
+      "expected_clusters": {
+        "cooking_intermediate": 10,
+        "cooking_novice": 5,
+        "fitness_advanced": 8,
+        "gardening_novice": 7
+      },
+      "expected_domains": [
+        "gardening",
+        "fitness",
+        "cooking"
+      ],
+      "expected_core_behaviors": 4,
+      "expertise_levels": {
+        "cooking": "novice",
+        "fitness": "advanced",
+        "gardening": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 90,
+      "total_behaviors": 30,
+      "time_span_days": 60,
+      "domains_config": [
+        [
+          "cooking",
+          "intermediate",
+          10
+        ],
+        [
+          "cooking",
+          "novice",
+          5
+        ],
+        [
+          "fitness",
+          "advanced",
+          8
+        ],
+        [
+          "gardening",
+          "novice",
+          7
+        ]
+      ]
+    }
+  },
+  {
+    "user_id": "user_sparse_clusters_01",
+    "scenario_type": "sparse_clusters",
+    "behavior_count": 22,
+    "prompt_count": 66,
+    "ground_truth": {
+      "expected_clusters": {
+        "gardening_novice": 4,
+        "cooking_novice": 4,
+        "photography_novice": 3,
+        "fitness_novice": 4,
+        "music_novice": 3,
+        "programming_novice": 4
+      },
+      "expected_domains": [
+        "gardening",
+        "programming",
+        "cooking",
+        "fitness",
+        "photography",
+        "music"
+      ],
+      "expected_core_behaviors": 6,
+      "expertise_levels": {
+        "gardening": "novice",
+        "cooking": "novice",
+        "photography": "novice",
+        "fitness": "novice",
+        "music": "novice",
+        "programming": "novice"
+      }
+    },
+    "metadata": {
+      "generated_at": 1764086373,
+      "total_prompts": 66,
+      "total_behaviors": 22,
+      "time_span_days": 45,
+      "domains_config": [
+        [
+          "gardening",
+          "novice",
+          4
+        ],
+        [
+          "cooking",
+          "novice",
+          4
+        ],
+        [
+          "photography",
+          "novice",
+          3
+        ],
+        [
+          "fitness",
+          "novice",
+          4
+        ],
+        [
+          "music",
+          "novice",
+          3
+        ],
+        [
+          "programming",
+          "novice",
+          4
+        ]
+      ]
+    }
+  }
+]

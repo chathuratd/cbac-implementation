@@ -1,0 +1,18 @@
+{
+"behavior_id": "beh_8f29ad1c",
+"behavior_text": "likes blue flowers",
+"credibility": 0.76,
+"reinforcement_count": 4,
+"decay_rate": 0.015,
+"created_at": 1732180002,
+"last_seen": 1732300112,
+"prompt_history_ids": [
+"prompt_0031",
+"prompt_0119",
+"prompt_0242"
+],
+"clarity_score": 0.87,
+"extraction_confidence": 0.92,
+"session_id": "default",
+"user_id": "sladkfja;lsdfjk"
+}
