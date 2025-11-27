@@ -129,6 +129,24 @@ class CoreAnalyzerService:
         behaviors: List[Behavior],
         cluster: Cluster
     ) -> str:
+        """
+        Generate a generalized behavior statement from cluster behaviors.
+        
+        Args:
+            behaviors: Behaviors in the cluster
+            cluster: Cluster object
+            
+        Returns:
+            Generalized statement string
+        """
+        # For now, use the most common or representative behavior label
+        # In a real implementation, this would use an LLM or template-based generation
+        labels = [b.behavior_label for b in behaviors]
+        label_counts = Counter(labels)
+        most_common_label = label_counts.most_common(1)[0][0]
+        
+        return f"User exhibits pattern: {most_common_label} (observed {len(behaviors)} times with {cluster.coherence_score:.2f} coherence)"
+    
     def _evaluate_cluster_for_promotion(
         self,
         cluster: Cluster,
@@ -309,49 +327,6 @@ class CoreAnalyzerService:
             return "Medium"
         else:
             return "Low"
-        Factors:
-        - Cluster coherence (how tightly behaviors are grouped)
-        - Cluster size (more evidence = higher confidence)
-        - Average response quality
-        - Interaction consistency
-        
-        Args:
-            behaviors: Behaviors in the cluster
-            cluster: Cluster object
-            
-        Returns:
-            Confidence score (0.0 to 1.0)
-        """
-        # Component 1: Cluster coherence (from clustering)
-        coherence_weight = 0.3
-        coherence_score = cluster.coherence_score
-        
-        # Component 2: Evidence strength (normalized cluster size)
-        evidence_weight = 0.3
-        # Assume 10+ behaviors is "strong evidence" (score = 1.0)
-        evidence_score = min(1.0, cluster.size / 10.0)
-        
-        # Component 3: Average credibility
-        quality_weight = 0.2
-        avg_credibility = np.mean([b.credibility for b in behaviors])
-        
-        # Component 4: Reinforcement consistency (low variance = high consistency)
-        consistency_weight = 0.2
-        reinforcement_counts = [b.reinforcement_count for b in behaviors]
-        if len(reinforcement_counts) > 1:
-            consistency_score = 1.0 - min(1.0, np.std(reinforcement_counts) / np.mean(reinforcement_counts))
-        else:
-            consistency_score = 1.0
-        
-        # Weighted combination
-        confidence = (
-            coherence_weight * coherence_score +
-            evidence_weight * evidence_score +
-            quality_weight * avg_credibility +
-            consistency_weight * consistency_score
-        )
-        
-        return float(np.clip(confidence, 0.0, 1.0))
     
     def _detect_domain(self, behaviors: List[Behavior]) -> str:
         """
