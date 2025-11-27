@@ -54,9 +54,9 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
         
         logger.info(f"Created {len(clusters)} clusters")
         
-        # Step 3: Derive core behaviors
+        # Step 3: Derive core behaviors (with promotion logic)
         analyzer_service = CoreAnalyzerService()
-        core_behaviors = analyzer_service.derive_core_behaviors(
+        core_behaviors, evaluation_stats = analyzer_service.derive_core_behaviors(
             user_id=request.user_id,
             behaviors=behaviors,
             clusters=clusters,
@@ -79,6 +79,7 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
             metadata={
                 "processing_time_ms": round(processing_time, 2),
                 "quality_metrics": quality_metrics,
+                "evaluation_stats": evaluation_stats,  # NEW: promotion/rejection stats
                 "clustering_params": {
                     "min_cluster_size": clustering_service.min_cluster_size,
                     "min_samples": clustering_service.min_samples
@@ -88,7 +89,9 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
         
         logger.info(
             f"Analysis completed for user {request.user_id} in {processing_time:.2f}ms: "
-            f"{len(core_behaviors)} core behaviors identified"
+            f"{len(core_behaviors)} core behaviors promoted "
+            f"({evaluation_stats['rejected']} clusters rejected, "
+            f"{evaluation_stats['emerging']} emerging)"
         )
         
         return response
