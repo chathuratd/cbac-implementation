@@ -6,10 +6,14 @@ from app.services.vector_store import VectorStoreService
 from app.services.document_store import DocumentStoreService
 from app.services.clustering import ClusteringService
 from app.services.core_analyzer import CoreAnalyzerService
+from app.services.analysis_store import AnalysisStore
 import logging
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/analysis", tags=["Analysis"])
+
+# Initialize analysis store
+analysis_store = AnalysisStore()
 
 
 @router.post("", response_model=AnalysisResponse, status_code=status.HTTP_200_OK)
@@ -54,7 +58,10 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
         
         logger.info(f"Created {len(clusters)} clusters")
         
-        # Step 3: Derive core behaviors with promotion/rejection logic
+        # Step 3: Load previous analysis for change detection
+        previous_analysis = analysis_store.load_previous_analysis(request.user_id)
+        
+        # Step 4: Derive core behaviors with promotion/rejection logic
         analyzer_service = CoreAnalyzerService()
         core_behaviors, rejection_stats = analyzer_service.derive_core_behaviors(
             user_id=request.user_id,
@@ -63,7 +70,26 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
             labels=labels
         )
         
-        # Step 4: Calculate quality metrics
+        # Step 5: Update versions and timestamps based on previous analysis
+        core_behaviors = analyzer_service.update_versions_and_timestamps(
+            core_behaviors=core_behaviors,
+            previous_analysis=previous_analysis
+        )
+        
+        # Step 6: Calculate behavior status (Active/Degrading/Historical/Retired)
+        core_behaviors = analyzer_service.calculate_behavior_status(
+            core_behaviors=core_behaviors,
+            current_behaviors=behaviors,
+            previous_analysis=previous_analysis
+        )
+        
+        # Step 7: Detect changes from previous analysis
+        changes_detected = analyzer_service.detect_changes(
+            current_core_behaviors=core_behaviors,
+            previous_analysis=previous_analysis
+        )
+        
+        # Step 8: Calculate quality metrics
         import numpy as np
         embeddings = np.array([b.embedding for b in behaviors])
         quality_metrics = clustering_service.calculate_quality_metrics(embeddings, labels)
@@ -89,9 +115,20 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
                     "rejected": rejection_stats["rejected"],
                     "emerging_patterns": rejection_stats["emerging_patterns"],
                     "rejection_reasons": rejection_stats["rejection_reasons"]
-                }
+                },
+                "changes_detected": changes_detected
             }
         )
+        
+        # Step 9: Save current analysis for future change detection
+        analysis_data = {
+            "user_id": request.user_id,
+            "core_behaviors": [cb.model_dump() for cb in core_behaviors],
+            "total_behaviors_analyzed": len(behaviors),
+            "num_clusters": len(clusters),
+            "analysis_timestamp": response.analysis_timestamp.isoformat()
+        }
+        analysis_store.save_analysis(request.user_id, analysis_data)
         
         logger.info(
             f"Analysis completed for user {request.user_id} in {processing_time:.2f}ms: "

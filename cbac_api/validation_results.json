@@ -1,0 +1,133 @@
+{
+  "user_id": "user_stable_users_01",
+  "core_behaviors": [
+    {
+      "core_behavior_id": "core_user_stable_users_01_8_4c435e52",
+      "user_id": "user_stable_users_01",
+      "generalized_statement": "User demonstrates deep and iterative engagement in cooking at intermediate level (based on 3 related behaviors)",
+      "confidence_score": 0.8697118974021941,
+      "confidence_grade": "High",
+      "confidence_components": {
+        "credibility_component": 0.7600000000000001,
+        "credibility_weight": 0.35,
+        "credibility_contribution": 0.266,
+        "stability_component": 0.9011269116754435,
+        "stability_weight": 0.25,
+        "stability_contribution": 0.22528172791886086,
+        "coherence_component": 1.0,
+        "coherence_weight": 0.25,
+        "coherence_contribution": 0.25,
+        "reinforcement_component": 0.8562011298888889,
+        "reinforcement_weight": 0.15,
+        "reinforcement_contribution": 0.12843016948333333,
+        "total_reinforcements": 12.0
+      },
+      "status": "Active",
+      "stability_score": 0.9011269116754435,
+      "version": 1,
+      "created_at": 1765813794,
+      "last_updated": 1765813794,
+      "evidence_chain": [
+        "beh_22ef40d0",
+        "beh_95562978",
+        "beh_16ee1fcf"
+      ],
+      "cluster_id": 8,
+      "domain_detected": "cooking",
+      "metadata": {
+        "cluster_size": 3,
+        "coherence_score": 1.0,
+        "avg_reinforcement_count": 4.0,
+        "avg_credibility": 0.7600000000000001,
+        "avg_clarity_score": 0.82,
+        "temporal_stability": 0.9011269116754435,
+        "support_ratio": 1.0
+      }
+    },
+    {
+      "core_behavior_id": "core_user_stable_users_01_9_601bfaa3",
+      "user_id": "user_stable_users_01",
+      "generalized_statement": "User demonstrates deep and iterative engagement in gardening at intermediate level (based on 3 related behaviors)",
+      "confidence_score": 0.8652611755254754,
+      "confidence_grade": "High",
+      "confidence_components": {
+        "credibility_component": 0.8238461538461538,
+        "credibility_weight": 0.35,
+        "credibility_contribution": 0.2883461538461538,
+        "stability_component": 0.7790966994788651,
+        "stability_weight": 0.25,
+        "stability_contribution": 0.19477417486971627,
+        "coherence_component": 1.0,
+        "coherence_weight": 0.25,
+        "coherence_contribution": 0.25,
+        "reinforcement_component": 0.8809389787307026,
+        "reinforcement_weight": 0.15,
+        "reinforcement_contribution": 0.1321408468096054,
+        "total_reinforcements": 13.0
+      },
+      "status": "Active",
+      "stability_score": 0.7790966994788651,
+      "version": 1,
+      "created_at": 1765813794,
+      "last_updated": 1765813794,
+      "evidence_chain": [
+        "beh_d0dcbe6b",
+        "beh_e4cc1727",
+        "beh_2a23246b"
+      ],
+      "cluster_id": 9,
+      "domain_detected": "gardening",
+      "metadata": {
+        "cluster_size": 3,
+        "coherence_score": 1.0,
+        "avg_reinforcement_count": 4.333333333333333,
+        "avg_credibility": 0.8233333333333333,
+        "avg_clarity_score": 0.85,
+        "temporal_stability": 0.7790966994788651,
+        "support_ratio": 1.0
+      }
+    }
+  ],
+  "total_behaviors_analyzed": 35,
+  "num_clusters": 11,
+  "analysis_timestamp": "2025-12-15T15:49:54.699928",
+  "metadata": {
+    "processing_time_ms": 4067.18,
+    "quality_metrics": {
+      "silhouette_score": 0.9999999066123422,
+      "noise_ratio": 0.08571428571428572,
+      "num_clusters": 11
+    },
+    "clustering_params": {
+      "min_cluster_size": 3,
+      "min_samples": 2
+    },
+    "promotion_stats": {
+      "clusters_evaluated": 11,
+      "promoted_to_core": 2,
+      "rejected": 9,
+      "emerging_patterns": 9,
+      "rejection_reasons": {
+        "low_stability (0.14 < 0.5)": 1,
+        "low_confidence (0.69 < 0.7)": 1,
+        "cluster_size_too_small (2 < 3)": 4,
+        "low_credibility (0.61 < 0.65)": 1,
+        "low_stability (0.29 < 0.5)": 1,
+        "low_confidence (0.63 < 0.7)": 1,
+        "low_stability (0.26 < 0.5)": 2,
+        "low_stability (0.37 < 0.5)": 1,
+        "low_credibility (0.56 < 0.65)": 1,
+        "low_credibility (0.63 < 0.65)": 1
+      }
+    },
+    "changes_detected": {
+      "new_core_behaviors": [
+        "core_user_stable_users_01_8_4c435e52",
+        "core_user_stable_users_01_9_601bfaa3"
+      ],
+      "retired_behaviors": [],
+      "updated_behaviors": [],
+      "is_first_analysis": true
+    }
+  }
+}

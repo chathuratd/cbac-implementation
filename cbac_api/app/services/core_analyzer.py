@@ -1,5 +1,5 @@
 import numpy as np
-from typing import List, Dict, Any, Tuple
+from typing import List, Dict, Any, Tuple, Optional
 from collections import Counter
 from app.models.schemas import Behavior, Cluster, CoreBehavior
 import logging
@@ -94,6 +94,12 @@ class CoreAnalyzerService:
                 cluster
             )
             
+            # Get confidence breakdown
+            confidence_breakdown = self._get_confidence_breakdown(
+                cluster_behaviors,
+                cluster
+            )
+            
             # Assign confidence grade
             confidence_grade = self._assign_confidence_grade(
                 confidence_score,
@@ -125,6 +131,7 @@ class CoreAnalyzerService:
                 generalized_statement=generalized_statement,
                 confidence_score=confidence_score,
                 confidence_grade=confidence_grade,
+                confidence_components=confidence_breakdown,
                 status="Active",
                 stability_score=stability_score,
                 version=1,
@@ -326,10 +333,13 @@ class CoreAnalyzerService:
     
     def _calculate_temporal_stability(self, behaviors: List[Behavior]) -> float:
         """
-        Calculate temporal stability based on variance in observation timestamps.
+        Calculate temporal stability based on variance in time gaps between observations.
         
-        Low variance = high stability (behaviors occur consistently over time)
-        High variance = low stability (sporadic behaviors)
+        High stability = behaviors observed at regular intervals (low variance in gaps)
+        Low stability = sporadic observations or recent spike (high variance in gaps)
+        
+        Formula: 1 - min(1.0, std_dev(gaps) / mean(gaps))
+        Uses coefficient of variation to measure regularity.
         
         Args:
             behaviors: Behaviors in the cluster
@@ -338,19 +348,37 @@ class CoreAnalyzerService:
             Stability score (0.0 to 1.0)
         """
         if len(behaviors) < 2:
-            return 1.0  # Single observation assumed stable
+            # Single behavior or empty - no temporal pattern
+            return 0.0
         
-        timestamps = [b.timestamp for b in behaviors]
+        # Get timestamps (use last_seen field)
+        timestamps = sorted([b.last_seen for b in behaviors])
         
-        # Calculate time variance
-        time_variance = np.var(timestamps)
+        # Calculate gaps between observations
+        time_gaps = [
+            timestamps[i+1] - timestamps[i] 
+            for i in range(len(timestamps) - 1)
+        ]
         
-        # Normalize: lower variance = higher stability
-        # Use exponential decay to map variance to [0, 1]
-        # Assume variance of 1e10 (large time gaps) -> stability ~ 0
-        stability = math.exp(-time_variance / 1e10)
+        if not time_gaps:
+            return 0.0
         
-        return float(np.clip(stability, 0.0, 1.0))
+        # Calculate variance in gaps
+        mean_gap = np.mean(time_gaps)
+        std_gap = np.std(time_gaps)
+        
+        # Edge case: all observations at same time
+        if mean_gap == 0:
+            return 0.0
+        
+        # Calculate stability (inverse of coefficient of variation)
+        # High variance → low stability
+        # Low variance → high stability
+        coefficient_of_variation = std_gap / mean_gap
+        stability = 1.0 - min(1.0, coefficient_of_variation)
+        
+        # Ensure in valid range
+        return float(max(0.0, min(1.0, stability)))
     
     def _calculate_reinforcement_depth(self, behaviors: List[Behavior]) -> float:
         """
@@ -371,6 +399,50 @@ class CoreAnalyzerService:
         depth_score = math.log(1 + total_reinforcement) / math.log(20)
         
         return float(np.clip(depth_score, 0.0, 1.0))
+    
+    def _get_confidence_breakdown(
+        self,
+        behaviors: List[Behavior],
+        cluster: Cluster
+    ) -> Dict[str, float]:
+        """
+        Get detailed breakdown of confidence components.
+        Useful for debugging and explainability.
+        
+        Args:
+            behaviors: Behaviors in the cluster
+            cluster: Cluster object
+            
+        Returns:
+            Dictionary with component values and contributions
+        """
+        # Calculate components
+        credibility = self._calculate_weighted_credibility(behaviors)
+        stability = self._calculate_temporal_stability(behaviors)
+        coherence = cluster.coherence_score
+        reinforcement = self._calculate_reinforcement_depth(behaviors)
+        
+        total_reinforcements = sum(b.reinforcement_count for b in behaviors)
+        
+        return {
+            "credibility_component": credibility,
+            "credibility_weight": 0.35,
+            "credibility_contribution": credibility * 0.35,
+            
+            "stability_component": stability,
+            "stability_weight": 0.25,
+            "stability_contribution": stability * 0.25,
+            
+            "coherence_component": coherence,
+            "coherence_weight": 0.25,
+            "coherence_contribution": coherence * 0.25,
+            
+            "reinforcement_component": reinforcement,
+            "reinforcement_weight": 0.15,
+            "reinforcement_contribution": reinforcement * 0.15,
+            
+            "total_reinforcements": total_reinforcements
+        }
     
     def _assign_confidence_grade(
         self,
@@ -420,3 +492,202 @@ class CoreAnalyzerService:
         
         # Low grade
         return "Low"
+    
+    def detect_changes(
+        self,
+        current_core_behaviors: List[CoreBehavior],
+        previous_analysis: Optional[Dict[str, Any]]
+    ) -> Dict[str, Any]:
+        """
+        Detect changes between current and previous analysis.
+        
+        Identifies:
+        - New core behaviors (not in previous)
+        - Retired behaviors (in previous, not in current)
+        - Updated behaviors (confidence change > 0.15)
+        
+        Args:
+            current_core_behaviors: Current analysis core behaviors
+            previous_analysis: Previous analysis result dict (or None)
+            
+        Returns:
+            Dict with new, retired, and updated behaviors
+        """
+        if not previous_analysis or "core_behaviors" not in previous_analysis:
+            # First analysis - all are new
+            return {
+                "new_core_behaviors": [cb.core_behavior_id for cb in current_core_behaviors],
+                "retired_behaviors": [],
+                "updated_behaviors": [],
+                "is_first_analysis": True
+            }
+        
+        # Build maps for comparison
+        prev_behaviors = previous_analysis.get("core_behaviors", [])
+        prev_map = {cb["domain_detected"]: cb for cb in prev_behaviors if "domain_detected" in cb}
+        current_map = {cb.domain_detected: cb for cb in current_core_behaviors}
+        
+        new_behaviors = []
+        retired_behaviors = []
+        updated_behaviors = []
+        
+        # Find new behaviors
+        for domain, cb in current_map.items():
+            if domain not in prev_map:
+                new_behaviors.append({
+                    "core_behavior_id": cb.core_behavior_id,
+                    "domain": domain,
+                    "confidence": cb.confidence_score
+                })
+        
+        # Find retired and updated behaviors
+        for domain, prev_cb in prev_map.items():
+            if domain not in current_map:
+                retired_behaviors.append({
+                    "core_behavior_id": prev_cb.get("core_behavior_id"),
+                    "domain": domain,
+                    "previous_confidence": prev_cb.get("confidence_score", 0.0)
+                })
+            else:
+                # Check for significant confidence change
+                curr_cb = current_map[domain]
+                prev_confidence = prev_cb.get("confidence_score", 0.0)
+                curr_confidence = curr_cb.confidence_score
+                
+                if abs(curr_confidence - prev_confidence) > 0.15:
+                    updated_behaviors.append({
+                        "core_behavior_id": curr_cb.core_behavior_id,
+                        "domain": domain,
+                        "previous_confidence": prev_confidence,
+                        "current_confidence": curr_confidence,
+                        "confidence_delta": curr_confidence - prev_confidence
+                    })
+        
+        return {
+            "new_core_behaviors": new_behaviors,
+            "retired_behaviors": retired_behaviors,
+            "updated_behaviors": updated_behaviors,
+            "is_first_analysis": False
+        }
+    
+    def update_versions_and_timestamps(
+        self,
+        core_behaviors: List[CoreBehavior],
+        previous_analysis: Optional[Dict[str, Any]]
+    ) -> List[CoreBehavior]:
+        """
+        Update version numbers and timestamps for core behaviors.
+        
+        Logic:
+        - If behavior existed before (matched by domain): increment version, update last_updated
+        - If new behavior: keep version=1, set created_at and last_updated
+        
+        Args:
+            core_behaviors: Current core behaviors
+            previous_analysis: Previous analysis result (or None)
+            
+        Returns:
+            Updated list of core behaviors
+        """
+        if not previous_analysis or "core_behaviors" not in previous_analysis:
+            # First analysis - all are new, versions stay at 1
+            return core_behaviors
+        
+        # Build map of previous behaviors by domain
+        prev_behaviors = previous_analysis.get("core_behaviors", [])
+        prev_map = {}
+        for prev_cb in prev_behaviors:
+            if "domain_detected" in prev_cb:
+                prev_map[prev_cb["domain_detected"]] = prev_cb
+        
+        # Update versions and timestamps
+        current_time = int(time.time())
+        for cb in core_behaviors:
+            if cb.domain_detected in prev_map:
+                # Existing behavior - increment version, keep created_at, update last_updated
+                prev_cb = prev_map[cb.domain_detected]
+                cb.version = prev_cb.get("version", 1) + 1
+                cb.created_at = prev_cb.get("created_at", current_time)
+                cb.last_updated = current_time
+            else:
+                # New behavior - version already 1, set timestamps
+                cb.created_at = current_time
+                cb.last_updated = current_time
+        
+        return core_behaviors
+    
+    def calculate_behavior_status(
+        self,
+        core_behaviors: List[CoreBehavior],
+        current_behaviors: List[Behavior],
+        previous_analysis: Optional[Dict[str, Any]]
+    ) -> List[CoreBehavior]:
+        """
+        Calculate and update status for each core behavior based on support ratio.
+        
+        Status lifecycle:
+        - Active: >= 50% of original behaviors still present
+        - Degrading: 30-49% support
+        - Historical: 10-29% support  
+        - Retired: < 10% support
+        
+        Args:
+            core_behaviors: Current core behaviors
+            current_behaviors: All current behaviors for the user
+            previous_analysis: Previous analysis result (or None)
+            
+        Returns:
+            Updated list of core behaviors with status set
+        """
+        if not previous_analysis or "core_behaviors" not in previous_analysis:
+            # First analysis - all are Active
+            for cb in core_behaviors:
+                cb.status = "Active"
+                if cb.metadata:
+                    cb.metadata["support_ratio"] = 1.0
+            return core_behaviors
+        
+        # Build map of current behavior IDs
+        current_behavior_ids = set(b.behavior_id for b in current_behaviors)
+        
+        # Build map of previous core behaviors by domain
+        prev_behaviors = previous_analysis.get("core_behaviors", [])
+        prev_map = {}
+        for prev_cb in prev_behaviors:
+            if "domain_detected" in prev_cb and "evidence_chain" in prev_cb:
+                prev_map[prev_cb["domain_detected"]] = prev_cb
+        
+        # Calculate support ratio for each core behavior
+        for cb in core_behaviors:
+            if cb.domain_detected in prev_map:
+                prev_cb = prev_map[cb.domain_detected]
+                prev_evidence = set(prev_cb.get("evidence_chain", []))
+                
+                # Count how many previous behaviors are still present
+                still_present = len(prev_evidence & current_behavior_ids)
+                original_count = len(prev_evidence)
+                
+                support_ratio = still_present / original_count if original_count > 0 else 1.0
+                
+                # Assign status based on support ratio
+                if support_ratio >= 0.5:
+                    cb.status = "Active"
+                elif support_ratio >= 0.3:
+                    cb.status = "Degrading"
+                elif support_ratio >= 0.1:
+                    cb.status = "Historical"
+                else:
+                    cb.status = "Retired"
+                
+                # Add support info to metadata
+                if cb.metadata:
+                    cb.metadata["support_ratio"] = support_ratio
+                    cb.metadata["behaviors_still_present"] = still_present
+                    cb.metadata["original_behavior_count"] = original_count
+            else:
+                # New behavior - Active
+                cb.status = "Active"
+                if cb.metadata:
+                    cb.metadata["support_ratio"] = 1.0
+        
+        return core_behaviors

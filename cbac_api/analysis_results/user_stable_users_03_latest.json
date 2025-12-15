@@ -1,0 +1,100 @@
+{
+  "user_id": "user_stable_users_03",
+  "core_behaviors": [
+    {
+      "core_behavior_id": "core_user_stable_users_03_1_7855eca7",
+      "user_id": "user_stable_users_03",
+      "generalized_statement": "User demonstrates deep and iterative engagement in cooking at intermediate level (based on 3 related behaviors)",
+      "confidence_score": 0.8419831945247374,
+      "confidence_grade": "High",
+      "confidence_components": {
+        "credibility_component": 0.7985714285714286,
+        "credibility_weight": 0.35,
+        "credibility_contribution": 0.27949999999999997,
+        "stability_component": 0.7075511590854098,
+        "stability_weight": 0.25,
+        "stability_contribution": 0.17688778977135244,
+        "coherence_component": 1.0,
+        "coherence_weight": 0.25,
+        "coherence_contribution": 0.25,
+        "reinforcement_component": 0.9039693650225663,
+        "reinforcement_weight": 0.15,
+        "reinforcement_contribution": 0.13559540475338494,
+        "total_reinforcements": 14.0
+      },
+      "status": "Active",
+      "stability_score": 0.7075511590854098,
+      "version": 2,
+      "created_at": 1765813807,
+      "last_updated": 1765813813,
+      "evidence_chain": [
+        "beh_17a0f429",
+        "beh_074bff46",
+        "beh_7a4a7020"
+      ],
+      "cluster_id": 1,
+      "domain_detected": "cooking",
+      "metadata": {
+        "cluster_size": 3,
+        "coherence_score": 1.0,
+        "avg_reinforcement_count": 4.666666666666667,
+        "avg_credibility": 0.79,
+        "avg_clarity_score": 0.8233333333333334,
+        "temporal_stability": 0.7075511590854098,
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
+      }
+    },
+    {
+      "core_behavior_id": "core_user_stable_users_03_9_a9cde355",
+      "user_id": "user_stable_users_03",
+      "generalized_statement": "User demonstrates deep and iterative engagement in cooking at intermediate level (based on 4 related behaviors)",
+      "confidence_score": 0.8103262399957415,
+      "confidence_grade": "Medium",
+      "confidence_components": {
+        "credibility_component": 0.7623809523809523,
+        "credibility_weight": 0.35,
+        "credibility_contribution": 0.26683333333333326,
+        "stability_component": 0.5739716266496329,
+        "stability_weight": 0.25,
+        "stability_contribution": 0.14349290666240822,
+        "coherence_component": 1.0,
+        "coherence_weight": 0.25,
+        "coherence_contribution": 0.25,
+        "reinforcement_component": 1.0,
+        "reinforcement_weight": 0.15,
+        "reinforcement_contribution": 0.15,
+        "total_reinforcements": 21.0
+      },
+      "status": "Active",
+      "stability_score": 0.5739716266496329,
+      "version": 2,
+      "created_at": 1765813807,
+      "last_updated": 1765813813,
+      "evidence_chain": [
+        "beh_a0316299",
+        "beh_df079384",
+        "beh_ae54abb8",
+        "beh_12e6f0a1"
+      ],
+      "cluster_id": 9,
+      "domain_detected": "cooking",
+      "metadata": {
+        "cluster_size": 4,
+        "coherence_score": 1.0,
+        "avg_reinforcement_count": 5.25,
+        "avg_credibility": 0.7675,
+        "avg_clarity_score": 0.7775,
+        "temporal_stability": 0.5739716266496329,
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
+      }
+    }
+  ],
+  "total_behaviors_analyzed": 35,
+  "num_clusters": 12,
+  "analysis_timestamp": "2025-12-15T15:50:13.109604",
+  "saved_at": "2025-12-15T15:50:13.109719"
+}
