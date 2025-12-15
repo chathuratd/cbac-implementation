@@ -5,6 +5,7 @@ import requests
 import json
 
 BASE_URL = "http://localhost:8000"
+TEST_USER_ID = "user_2_1765824099"  # Test data user ID
 
 def test_health():
     """Test health endpoint"""
@@ -22,7 +23,7 @@ def test_metrics():
     print(json.dumps(response.json(), indent=2))
     return response.status_code == 200
 
-def test_summary(user_id="user_stable_users_01"):
+def test_summary(user_id=TEST_USER_ID):
     """Test summary endpoint"""
     print(f"\n📋 Testing Summary for {user_id}...")
     response = requests.get(f"{BASE_URL}/analysis/{user_id}/summary")
@@ -30,7 +31,7 @@ def test_summary(user_id="user_stable_users_01"):
     print(json.dumps(response.json(), indent=2))
     return response.status_code == 200
 
-def test_analysis(user_id="user_stable_users_01", min_cluster_size=3):
+def test_analysis(user_id=TEST_USER_ID, min_cluster_size=3):
     """Test main analysis endpoint"""
     print(f"\n🧠 Testing Analysis for {user_id}...")
     

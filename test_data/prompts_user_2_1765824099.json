@@ -1,0 +1,452 @@
+[
+  {
+    "prompt_id": "prompt_540559c4",
+    "prompt_text": "I'm seeing my pods crash repeatedly after deployment. How can I check the logs and events to identify the root cause?",
+    "timestamp": 1758048137,
+    "session_id": "session_659",
+    "tokens": 31.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_e5d75f13",
+    "prompt_text": "What are the best practices for setting resource requests and limits in Kubernetes to optimize cluster performance?",
+    "timestamp": 1758109931,
+    "session_id": "session_730",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_9457dde1",
+    "prompt_text": "How can I automate Kubernetes cluster upgrades while ensuring zero downtime for critical applications?",
+    "timestamp": 1758128575,
+    "session_id": "session_421",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_8b3101a8",
+    "prompt_text": "Can you guide me on creating network policies in Kubernetes to restrict pod-to-pod communication securely?",
+    "timestamp": 1758175995,
+    "session_id": "session_232",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_0de80dd8",
+    "prompt_text": "What tools and strategies should I use to integrate Kubernetes deployments into our existing CI/CD pipeline?",
+    "timestamp": 1758184760,
+    "session_id": "session_369",
+    "tokens": 24.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_a85b2b5a",
+    "prompt_text": "How do I set up Prometheus and Grafana to monitor the health and performance of my Kubernetes cluster?",
+    "timestamp": 1758239480,
+    "session_id": "session_648",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_7c85ae78",
+    "prompt_text": "What are the best methods to manage and rotate Kubernetes secrets securely in production environments?",
+    "timestamp": 1758289491,
+    "session_id": "session_769",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_93f7b5f5",
+    "prompt_text": "How can I design a multi-tenant Kubernetes cluster that ensures strong isolation between namespaces?",
+    "timestamp": 1758352640,
+    "session_id": "session_392",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_32cc22b4",
+    "prompt_text": "My stateful application pods are stuck in Pending state due to PVC issues. How can I debug and fix this?",
+    "timestamp": 1758395512,
+    "session_id": "session_189",
+    "tokens": 30.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_8bfd0062",
+    "prompt_text": "What are the differences between Horizontal Pod Autoscaler and Cluster Autoscaler, and when should I use each?",
+    "timestamp": 1758459974,
+    "session_id": "session_768",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_4edc6b3c",
+    "prompt_text": "I'm seeing my pods crash repeatedly after deployment. How can I check the logs and events to identify the root cause?",
+    "timestamp": 1758511968,
+    "session_id": "session_314",
+    "tokens": 31.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_33266749",
+    "prompt_text": "What are the best practices for setting resource requests and limits in Kubernetes to optimize cluster performance?",
+    "timestamp": 1758574957,
+    "session_id": "session_809",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_f6b895c2",
+    "prompt_text": "How can I automate Kubernetes cluster upgrades while ensuring zero downtime for critical applications?",
+    "timestamp": 1758643442,
+    "session_id": "session_595",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_369b61a8",
+    "prompt_text": "Can you guide me on creating network policies in Kubernetes to restrict pod-to-pod communication?",
+    "timestamp": 1758716379,
+    "session_id": "session_219",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_3ad989af",
+    "prompt_text": "What tools and strategies should I use to integrate Kubernetes deployments into our CI/CD pipeline?",
+    "timestamp": 1758797467,
+    "session_id": "session_216",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_ffe1915b",
+    "prompt_text": "How do I set up Prometheus and Grafana to monitor the health and performance of my Kubernetes cluster?",
+    "timestamp": 1758804669,
+    "session_id": "session_551",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_8a9d9500",
+    "prompt_text": "What are the best methods to manage and secure Kubernetes secrets in different environments?",
+    "timestamp": 1758836586,
+    "session_id": "session_224",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_e70d01a8",
+    "prompt_text": "How can I design a multi-tenant Kubernetes cluster that ensures proper namespace isolation and resource quotas?",
+    "timestamp": 1758900051,
+    "session_id": "session_706",
+    "tokens": 24.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_1e4ed8b2",
+    "prompt_text": "My pods are stuck in Pending state due to PVC issues. How can I debug and resolve persistent volume claim problems?",
+    "timestamp": 1758945148,
+    "session_id": "session_564",
+    "tokens": 31.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_0af2fd29",
+    "prompt_text": "What are the steps to configure an ingress controller in Kubernetes to enable secure HTTPS access to my services?",
+    "timestamp": 1758968773,
+    "session_id": "session_354",
+    "tokens": 28.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_60b5a023",
+    "prompt_text": "I'm seeing my pods crash repeatedly after deployment. How can I check the logs to identify the issue?",
+    "timestamp": 1759051657,
+    "session_id": "session_793",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_cb81e7bd",
+    "prompt_text": "What are the best practices for setting resource requests and limits for containers in Kubernetes?",
+    "timestamp": 1759076026,
+    "session_id": "session_809",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_9165c31f",
+    "prompt_text": "How can I perform a rolling upgrade of my Kubernetes cluster without affecting running services?",
+    "timestamp": 1759145609,
+    "session_id": "session_525",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_eb31c9b5",
+    "prompt_text": "Can you help me write a network policy to restrict traffic between namespaces in Kubernetes?",
+    "timestamp": 1759182800,
+    "session_id": "session_209",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_21bba9d9",
+    "prompt_text": "What metrics should I monitor in Kubernetes to ensure cluster health and how do I set up alerts?",
+    "timestamp": 1759257093,
+    "session_id": "session_604",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_6a5c69c2",
+    "prompt_text": "How do I securely store and use secrets in Kubernetes for my CI/CD workflows?",
+    "timestamp": 1759303630,
+    "session_id": "session_439",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_fa176b73",
+    "prompt_text": "My pods are stuck in Pending state due to PVC issues. How can I diagnose and fix this?",
+    "timestamp": 1759387001,
+    "session_id": "session_520",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_151608bf",
+    "prompt_text": "Can you guide me on creating a Helm chart for my microservices application?",
+    "timestamp": 1759471629,
+    "session_id": "session_159",
+    "tokens": 19.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_96789ac7",
+    "prompt_text": "How do I set up RBAC roles and bindings to restrict user permissions in my Kubernetes cluster?",
+    "timestamp": 1759482313,
+    "session_id": "session_672",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_5cde721a",
+    "prompt_text": "What are the best ways to integrate Kubernetes with AWS services like ELB and EBS?",
+    "timestamp": 1759545349,
+    "session_id": "session_446",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_ce01b8f9",
+    "prompt_text": "I'm seeing my pods crash repeatedly after the latest deployment. How can I check the logs and events to identify the root cause?",
+    "timestamp": 1759608861,
+    "session_id": "session_757",
+    "tokens": 34.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_bbb592db",
+    "prompt_text": "What are the best practices for setting resource requests and limits in Kubernetes to optimize cluster performance?",
+    "timestamp": 1759613821,
+    "session_id": "session_683",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_23e743b6",
+    "prompt_text": "How can I automate Kubernetes cluster upgrades while ensuring zero downtime for critical applications?",
+    "timestamp": 1759661757,
+    "session_id": "session_836",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_fcc1e035",
+    "prompt_text": "Can you help me write network policies to restrict traffic between pods in different namespaces?",
+    "timestamp": 1759724720,
+    "session_id": "session_707",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_40ad272f",
+    "prompt_text": "What is the recommended way to configure Prometheus and Grafana for monitoring Kubernetes cluster health and alerting on failures?",
+    "timestamp": 1759786950,
+    "session_id": "session_387",
+    "tokens": 28.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_dd4e747f",
+    "prompt_text": "How do I integrate Helm charts into my Jenkins pipeline for automated Kubernetes deployments?",
+    "timestamp": 1759807243,
+    "session_id": "session_349",
+    "tokens": 21.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_d9280ade",
+    "prompt_text": "What are the best practices for managing Kubernetes secrets securely, and how can I integrate HashiCorp Vault with Kubernetes?",
+    "timestamp": 1759844776,
+    "session_id": "session_345",
+    "tokens": 28.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_ef524f8c",
+    "prompt_text": "Can you guide me on designing a multi-cluster Kubernetes setup to ensure high availability and disaster recovery?",
+    "timestamp": 1759889190,
+    "session_id": "session_646",
+    "tokens": 25.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_927da76d",
+    "prompt_text": "My Kubernetes ingress controller isn't routing traffic correctly to services. How can I debug and fix this issue?",
+    "timestamp": 1759950869,
+    "session_id": "session_669",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_874cc413",
+    "prompt_text": "What storage solutions do you recommend for running stateful applications on Kubernetes, and how do I configure persistent volumes?",
+    "timestamp": 1760031838,
+    "session_id": "session_543",
+    "tokens": 28.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_b5772c47",
+    "prompt_text": "I'm seeing my pods crash repeatedly after deployment. How can I check the logs to identify the root cause?",
+    "timestamp": 1760101385,
+    "session_id": "session_415",
+    "tokens": 28.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_460351c7",
+    "prompt_text": "What are the best practices for setting resource requests and limits for containers in Kubernetes?",
+    "timestamp": 1760147420,
+    "session_id": "session_487",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_e3c6f584",
+    "prompt_text": "How can I perform a rolling upgrade of my Kubernetes cluster without affecting running services?",
+    "timestamp": 1760156601,
+    "session_id": "session_229",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_23962374",
+    "prompt_text": "Can you help me write a network policy to restrict traffic between namespaces in Kubernetes?",
+    "timestamp": 1760227063,
+    "session_id": "session_666",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_ccef6a4e",
+    "prompt_text": "What metrics should I monitor in Kubernetes and how do I set up alerts with Prometheus?",
+    "timestamp": 1760296109,
+    "session_id": "session_495",
+    "tokens": 24.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_619a6820",
+    "prompt_text": "How do I securely store and use secrets in Kubernetes, especially when deploying via Jenkins?",
+    "timestamp": 1760378238,
+    "session_id": "session_446",
+    "tokens": 22.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_460b1816",
+    "prompt_text": "My PVCs are stuck in Pending state. What steps should I take to troubleshoot this issue?",
+    "timestamp": 1760441973,
+    "session_id": "session_561",
+    "tokens": 24.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_585f8cea",
+    "prompt_text": "Can you guide me on creating a Helm chart for my microservices application?",
+    "timestamp": 1760479186,
+    "session_id": "session_359",
+    "tokens": 19.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_87c73e00",
+    "prompt_text": "How do I set up an NGINX ingress controller to route traffic to multiple services in my cluster?",
+    "timestamp": 1760537201,
+    "session_id": "session_865",
+    "tokens": 27.0,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  },
+  {
+    "prompt_id": "prompt_c654692a",
+    "prompt_text": "What are the differences between Cluster Autoscaler and Horizontal Pod Autoscaler in Kubernetes?",
+    "timestamp": 1760551700,
+    "session_id": "session_110",
+    "tokens": 19.5,
+    "domain": "kubernetes",
+    "user_id": "user_2_1765824099"
+  }
+]

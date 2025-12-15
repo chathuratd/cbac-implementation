@@ -1,0 +1,1802 @@
+[
+  {
+    "behavior_id": "beh_9638b49b",
+    "behavior_text": "User is asking for a quick recipe idea",
+    "credibility": 0.9,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758050230,
+    "last_seen": 1758050549,
+    "prompt_history_ids": [
+      "prompt_fc9cdb89"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.89,
+    "session_id": "session_415",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_70e680fa",
+    "behavior_text": "User wants to know a simple math fact",
+    "credibility": 0.89,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758058228,
+    "last_seen": 1758058379,
+    "prompt_history_ids": [
+      "prompt_3edc4e8e"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.98,
+    "session_id": "session_614",
+    "user_id": "user_4_1765826173",
+    "domain": "mathematics",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_208e5e63",
+    "behavior_text": "User is curious about a historical event",
+    "credibility": 0.72,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758129298,
+    "last_seen": 1758131465,
+    "prompt_history_ids": [
+      "prompt_d29187f7"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.85,
+    "session_id": "session_801",
+    "user_id": "user_4_1765826173",
+    "domain": "history",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_a1666a3a",
+    "behavior_text": "User is requesting a weather update",
+    "credibility": 0.74,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758162714,
+    "last_seen": 1758164927,
+    "prompt_history_ids": [
+      "prompt_337da1b2"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.97,
+    "session_id": "session_450",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_e3d76735",
+    "behavior_text": "User is seeking a movie recommendation",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758175222,
+    "last_seen": 1758176516,
+    "prompt_history_ids": [
+      "prompt_5b903f3b"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.96,
+    "session_id": "session_677",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_bc05a061",
+    "behavior_text": "User wants a quick tech tip",
+    "credibility": 0.87,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758193902,
+    "last_seen": 1758194205,
+    "prompt_history_ids": [
+      "prompt_b4557c5b"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.93,
+    "session_id": "session_238",
+    "user_id": "user_4_1765826173",
+    "domain": "technology",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b2413bb0",
+    "behavior_text": "User is asking for a travel tip",
+    "credibility": 0.94,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758211758,
+    "last_seen": 1758213512,
+    "prompt_history_ids": [
+      "prompt_c0eaff16"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.89,
+    "session_id": "session_971",
+    "user_id": "user_4_1765826173",
+    "domain": "travel",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_218b9902",
+    "behavior_text": "User is looking for a fitness suggestion",
+    "credibility": 0.91,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758222575,
+    "last_seen": 1758223150,
+    "prompt_history_ids": [
+      "prompt_92816c80"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.98,
+    "session_id": "session_364",
+    "user_id": "user_4_1765826173",
+    "domain": "health & fitness",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_76d37d78",
+    "behavior_text": "User wants a simple language translation",
+    "credibility": 0.91,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758297949,
+    "last_seen": 1758300060,
+    "prompt_history_ids": [
+      "prompt_ccd2d44b"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.85,
+    "session_id": "session_500",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_63ecc5e8",
+    "behavior_text": "User is asking for a quick fact about animals",
+    "credibility": 0.88,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758369447,
+    "last_seen": 1758371333,
+    "prompt_history_ids": [
+      "prompt_e3c691a1"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.87,
+    "session_id": "session_977",
+    "user_id": "user_4_1765826173",
+    "domain": "animals",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_41edc220",
+    "behavior_text": "User asks about the weather forecast for tomorrow.",
+    "credibility": 0.89,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758439464,
+    "last_seen": 1758441782,
+    "prompt_history_ids": [
+      "prompt_a96f22e7"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.95,
+    "session_id": "session_309",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_0a110f56",
+    "behavior_text": "User requests a simple recipe for scrambled eggs.",
+    "credibility": 0.9,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758487022,
+    "last_seen": 1758489721,
+    "prompt_history_ids": [
+      "prompt_50174b4d"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.82,
+    "session_id": "session_836",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4499a154",
+    "behavior_text": "User inquires about the capital city of France.",
+    "credibility": 0.89,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758512678,
+    "last_seen": 1758516006,
+    "prompt_history_ids": [
+      "prompt_f98e0d3b"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.87,
+    "session_id": "session_199",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_dc4c7049",
+    "behavior_text": "User wants to know the current time in New York.",
+    "credibility": 0.76,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758538352,
+    "last_seen": 1758541698,
+    "prompt_history_ids": [
+      "prompt_efde7628"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.87,
+    "session_id": "session_179",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c6b6f149",
+    "behavior_text": "User asks for a quick fact about the planet Mars.",
+    "credibility": 0.9,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758612735,
+    "last_seen": 1758613885,
+    "prompt_history_ids": [
+      "prompt_79d8711e"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.85,
+    "session_id": "session_757",
+    "user_id": "user_4_1765826173",
+    "domain": "space",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_44e8187b",
+    "behavior_text": "User requests a definition of the word 'photosynthesis'.",
+    "credibility": 0.79,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758630080,
+    "last_seen": 1758630198,
+    "prompt_history_ids": [
+      "prompt_95e2e360"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.96,
+    "session_id": "session_435",
+    "user_id": "user_4_1765826173",
+    "domain": "biology",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3d420741",
+    "behavior_text": "User wants to know how to say 'hello' in Spanish.",
+    "credibility": 0.8,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758693805,
+    "last_seen": 1758696649,
+    "prompt_history_ids": [
+      "prompt_5fea1ae1"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.83,
+    "session_id": "session_942",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_6d772825",
+    "behavior_text": "User asks for a simple math calculation: 7 times 8.",
+    "credibility": 0.8,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758737571,
+    "last_seen": 1758741076,
+    "prompt_history_ids": [
+      "prompt_9155d0c6"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.89,
+    "session_id": "session_928",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_d9ab4319",
+    "behavior_text": "User requests a recommendation for a popular movie.",
+    "credibility": 0.8,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758771159,
+    "last_seen": 1758772291,
+    "prompt_history_ids": [
+      "prompt_5fbaae85"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.84,
+    "session_id": "session_483",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b69e36fa",
+    "behavior_text": "User wants to know the fastest land animal.",
+    "credibility": 0.9,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758819337,
+    "last_seen": 1758821705,
+    "prompt_history_ids": [
+      "prompt_35e8db47"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.85,
+    "session_id": "session_372",
+    "user_id": "user_4_1765826173",
+    "domain": "animals",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_53be4594",
+    "behavior_text": "User is asking for a quick recipe idea",
+    "credibility": 0.89,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758847631,
+    "last_seen": 1758851184,
+    "prompt_history_ids": [
+      "prompt_1407268a"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.91,
+    "session_id": "session_745",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_70249565",
+    "behavior_text": "User wants a simple math calculation",
+    "credibility": 0.79,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758908347,
+    "last_seen": 1758910237,
+    "prompt_history_ids": [
+      "prompt_a4cf748c"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.98,
+    "session_id": "session_207",
+    "user_id": "user_4_1765826173",
+    "domain": "mathematics",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_579efc17",
+    "behavior_text": "User is looking for a weather update",
+    "credibility": 0.75,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758967141,
+    "last_seen": 1758970120,
+    "prompt_history_ids": [
+      "prompt_68b2dadd"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.91,
+    "session_id": "session_613",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_4dd4a7a6",
+    "behavior_text": "User is requesting a movie recommendation",
+    "credibility": 0.75,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758997691,
+    "last_seen": 1759000505,
+    "prompt_history_ids": [
+      "prompt_8b3dc2b9"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.85,
+    "session_id": "session_268",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_65e5e905",
+    "behavior_text": "User is asking for a quick fact",
+    "credibility": 0.93,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759068880,
+    "last_seen": 1759072367,
+    "prompt_history_ids": [
+      "prompt_b2549804"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.8,
+    "session_id": "session_738",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_0dba3f29",
+    "behavior_text": "User wants a simple translation",
+    "credibility": 0.8,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759129582,
+    "last_seen": 1759130545,
+    "prompt_history_ids": [
+      "prompt_72230f2b"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.83,
+    "session_id": "session_898",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_da4770d0",
+    "behavior_text": "User is seeking a basic tech tip",
+    "credibility": 0.88,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759212450,
+    "last_seen": 1759213739,
+    "prompt_history_ids": [
+      "prompt_38d98c4a"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.96,
+    "session_id": "session_786",
+    "user_id": "user_4_1765826173",
+    "domain": "technology",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_dbacd475",
+    "behavior_text": "User is asking for a health tip",
+    "credibility": 0.84,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759269448,
+    "last_seen": 1759271609,
+    "prompt_history_ids": [
+      "prompt_e39bd71a"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.85,
+    "session_id": "session_497",
+    "user_id": "user_4_1765826173",
+    "domain": "health",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_10e02cef",
+    "behavior_text": "User wants a sports score update",
+    "credibility": 0.92,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759306739,
+    "last_seen": 1759307780,
+    "prompt_history_ids": [
+      "prompt_8b9903cd"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.82,
+    "session_id": "session_852",
+    "user_id": "user_4_1765826173",
+    "domain": "sports",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_8a3baa3a",
+    "behavior_text": "User is curious about a historical date",
+    "credibility": 0.91,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759374408,
+    "last_seen": 1759377441,
+    "prompt_history_ids": [
+      "prompt_55663e61"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.97,
+    "session_id": "session_943",
+    "user_id": "user_4_1765826173",
+    "domain": "history",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b0c4e825",
+    "behavior_text": "User asks about the weather forecast for tomorrow",
+    "credibility": 0.9,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759400067,
+    "last_seen": 1759402729,
+    "prompt_history_ids": [
+      "prompt_ff70602e"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.92,
+    "session_id": "session_359",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_b06f43a7",
+    "behavior_text": "User requests a simple recipe for scrambled eggs",
+    "credibility": 0.88,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759461605,
+    "last_seen": 1759464962,
+    "prompt_history_ids": [
+      "prompt_c9f51736"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.92,
+    "session_id": "session_850",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_84a8dcd8",
+    "behavior_text": "User inquires about the capital city of France",
+    "credibility": 0.89,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759511463,
+    "last_seen": 1759514110,
+    "prompt_history_ids": [
+      "prompt_1a141e42"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.98,
+    "session_id": "session_168",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_421ae96b",
+    "behavior_text": "User wants to know the current time",
+    "credibility": 0.71,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759518955,
+    "last_seen": 1759519627,
+    "prompt_history_ids": [
+      "prompt_1866e8a6"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.89,
+    "session_id": "session_903",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_b7a72231",
+    "behavior_text": "User asks for a quick math calculation",
+    "credibility": 0.77,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759601235,
+    "last_seen": 1759603781,
+    "prompt_history_ids": [
+      "prompt_27fed081"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.87,
+    "session_id": "session_796",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_654d87c2",
+    "behavior_text": "User requests a definition of a common word",
+    "credibility": 0.86,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759644199,
+    "last_seen": 1759645862,
+    "prompt_history_ids": [
+      "prompt_6cbbabd0"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.99,
+    "session_id": "session_719",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_2a566c7d",
+    "behavior_text": "User asks for a movie recommendation",
+    "credibility": 0.85,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759697742,
+    "last_seen": 1759698322,
+    "prompt_history_ids": [
+      "prompt_f16ce495"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.9,
+    "session_id": "session_738",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_fee5bcbb",
+    "behavior_text": "User wants to know how to tie a tie",
+    "credibility": 0.71,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759778342,
+    "last_seen": 1759780522,
+    "prompt_history_ids": [
+      "prompt_a36e8e45"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.99,
+    "session_id": "session_285",
+    "user_id": "user_4_1765826173",
+    "domain": "fashion",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_745ddfc3",
+    "behavior_text": "User asks about the nearest gas station",
+    "credibility": 0.74,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759796631,
+    "last_seen": 1759796975,
+    "prompt_history_ids": [
+      "prompt_c663eb5a"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.93,
+    "session_id": "session_199",
+    "user_id": "user_4_1765826173",
+    "domain": "navigation",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_dbfa688f",
+    "behavior_text": "User requests a fun fact about space",
+    "credibility": 0.79,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759828434,
+    "last_seen": 1759831617,
+    "prompt_history_ids": [
+      "prompt_df140532"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.99,
+    "session_id": "session_992",
+    "user_id": "user_4_1765826173",
+    "domain": "science",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_2de0d723",
+    "behavior_text": "User is asking for a quick recipe",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759902668,
+    "last_seen": 1759903593,
+    "prompt_history_ids": [
+      "prompt_f5a2f055"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.82,
+    "session_id": "session_296",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f111a938",
+    "behavior_text": "User wants a simple math calculation",
+    "credibility": 0.75,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759972918,
+    "last_seen": 1759976324,
+    "prompt_history_ids": [
+      "prompt_b2753086"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.96,
+    "session_id": "session_551",
+    "user_id": "user_4_1765826173",
+    "domain": "mathematics",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e84426a5",
+    "behavior_text": "User is requesting weather information",
+    "credibility": 0.94,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1760009558,
+    "last_seen": 1760011814,
+    "prompt_history_ids": [
+      "prompt_e3bd090d"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.98,
+    "session_id": "session_414",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7f96cbcb",
+    "behavior_text": "User is looking for a movie recommendation",
+    "credibility": 0.8,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760057407,
+    "last_seen": 1760058843,
+    "prompt_history_ids": [
+      "prompt_8b791d4d"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.87,
+    "session_id": "session_588",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7a3f03c8",
+    "behavior_text": "User is asking for a definition",
+    "credibility": 0.83,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760101985,
+    "last_seen": 1760103508,
+    "prompt_history_ids": [
+      "prompt_ae5f75c8"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.97,
+    "session_id": "session_390",
+    "user_id": "user_4_1765826173",
+    "domain": "science",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_84e9c5fc",
+    "behavior_text": "User wants to know a historical fact",
+    "credibility": 0.73,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760150284,
+    "last_seen": 1760153746,
+    "prompt_history_ids": [
+      "prompt_dbb7ca13"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.97,
+    "session_id": "session_516",
+    "user_id": "user_4_1765826173",
+    "domain": "history",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_7caa761f",
+    "behavior_text": "User is seeking a travel tip",
+    "credibility": 0.93,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760175155,
+    "last_seen": 1760177621,
+    "prompt_history_ids": [
+      "prompt_92c8ba22"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.97,
+    "session_id": "session_649",
+    "user_id": "user_4_1765826173",
+    "domain": "travel",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ca47ac60",
+    "behavior_text": "User is asking for a tech troubleshooting step",
+    "credibility": 0.88,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760241297,
+    "last_seen": 1760242924,
+    "prompt_history_ids": [
+      "prompt_8b7183e7"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.93,
+    "session_id": "session_775",
+    "user_id": "user_4_1765826173",
+    "domain": "technology",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_e6ed8680",
+    "behavior_text": "User is requesting a simple workout idea",
+    "credibility": 0.72,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760303873,
+    "last_seen": 1760304519,
+    "prompt_history_ids": [
+      "prompt_eabdfcfc"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.89,
+    "session_id": "session_244",
+    "user_id": "user_4_1765826173",
+    "domain": "fitness",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_9771ed01",
+    "behavior_text": "User wants a quick language translation",
+    "credibility": 0.91,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760357135,
+    "last_seen": 1760357755,
+    "prompt_history_ids": [
+      "prompt_bc9d352a"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.89,
+    "session_id": "session_975",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d6d54c29",
+    "behavior_text": "User asks about the weather forecast for tomorrow.",
+    "credibility": 0.72,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760426758,
+    "last_seen": 1760427282,
+    "prompt_history_ids": [
+      "prompt_bf8b9051"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.81,
+    "session_id": "session_527",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_54f3996b",
+    "behavior_text": "User requests a simple recipe for scrambled eggs.",
+    "credibility": 0.87,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760460748,
+    "last_seen": 1760460914,
+    "prompt_history_ids": [
+      "prompt_56d8f8d2"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.89,
+    "session_id": "session_709",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3bab8185",
+    "behavior_text": "User inquires about the capital city of France.",
+    "credibility": 0.93,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760539093,
+    "last_seen": 1760540931,
+    "prompt_history_ids": [
+      "prompt_70d201c7"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.85,
+    "session_id": "session_199",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_fb091b1b",
+    "behavior_text": "User wants to know the current time in New York.",
+    "credibility": 0.87,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1760576706,
+    "last_seen": 1760579987,
+    "prompt_history_ids": [
+      "prompt_a51d0e6e"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.83,
+    "session_id": "session_426",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_67db56e2",
+    "behavior_text": "User asks for a quick fact about the planet Mars.",
+    "credibility": 0.7,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1760621851,
+    "last_seen": 1760621975,
+    "prompt_history_ids": [
+      "prompt_5a014fad"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.89,
+    "session_id": "session_840",
+    "user_id": "user_4_1765826173",
+    "domain": "space",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a270a9ee",
+    "behavior_text": "User requests a definition of the word 'photosynthesis'.",
+    "credibility": 0.79,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760654465,
+    "last_seen": 1760655396,
+    "prompt_history_ids": [
+      "prompt_cf5bb431"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.94,
+    "session_id": "session_957",
+    "user_id": "user_4_1765826173",
+    "domain": "biology",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_47ba05b7",
+    "behavior_text": "User wants to know how to say 'hello' in Spanish.",
+    "credibility": 0.86,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760675751,
+    "last_seen": 1760676490,
+    "prompt_history_ids": [
+      "prompt_4ea1ab8e"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.84,
+    "session_id": "session_436",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d302e4ab",
+    "behavior_text": "User asks for a simple math calculation: 7 times 8.",
+    "credibility": 0.83,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760732637,
+    "last_seen": 1760733109,
+    "prompt_history_ids": [
+      "prompt_76768770"
+    ],
+    "clarity_score": 0.97,
+    "extraction_confidence": 0.97,
+    "session_id": "session_374",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_4b33a5e8",
+    "behavior_text": "User requests a recommendation for a popular movie.",
+    "credibility": 0.93,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760818148,
+    "last_seen": 1760818860,
+    "prompt_history_ids": [
+      "prompt_9f891160"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.94,
+    "session_id": "session_874",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_035cdf03",
+    "behavior_text": "User wants to know the fastest land animal.",
+    "credibility": 0.91,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760862143,
+    "last_seen": 1760863692,
+    "prompt_history_ids": [
+      "prompt_55c9e968"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.86,
+    "session_id": "session_199",
+    "user_id": "user_4_1765826173",
+    "domain": "animals",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_122be375",
+    "behavior_text": "User asks about the weather forecast for tomorrow.",
+    "credibility": 0.94,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760917535,
+    "last_seen": 1760919053,
+    "prompt_history_ids": [
+      "prompt_7cbbd88c"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.92,
+    "session_id": "session_253",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_63ada8fe",
+    "behavior_text": "User requests a simple recipe for scrambled eggs.",
+    "credibility": 0.76,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1760980507,
+    "last_seen": 1760983479,
+    "prompt_history_ids": [
+      "prompt_9532abf9"
+    ],
+    "clarity_score": 0.94,
+    "extraction_confidence": 0.88,
+    "session_id": "session_219",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_c1579358",
+    "behavior_text": "User inquires about the capital city of France.",
+    "credibility": 0.88,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761016524,
+    "last_seen": 1761017335,
+    "prompt_history_ids": [
+      "prompt_40b4231b"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.97,
+    "session_id": "session_400",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_9ec1aedd",
+    "behavior_text": "User wants to know the current time in New York.",
+    "credibility": 0.88,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761024830,
+    "last_seen": 1761028375,
+    "prompt_history_ids": [
+      "prompt_432ae1b8"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.92,
+    "session_id": "session_351",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d07b6068",
+    "behavior_text": "User asks for a quick fact about the planet Mars.",
+    "credibility": 0.93,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1761083368,
+    "last_seen": 1761084855,
+    "prompt_history_ids": [
+      "prompt_b2009045"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.92,
+    "session_id": "session_708",
+    "user_id": "user_4_1765826173",
+    "domain": "space",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_04922292",
+    "behavior_text": "User requests a definition of the word 'photosynthesis'.",
+    "credibility": 0.81,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761162308,
+    "last_seen": 1761164685,
+    "prompt_history_ids": [
+      "prompt_af832a91"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.81,
+    "session_id": "session_445",
+    "user_id": "user_4_1765826173",
+    "domain": "biology",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f798f625",
+    "behavior_text": "User wants to know how to say 'hello' in Spanish.",
+    "credibility": 0.82,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761166839,
+    "last_seen": 1761167411,
+    "prompt_history_ids": [
+      "prompt_cf71b879"
+    ],
+    "clarity_score": 0.9,
+    "extraction_confidence": 0.87,
+    "session_id": "session_969",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_8a5c1372",
+    "behavior_text": "User asks for a simple math calculation: 7 times 8.",
+    "credibility": 0.91,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761236216,
+    "last_seen": 1761238540,
+    "prompt_history_ids": [
+      "prompt_a3bfaecb"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.92,
+    "session_id": "session_175",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f7488cf1",
+    "behavior_text": "User inquires about the author of '1984'.",
+    "credibility": 0.94,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761287411,
+    "last_seen": 1761288028,
+    "prompt_history_ids": [
+      "prompt_dd5a18b3"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.94,
+    "session_id": "session_761",
+    "user_id": "user_4_1765826173",
+    "domain": "literature",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_68acb0af",
+    "behavior_text": "User wants to know the fastest land animal.",
+    "credibility": 0.74,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1761298187,
+    "last_seen": 1761299097,
+    "prompt_history_ids": [
+      "prompt_755af0c3"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.81,
+    "session_id": "session_193",
+    "user_id": "user_4_1765826173",
+    "domain": "animals",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_799c4458",
+    "behavior_text": "User asks about the weather forecast for tomorrow",
+    "credibility": 0.78,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1761360186,
+    "last_seen": 1761361508,
+    "prompt_history_ids": [
+      "prompt_31e3905f"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.98,
+    "session_id": "session_437",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b20d0087",
+    "behavior_text": "User requests a simple recipe for pancakes",
+    "credibility": 0.84,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761394873,
+    "last_seen": 1761395426,
+    "prompt_history_ids": [
+      "prompt_74442c1e"
+    ],
+    "clarity_score": 0.71,
+    "extraction_confidence": 0.87,
+    "session_id": "session_773",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_79bb2f16",
+    "behavior_text": "User inquires about the capital city of France",
+    "credibility": 0.89,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761449872,
+    "last_seen": 1761450565,
+    "prompt_history_ids": [
+      "prompt_796aa235"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.86,
+    "session_id": "session_174",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bbe02655",
+    "behavior_text": "User wants to know the current time",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1761507957,
+    "last_seen": 1761509834,
+    "prompt_history_ids": [
+      "prompt_27899d36"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.86,
+    "session_id": "session_392",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_7fd0089b",
+    "behavior_text": "User asks for a quick math calculation",
+    "credibility": 0.8,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1761581443,
+    "last_seen": 1761582603,
+    "prompt_history_ids": [
+      "prompt_08ead53e"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.96,
+    "session_id": "session_584",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5bab42c9",
+    "behavior_text": "User requests a definition of a common word",
+    "credibility": 0.72,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1761585464,
+    "last_seen": 1761587352,
+    "prompt_history_ids": [
+      "prompt_2c58656d"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.85,
+    "session_id": "session_445",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_04e3aff9",
+    "behavior_text": "User wants to know the latest news headline",
+    "credibility": 0.88,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1761625719,
+    "last_seen": 1761629082,
+    "prompt_history_ids": [
+      "prompt_f00b806f"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.97,
+    "session_id": "session_263",
+    "user_id": "user_4_1765826173",
+    "domain": "news",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5af42ae0",
+    "behavior_text": "User asks for a movie recommendation",
+    "credibility": 0.74,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761675681,
+    "last_seen": 1761676228,
+    "prompt_history_ids": [
+      "prompt_ce217e92"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.81,
+    "session_id": "session_340",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_26861bdb",
+    "behavior_text": "User inquires about the meaning of a popular acronym",
+    "credibility": 0.79,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761707924,
+    "last_seen": 1761708816,
+    "prompt_history_ids": [
+      "prompt_1bcab119"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.97,
+    "session_id": "session_455",
+    "user_id": "user_4_1765826173",
+    "domain": "internet slang",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d871be2a",
+    "behavior_text": "User wants to know how to say hello in Spanish",
+    "credibility": 0.92,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1761761358,
+    "last_seen": 1761764446,
+    "prompt_history_ids": [
+      "prompt_0d0aa41e"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.98,
+    "session_id": "session_545",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_ecdcfe95",
+    "behavior_text": "User is asking for a quick recipe idea",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1761835376,
+    "last_seen": 1761838921,
+    "prompt_history_ids": [
+      "prompt_52dd393d"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.83,
+    "session_id": "session_508",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d6ec98a1",
+    "behavior_text": "User wants a simple math calculation",
+    "credibility": 0.83,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761914322,
+    "last_seen": 1761916269,
+    "prompt_history_ids": [
+      "prompt_e354d15c"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.94,
+    "session_id": "session_416",
+    "user_id": "user_4_1765826173",
+    "domain": "mathematics",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f3340fbd",
+    "behavior_text": "User is requesting a weather update",
+    "credibility": 0.82,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1761953087,
+    "last_seen": 1761953470,
+    "prompt_history_ids": [
+      "prompt_225297e8"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.94,
+    "session_id": "session_781",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_fcda35b6",
+    "behavior_text": "User is looking for a movie recommendation",
+    "credibility": 0.94,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1761982507,
+    "last_seen": 1761985174,
+    "prompt_history_ids": [
+      "prompt_671ecb64"
+    ],
+    "clarity_score": 0.7,
+    "extraction_confidence": 0.8,
+    "session_id": "session_987",
+    "user_id": "user_4_1765826173",
+    "domain": "entertainment",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_772f73ed",
+    "behavior_text": "User is asking for a quick fact",
+    "credibility": 0.81,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762035438,
+    "last_seen": 1762038902,
+    "prompt_history_ids": [
+      "prompt_166a824f"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.85,
+    "session_id": "session_712",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_b28b28d3",
+    "behavior_text": "User wants a simple translation",
+    "credibility": 0.79,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762102296,
+    "last_seen": 1762104875,
+    "prompt_history_ids": [
+      "prompt_1e62adee"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.95,
+    "session_id": "session_554",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9ff26ad1",
+    "behavior_text": "User is asking for a tech tip",
+    "credibility": 0.74,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762141911,
+    "last_seen": 1762145438,
+    "prompt_history_ids": [
+      "prompt_aaffb4d2"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.96,
+    "session_id": "session_561",
+    "user_id": "user_4_1765826173",
+    "domain": "technology",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9a7b4b44",
+    "behavior_text": "User is requesting a health tip",
+    "credibility": 0.86,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762225879,
+    "last_seen": 1762228364,
+    "prompt_history_ids": [
+      "prompt_e39109b2"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.93,
+    "session_id": "session_567",
+    "user_id": "user_4_1765826173",
+    "domain": "health",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d9353f2b",
+    "behavior_text": "User is asking for a sports score update",
+    "credibility": 0.86,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762308005,
+    "last_seen": 1762310811,
+    "prompt_history_ids": [
+      "prompt_78e88671"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.9,
+    "session_id": "session_893",
+    "user_id": "user_4_1765826173",
+    "domain": "sports",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_86568211",
+    "behavior_text": "User wants a travel suggestion",
+    "credibility": 0.89,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1762347274,
+    "last_seen": 1762348502,
+    "prompt_history_ids": [
+      "prompt_54825923"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.96,
+    "session_id": "session_766",
+    "user_id": "user_4_1765826173",
+    "domain": "travel",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_22e88314",
+    "behavior_text": "User asks about the weather forecast for tomorrow.",
+    "credibility": 0.76,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1762382647,
+    "last_seen": 1762382763,
+    "prompt_history_ids": [
+      "prompt_154cf0fa"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.8,
+    "session_id": "session_574",
+    "user_id": "user_4_1765826173",
+    "domain": "weather",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d497bb7d",
+    "behavior_text": "User requests a simple recipe for scrambled eggs.",
+    "credibility": 0.88,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762388668,
+    "last_seen": 1762392148,
+    "prompt_history_ids": [
+      "prompt_0dc6a94d"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.96,
+    "session_id": "session_447",
+    "user_id": "user_4_1765826173",
+    "domain": "cooking",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_af2c279e",
+    "behavior_text": "User inquires about the capital city of France.",
+    "credibility": 0.93,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1762470125,
+    "last_seen": 1762472276,
+    "prompt_history_ids": [
+      "prompt_db6d89b8"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.87,
+    "session_id": "session_897",
+    "user_id": "user_4_1765826173",
+    "domain": "geography",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5175c708",
+    "behavior_text": "User wants to know the current time in New York.",
+    "credibility": 0.89,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762541414,
+    "last_seen": 1762544551,
+    "prompt_history_ids": [
+      "prompt_dcc4a08a"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.92,
+    "session_id": "session_309",
+    "user_id": "user_4_1765826173",
+    "domain": "time",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_4ebad121",
+    "behavior_text": "User asks for a quick fact about the planet Mars.",
+    "credibility": 0.85,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762551516,
+    "last_seen": 1762553328,
+    "prompt_history_ids": [
+      "prompt_f961b9be"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.86,
+    "session_id": "session_238",
+    "user_id": "user_4_1765826173",
+    "domain": "space",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_77ebcb1d",
+    "behavior_text": "User requests a definition of the word 'photosynthesis'.",
+    "credibility": 0.73,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1762593897,
+    "last_seen": 1762596887,
+    "prompt_history_ids": [
+      "prompt_742f56d0"
+    ],
+    "clarity_score": 0.85,
+    "extraction_confidence": 0.96,
+    "session_id": "session_166",
+    "user_id": "user_4_1765826173",
+    "domain": "biology",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_047ba5ba",
+    "behavior_text": "User wants to know how to say 'hello' in Spanish.",
+    "credibility": 0.94,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1762663898,
+    "last_seen": 1762664887,
+    "prompt_history_ids": [
+      "prompt_03c8ae64"
+    ],
+    "clarity_score": 0.8,
+    "extraction_confidence": 0.99,
+    "session_id": "session_405",
+    "user_id": "user_4_1765826173",
+    "domain": "language",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_373bf576",
+    "behavior_text": "User asks for a simple math calculation: 7 times 8.",
+    "credibility": 0.74,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1762742465,
+    "last_seen": 1762743975,
+    "prompt_history_ids": [
+      "prompt_eb906bdf"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.81,
+    "session_id": "session_620",
+    "user_id": "user_4_1765826173",
+    "domain": "math",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_e6a72de2",
+    "behavior_text": "User inquires about the latest news headline.",
+    "credibility": 0.95,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1762765581,
+    "last_seen": 1762769147,
+    "prompt_history_ids": [
+      "prompt_81e3a089"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.87,
+    "session_id": "session_523",
+    "user_id": "user_4_1765826173",
+    "domain": "news",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_bf649d73",
+    "behavior_text": "User wants to know the name of the author of '1984'.",
+    "credibility": 0.85,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1762811763,
+    "last_seen": 1762812938,
+    "prompt_history_ids": [
+      "prompt_8916c866"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.87,
+    "session_id": "session_697",
+    "user_id": "user_4_1765826173",
+    "domain": "literature",
+    "expertise_level": "advanced"
+  }
+]

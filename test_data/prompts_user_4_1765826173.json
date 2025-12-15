@@ -1,0 +1,902 @@
+[
+  {
+    "prompt_id": "prompt_fc9cdb89",
+    "prompt_text": "What can I make for dinner with just eggs and bread?",
+    "timestamp": 1758050230,
+    "session_id": "session_415",
+    "tokens": 16.5,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_3edc4e8e",
+    "prompt_text": "What's 15 times 3?",
+    "timestamp": 1758058228,
+    "session_id": "session_614",
+    "tokens": 6.0,
+    "domain": "mathematics",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_d29187f7",
+    "prompt_text": "When did the Berlin Wall fall?",
+    "timestamp": 1758129298,
+    "session_id": "session_801",
+    "tokens": 9.0,
+    "domain": "history",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_337da1b2",
+    "prompt_text": "Is it going to rain tomorrow in New York?",
+    "timestamp": 1758162714,
+    "session_id": "session_450",
+    "tokens": 13.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_5b903f3b",
+    "prompt_text": "Suggest a good comedy movie to watch tonight",
+    "timestamp": 1758175222,
+    "session_id": "session_677",
+    "tokens": 12.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_b4557c5b",
+    "prompt_text": "How do I screenshot on a Mac?",
+    "timestamp": 1758193902,
+    "session_id": "session_238",
+    "tokens": 10.5,
+    "domain": "technology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_c0eaff16",
+    "prompt_text": "Best time to visit Paris?",
+    "timestamp": 1758211758,
+    "session_id": "session_971",
+    "tokens": 7.5,
+    "domain": "travel",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_92816c80",
+    "prompt_text": "Easy exercises to do at home?",
+    "timestamp": 1758222575,
+    "session_id": "session_364",
+    "tokens": 9.0,
+    "domain": "health & fitness",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_ccd2d44b",
+    "prompt_text": "How do you say 'thank you' in Japanese?",
+    "timestamp": 1758297949,
+    "session_id": "session_500",
+    "tokens": 12.0,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_e3c691a1",
+    "prompt_text": "What do pandas eat?",
+    "timestamp": 1758369447,
+    "session_id": "session_977",
+    "tokens": 6.0,
+    "domain": "animals",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_a96f22e7",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1758439464,
+    "session_id": "session_309",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_50174b4d",
+    "prompt_text": "How do I make scrambled eggs?",
+    "timestamp": 1758487022,
+    "session_id": "session_836",
+    "tokens": 9.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_f98e0d3b",
+    "prompt_text": "What's the capital of France?",
+    "timestamp": 1758512678,
+    "session_id": "session_199",
+    "tokens": 7.5,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_efde7628",
+    "prompt_text": "What time is it in New York?",
+    "timestamp": 1758538352,
+    "session_id": "session_179",
+    "tokens": 10.5,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_79d8711e",
+    "prompt_text": "Tell me a fact about Mars.",
+    "timestamp": 1758612735,
+    "session_id": "session_757",
+    "tokens": 9.0,
+    "domain": "space",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_95e2e360",
+    "prompt_text": "Define photosynthesis.",
+    "timestamp": 1758630080,
+    "session_id": "session_435",
+    "tokens": 3.0,
+    "domain": "biology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_5fea1ae1",
+    "prompt_text": "How do you say hello in Spanish?",
+    "timestamp": 1758693805,
+    "session_id": "session_942",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_9155d0c6",
+    "prompt_text": "What's 7 times 8?",
+    "timestamp": 1758737571,
+    "session_id": "session_928",
+    "tokens": 6.0,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_5fbaae85",
+    "prompt_text": "Suggest a good movie to watch.",
+    "timestamp": 1758771159,
+    "session_id": "session_483",
+    "tokens": 9.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_35e8db47",
+    "prompt_text": "What's the fastest land animal?",
+    "timestamp": 1758819337,
+    "session_id": "session_372",
+    "tokens": 7.5,
+    "domain": "animals",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_1407268a",
+    "prompt_text": "What can I make for dinner with just eggs and bread?",
+    "timestamp": 1758847631,
+    "session_id": "session_745",
+    "tokens": 16.5,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_a4cf748c",
+    "prompt_text": "What is 15 times 7?",
+    "timestamp": 1758908347,
+    "session_id": "session_207",
+    "tokens": 7.5,
+    "domain": "mathematics",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_68b2dadd",
+    "prompt_text": "Is it going to rain tomorrow in New York?",
+    "timestamp": 1758967141,
+    "session_id": "session_613",
+    "tokens": 13.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_8b3dc2b9",
+    "prompt_text": "Suggest a good comedy movie to watch tonight",
+    "timestamp": 1758997691,
+    "session_id": "session_268",
+    "tokens": 12.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_b2549804",
+    "prompt_text": "How many continents are there?",
+    "timestamp": 1759068880,
+    "session_id": "session_738",
+    "tokens": 7.5,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_72230f2b",
+    "prompt_text": "How do you say 'hello' in French?",
+    "timestamp": 1759129582,
+    "session_id": "session_898",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_38d98c4a",
+    "prompt_text": "How do I take a screenshot on Windows?",
+    "timestamp": 1759212450,
+    "session_id": "session_786",
+    "tokens": 12.0,
+    "domain": "technology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_e39bd71a",
+    "prompt_text": "What is a quick way to relieve a headache?",
+    "timestamp": 1759269448,
+    "session_id": "session_497",
+    "tokens": 13.5,
+    "domain": "health",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_8b9903cd",
+    "prompt_text": "Who won the last NBA game?",
+    "timestamp": 1759306739,
+    "session_id": "session_852",
+    "tokens": 9.0,
+    "domain": "sports",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_55663e61",
+    "prompt_text": "When did the first man land on the moon?",
+    "timestamp": 1759374408,
+    "session_id": "session_943",
+    "tokens": 13.5,
+    "domain": "history",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_ff70602e",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1759400067,
+    "session_id": "session_359",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_c9f51736",
+    "prompt_text": "How do I make scrambled eggs?",
+    "timestamp": 1759461605,
+    "session_id": "session_850",
+    "tokens": 9.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_1a141e42",
+    "prompt_text": "What's the capital of France?",
+    "timestamp": 1759511463,
+    "session_id": "session_168",
+    "tokens": 7.5,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_1866e8a6",
+    "prompt_text": "What time is it now?",
+    "timestamp": 1759518955,
+    "session_id": "session_903",
+    "tokens": 7.5,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_27fed081",
+    "prompt_text": "What's 15 times 3?",
+    "timestamp": 1759601235,
+    "session_id": "session_796",
+    "tokens": 6.0,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_6cbbabd0",
+    "prompt_text": "Define 'happiness'.",
+    "timestamp": 1759644199,
+    "session_id": "session_719",
+    "tokens": 3.0,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_f16ce495",
+    "prompt_text": "Suggest a good movie to watch.",
+    "timestamp": 1759697742,
+    "session_id": "session_738",
+    "tokens": 9.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_a36e8e45",
+    "prompt_text": "How do I tie a tie?",
+    "timestamp": 1759778342,
+    "session_id": "session_285",
+    "tokens": 9.0,
+    "domain": "fashion",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_c663eb5a",
+    "prompt_text": "Where is the closest gas station?",
+    "timestamp": 1759796631,
+    "session_id": "session_199",
+    "tokens": 9.0,
+    "domain": "navigation",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_df140532",
+    "prompt_text": "Tell me a fun fact about space.",
+    "timestamp": 1759828434,
+    "session_id": "session_992",
+    "tokens": 10.5,
+    "domain": "science",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_f5a2f055",
+    "prompt_text": "How do I make a peanut butter sandwich?",
+    "timestamp": 1759902668,
+    "session_id": "session_296",
+    "tokens": 12.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_b2753086",
+    "prompt_text": "What is 15 times 3?",
+    "timestamp": 1759972918,
+    "session_id": "session_551",
+    "tokens": 7.5,
+    "domain": "mathematics",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_e3bd090d",
+    "prompt_text": "Is it raining in New York right now?",
+    "timestamp": 1760009558,
+    "session_id": "session_414",
+    "tokens": 12.0,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_8b791d4d",
+    "prompt_text": "Suggest a good comedy movie",
+    "timestamp": 1760057407,
+    "session_id": "session_588",
+    "tokens": 7.5,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_ae5f75c8",
+    "prompt_text": "What does 'photosynthesis' mean?",
+    "timestamp": 1760101985,
+    "session_id": "session_390",
+    "tokens": 6.0,
+    "domain": "science",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_dbb7ca13",
+    "prompt_text": "Who was the first president of the USA?",
+    "timestamp": 1760150284,
+    "session_id": "session_516",
+    "tokens": 12.0,
+    "domain": "history",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_92c8ba22",
+    "prompt_text": "Best time to visit Paris?",
+    "timestamp": 1760175155,
+    "session_id": "session_649",
+    "tokens": 7.5,
+    "domain": "travel",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_8b7183e7",
+    "prompt_text": "How to restart my iPhone?",
+    "timestamp": 1760241297,
+    "session_id": "session_775",
+    "tokens": 7.5,
+    "domain": "technology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_eabdfcfc",
+    "prompt_text": "Easy exercises for beginners",
+    "timestamp": 1760303873,
+    "session_id": "session_244",
+    "tokens": 6.0,
+    "domain": "fitness",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_bc9d352a",
+    "prompt_text": "How to say 'hello' in Spanish?",
+    "timestamp": 1760357135,
+    "session_id": "session_975",
+    "tokens": 9.0,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_bf8b9051",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1760426758,
+    "session_id": "session_527",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_56d8f8d2",
+    "prompt_text": "How do I make scrambled eggs?",
+    "timestamp": 1760460748,
+    "session_id": "session_709",
+    "tokens": 9.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_70d201c7",
+    "prompt_text": "What's the capital of France?",
+    "timestamp": 1760539093,
+    "session_id": "session_199",
+    "tokens": 7.5,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_a51d0e6e",
+    "prompt_text": "What time is it in New York now?",
+    "timestamp": 1760576706,
+    "session_id": "session_426",
+    "tokens": 12.0,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_5a014fad",
+    "prompt_text": "Tell me a fact about Mars.",
+    "timestamp": 1760621851,
+    "session_id": "session_840",
+    "tokens": 9.0,
+    "domain": "space",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_cf5bb431",
+    "prompt_text": "What does photosynthesis mean?",
+    "timestamp": 1760654465,
+    "session_id": "session_957",
+    "tokens": 6.0,
+    "domain": "biology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_4ea1ab8e",
+    "prompt_text": "How do you say hello in Spanish?",
+    "timestamp": 1760675751,
+    "session_id": "session_436",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_76768770",
+    "prompt_text": "What's 7 times 8?",
+    "timestamp": 1760732637,
+    "session_id": "session_374",
+    "tokens": 6.0,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_9f891160",
+    "prompt_text": "Suggest a good movie to watch.",
+    "timestamp": 1760818148,
+    "session_id": "session_874",
+    "tokens": 9.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_55c9e968",
+    "prompt_text": "What's the fastest land animal?",
+    "timestamp": 1760862143,
+    "session_id": "session_199",
+    "tokens": 7.5,
+    "domain": "animals",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_7cbbd88c",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1760917535,
+    "session_id": "session_253",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_9532abf9",
+    "prompt_text": "How do I make scrambled eggs?",
+    "timestamp": 1760980507,
+    "session_id": "session_219",
+    "tokens": 9.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_40b4231b",
+    "prompt_text": "What is the capital of France?",
+    "timestamp": 1761016524,
+    "session_id": "session_400",
+    "tokens": 9.0,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_432ae1b8",
+    "prompt_text": "What time is it in New York now?",
+    "timestamp": 1761024830,
+    "session_id": "session_351",
+    "tokens": 12.0,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_b2009045",
+    "prompt_text": "Tell me a fact about Mars.",
+    "timestamp": 1761083368,
+    "session_id": "session_708",
+    "tokens": 9.0,
+    "domain": "space",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_af832a91",
+    "prompt_text": "What does photosynthesis mean?",
+    "timestamp": 1761162308,
+    "session_id": "session_445",
+    "tokens": 6.0,
+    "domain": "biology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_cf71b879",
+    "prompt_text": "How do you say hello in Spanish?",
+    "timestamp": 1761166839,
+    "session_id": "session_969",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_a3bfaecb",
+    "prompt_text": "What is 7 times 8?",
+    "timestamp": 1761236216,
+    "session_id": "session_175",
+    "tokens": 7.5,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_dd5a18b3",
+    "prompt_text": "Who wrote the book 1984?",
+    "timestamp": 1761287411,
+    "session_id": "session_761",
+    "tokens": 7.5,
+    "domain": "literature",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_755af0c3",
+    "prompt_text": "What is the fastest land animal?",
+    "timestamp": 1761298187,
+    "session_id": "session_193",
+    "tokens": 9.0,
+    "domain": "animals",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_31e3905f",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1761360186,
+    "session_id": "session_437",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_74442c1e",
+    "prompt_text": "How do I make pancakes?",
+    "timestamp": 1761394873,
+    "session_id": "session_773",
+    "tokens": 7.5,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_796aa235",
+    "prompt_text": "What is the capital of France?",
+    "timestamp": 1761449872,
+    "session_id": "session_174",
+    "tokens": 9.0,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_27899d36",
+    "prompt_text": "What time is it now?",
+    "timestamp": 1761507957,
+    "session_id": "session_392",
+    "tokens": 7.5,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_08ead53e",
+    "prompt_text": "What is 15 times 3?",
+    "timestamp": 1761581443,
+    "session_id": "session_584",
+    "tokens": 7.5,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_2c58656d",
+    "prompt_text": "Define 'happiness'.",
+    "timestamp": 1761585464,
+    "session_id": "session_445",
+    "tokens": 3.0,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_f00b806f",
+    "prompt_text": "Tell me today's top news.",
+    "timestamp": 1761625719,
+    "session_id": "session_263",
+    "tokens": 7.5,
+    "domain": "news",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_ce217e92",
+    "prompt_text": "Suggest a good movie to watch.",
+    "timestamp": 1761675681,
+    "session_id": "session_340",
+    "tokens": 9.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_1bcab119",
+    "prompt_text": "What does 'LOL' stand for?",
+    "timestamp": 1761707924,
+    "session_id": "session_455",
+    "tokens": 7.5,
+    "domain": "internet slang",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_0d0aa41e",
+    "prompt_text": "How do you say hello in Spanish?",
+    "timestamp": 1761761358,
+    "session_id": "session_545",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_52dd393d",
+    "prompt_text": "What can I make for dinner with just eggs and bread?",
+    "timestamp": 1761835376,
+    "session_id": "session_508",
+    "tokens": 16.5,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_e354d15c",
+    "prompt_text": "What's 15 times 7?",
+    "timestamp": 1761914322,
+    "session_id": "session_416",
+    "tokens": 6.0,
+    "domain": "mathematics",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_225297e8",
+    "prompt_text": "Is it going to rain tomorrow in New York?",
+    "timestamp": 1761953087,
+    "session_id": "session_781",
+    "tokens": 13.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_671ecb64",
+    "prompt_text": "Suggest a good comedy movie to watch tonight",
+    "timestamp": 1761982507,
+    "session_id": "session_987",
+    "tokens": 12.0,
+    "domain": "entertainment",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_166a824f",
+    "prompt_text": "How many continents are there?",
+    "timestamp": 1762035438,
+    "session_id": "session_712",
+    "tokens": 7.5,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_1e62adee",
+    "prompt_text": "How do you say 'hello' in French?",
+    "timestamp": 1762102296,
+    "session_id": "session_554",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_aaffb4d2",
+    "prompt_text": "How do I take a screenshot on Windows?",
+    "timestamp": 1762141911,
+    "session_id": "session_561",
+    "tokens": 12.0,
+    "domain": "technology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_e39109b2",
+    "prompt_text": "What is a quick way to relieve a headache?",
+    "timestamp": 1762225879,
+    "session_id": "session_567",
+    "tokens": 13.5,
+    "domain": "health",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_78e88671",
+    "prompt_text": "Who won the last NBA game?",
+    "timestamp": 1762308005,
+    "session_id": "session_893",
+    "tokens": 9.0,
+    "domain": "sports",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_54825923",
+    "prompt_text": "Name a cheap place to visit in Europe",
+    "timestamp": 1762347274,
+    "session_id": "session_766",
+    "tokens": 12.0,
+    "domain": "travel",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_154cf0fa",
+    "prompt_text": "What's the weather like tomorrow?",
+    "timestamp": 1762382647,
+    "session_id": "session_574",
+    "tokens": 7.5,
+    "domain": "weather",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_0dc6a94d",
+    "prompt_text": "How do I make scrambled eggs?",
+    "timestamp": 1762388668,
+    "session_id": "session_447",
+    "tokens": 9.0,
+    "domain": "cooking",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_db6d89b8",
+    "prompt_text": "What is the capital of France?",
+    "timestamp": 1762470125,
+    "session_id": "session_897",
+    "tokens": 9.0,
+    "domain": "geography",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_dcc4a08a",
+    "prompt_text": "What time is it in New York now?",
+    "timestamp": 1762541414,
+    "session_id": "session_309",
+    "tokens": 12.0,
+    "domain": "time",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_f961b9be",
+    "prompt_text": "Tell me a fact about Mars.",
+    "timestamp": 1762551516,
+    "session_id": "session_238",
+    "tokens": 9.0,
+    "domain": "space",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_742f56d0",
+    "prompt_text": "Define photosynthesis.",
+    "timestamp": 1762593897,
+    "session_id": "session_166",
+    "tokens": 3.0,
+    "domain": "biology",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_03c8ae64",
+    "prompt_text": "How do you say hello in Spanish?",
+    "timestamp": 1762663898,
+    "session_id": "session_405",
+    "tokens": 10.5,
+    "domain": "language",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_eb906bdf",
+    "prompt_text": "What is 7 times 8?",
+    "timestamp": 1762742465,
+    "session_id": "session_620",
+    "tokens": 7.5,
+    "domain": "math",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_81e3a089",
+    "prompt_text": "What's the latest news?",
+    "timestamp": 1762765581,
+    "session_id": "session_523",
+    "tokens": 6.0,
+    "domain": "news",
+    "user_id": "user_4_1765826173"
+  },
+  {
+    "prompt_id": "prompt_8916c866",
+    "prompt_text": "Who wrote 1984?",
+    "timestamp": 1762811763,
+    "session_id": "session_697",
+    "tokens": 4.5,
+    "domain": "literature",
+    "user_id": "user_4_1765826173"
+  }
+]

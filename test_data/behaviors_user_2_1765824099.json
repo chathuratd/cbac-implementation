@@ -1,0 +1,902 @@
+[
+  {
+    "behavior_id": "beh_4744406e",
+    "behavior_text": "The Senior DevOps Engineer troubleshoots a failing Kubernetes deployment by analyzing pod logs and events.",
+    "credibility": 0.92,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758048137,
+    "last_seen": 1758051336,
+    "prompt_history_ids": [
+      "prompt_540559c4"
+    ],
+    "clarity_score": 0.88,
+    "extraction_confidence": 0.86,
+    "session_id": "session_659",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c8a5dfe0",
+    "behavior_text": "The Senior DevOps Engineer optimizes Kubernetes cluster resource allocation to improve application performance.",
+    "credibility": 0.7,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758109931,
+    "last_seen": 1758110422,
+    "prompt_history_ids": [
+      "prompt_e5d75f13"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.83,
+    "session_id": "session_730",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_0e483cec",
+    "behavior_text": "The Senior DevOps Engineer automates Kubernetes cluster upgrades with minimal downtime.",
+    "credibility": 0.74,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758128575,
+    "last_seen": 1758131442,
+    "prompt_history_ids": [
+      "prompt_9457dde1"
+    ],
+    "clarity_score": 0.84,
+    "extraction_confidence": 0.95,
+    "session_id": "session_421",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_0a20ec5c",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes network policies to enhance pod security.",
+    "credibility": 0.89,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758175995,
+    "last_seen": 1758179489,
+    "prompt_history_ids": [
+      "prompt_8b3101a8"
+    ],
+    "clarity_score": 0.75,
+    "extraction_confidence": 0.8,
+    "session_id": "session_232",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_3fdf78f8",
+    "behavior_text": "The Senior DevOps Engineer implements CI/CD pipelines integrating Kubernetes deployments.",
+    "credibility": 0.91,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758184760,
+    "last_seen": 1758185395,
+    "prompt_history_ids": [
+      "prompt_0de80dd8"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.82,
+    "session_id": "session_369",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_094ed6e6",
+    "behavior_text": "The Senior DevOps Engineer monitors Kubernetes cluster health using Prometheus and Grafana.",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1758239480,
+    "last_seen": 1758241186,
+    "prompt_history_ids": [
+      "prompt_a85b2b5a"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.95,
+    "session_id": "session_648",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_7e71f4d7",
+    "behavior_text": "The Senior DevOps Engineer manages Kubernetes secrets securely across multiple environments.",
+    "credibility": 0.71,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758289491,
+    "last_seen": 1758292480,
+    "prompt_history_ids": [
+      "prompt_7c85ae78"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.96,
+    "session_id": "session_769",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_a35111f6",
+    "behavior_text": "The Senior DevOps Engineer designs a multi-tenant Kubernetes cluster with proper namespace isolation.",
+    "credibility": 0.77,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758352640,
+    "last_seen": 1758354897,
+    "prompt_history_ids": [
+      "prompt_93f7b5f5"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.91,
+    "session_id": "session_392",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_7d100849",
+    "behavior_text": "The Senior DevOps Engineer debugs persistent volume claim issues in Kubernetes stateful applications.",
+    "credibility": 0.91,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758395512,
+    "last_seen": 1758398855,
+    "prompt_history_ids": [
+      "prompt_32cc22b4"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.97,
+    "session_id": "session_189",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_c99397c1",
+    "behavior_text": "The Senior DevOps Engineer evaluates Kubernetes autoscaling options to handle variable workloads.",
+    "credibility": 0.91,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758459974,
+    "last_seen": 1758460948,
+    "prompt_history_ids": [
+      "prompt_8bfd0062"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.93,
+    "session_id": "session_768",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_9c90d469",
+    "behavior_text": "The Senior DevOps Engineer troubleshoots a failing Kubernetes deployment by analyzing pod logs and events.",
+    "credibility": 0.86,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758511968,
+    "last_seen": 1758512788,
+    "prompt_history_ids": [
+      "prompt_4edc6b3c"
+    ],
+    "clarity_score": 0.99,
+    "extraction_confidence": 0.93,
+    "session_id": "session_314",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_d2c56d31",
+    "behavior_text": "The Senior DevOps Engineer optimizes Kubernetes cluster resource allocation to improve application performance.",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758574957,
+    "last_seen": 1758576946,
+    "prompt_history_ids": [
+      "prompt_33266749"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.95,
+    "session_id": "session_809",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_0ac78baa",
+    "behavior_text": "The Senior DevOps Engineer automates Kubernetes cluster upgrades with minimal downtime.",
+    "credibility": 0.85,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758643442,
+    "last_seen": 1758645241,
+    "prompt_history_ids": [
+      "prompt_f6b895c2"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.91,
+    "session_id": "session_595",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_dd9da387",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes network policies to enhance pod security.",
+    "credibility": 0.83,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758716379,
+    "last_seen": 1758718343,
+    "prompt_history_ids": [
+      "prompt_369b61a8"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.99,
+    "session_id": "session_219",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_e88a6825",
+    "behavior_text": "The Senior DevOps Engineer implements CI/CD pipelines integrating Kubernetes deployments.",
+    "credibility": 0.71,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758797467,
+    "last_seen": 1758800988,
+    "prompt_history_ids": [
+      "prompt_3ad989af"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.94,
+    "session_id": "session_216",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_2619366c",
+    "behavior_text": "The Senior DevOps Engineer monitors Kubernetes cluster health using Prometheus and Grafana.",
+    "credibility": 0.87,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1758804669,
+    "last_seen": 1758805280,
+    "prompt_history_ids": [
+      "prompt_ffe1915b"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.88,
+    "session_id": "session_551",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_8de3347a",
+    "behavior_text": "The Senior DevOps Engineer manages Kubernetes secrets securely across multiple environments.",
+    "credibility": 0.86,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1758836586,
+    "last_seen": 1758840177,
+    "prompt_history_ids": [
+      "prompt_8a9d9500"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.91,
+    "session_id": "session_224",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "novice"
+  },
+  {
+    "behavior_id": "beh_56a5bc8a",
+    "behavior_text": "The Senior DevOps Engineer designs a multi-tenant Kubernetes cluster with namespace isolation.",
+    "credibility": 0.8,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1758900051,
+    "last_seen": 1758903421,
+    "prompt_history_ids": [
+      "prompt_e70d01a8"
+    ],
+    "clarity_score": 0.78,
+    "extraction_confidence": 0.92,
+    "session_id": "session_706",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_bcc9cfde",
+    "behavior_text": "The Senior DevOps Engineer debugs persistent volume claim issues in Kubernetes storage.",
+    "credibility": 0.74,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758945148,
+    "last_seen": 1758947072,
+    "prompt_history_ids": [
+      "prompt_1e4ed8b2"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.98,
+    "session_id": "session_564",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_ba4a37ca",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes ingress controllers for secure external access.",
+    "credibility": 0.78,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1758968773,
+    "last_seen": 1758971582,
+    "prompt_history_ids": [
+      "prompt_0af2fd29"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.85,
+    "session_id": "session_354",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_3711fe71",
+    "behavior_text": "The Senior DevOps Engineer troubleshoots a failing Kubernetes deployment by checking pod logs and events.",
+    "credibility": 0.94,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1759051657,
+    "last_seen": 1759052956,
+    "prompt_history_ids": [
+      "prompt_60b5a023"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.9,
+    "session_id": "session_793",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_5cdbaa3f",
+    "behavior_text": "The Senior DevOps Engineer optimizes Kubernetes cluster resource allocation to improve performance.",
+    "credibility": 0.8,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759076026,
+    "last_seen": 1759077227,
+    "prompt_history_ids": [
+      "prompt_cb81e7bd"
+    ],
+    "clarity_score": 0.87,
+    "extraction_confidence": 0.98,
+    "session_id": "session_809",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_800c1ce1",
+    "behavior_text": "The Senior DevOps Engineer automates Kubernetes cluster upgrades with minimal downtime.",
+    "credibility": 0.81,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759145609,
+    "last_seen": 1759148322,
+    "prompt_history_ids": [
+      "prompt_9165c31f"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.95,
+    "session_id": "session_525",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_249be6c5",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes network policies to enhance security between pods.",
+    "credibility": 0.93,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759182800,
+    "last_seen": 1759184021,
+    "prompt_history_ids": [
+      "prompt_eb31c9b5"
+    ],
+    "clarity_score": 0.81,
+    "extraction_confidence": 0.86,
+    "session_id": "session_209",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_bf95793e",
+    "behavior_text": "The Senior DevOps Engineer sets up monitoring and alerting for Kubernetes clusters using Prometheus and Grafana.",
+    "credibility": 0.94,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759257093,
+    "last_seen": 1759259610,
+    "prompt_history_ids": [
+      "prompt_21bba9d9"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.86,
+    "session_id": "session_604",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_626decf5",
+    "behavior_text": "The Senior DevOps Engineer manages Kubernetes secrets securely and integrates them with CI/CD pipelines.",
+    "credibility": 0.79,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759303630,
+    "last_seen": 1759306276,
+    "prompt_history_ids": [
+      "prompt_6a5c69c2"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.97,
+    "session_id": "session_439",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_8b1bdac0",
+    "behavior_text": "The Senior DevOps Engineer debugs persistent volume claim issues in Kubernetes storage.",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759387001,
+    "last_seen": 1759390489,
+    "prompt_history_ids": [
+      "prompt_fa176b73"
+    ],
+    "clarity_score": 0.74,
+    "extraction_confidence": 0.97,
+    "session_id": "session_520",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_320853a9",
+    "behavior_text": "The Senior DevOps Engineer implements Helm charts to simplify Kubernetes application deployments.",
+    "credibility": 0.75,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1759471629,
+    "last_seen": 1759472499,
+    "prompt_history_ids": [
+      "prompt_151608bf"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.85,
+    "session_id": "session_159",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_4f3abba2",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes RBAC to enforce least privilege access controls.",
+    "credibility": 0.89,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759482313,
+    "last_seen": 1759485298,
+    "prompt_history_ids": [
+      "prompt_96789ac7"
+    ],
+    "clarity_score": 0.77,
+    "extraction_confidence": 0.95,
+    "session_id": "session_672",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_d3ee31d5",
+    "behavior_text": "The Senior DevOps Engineer integrates Kubernetes with cloud provider services for scalability and resilience.",
+    "credibility": 0.72,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759545349,
+    "last_seen": 1759548407,
+    "prompt_history_ids": [
+      "prompt_5cde721a"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.92,
+    "session_id": "session_446",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_f23af259",
+    "behavior_text": "The Senior DevOps Engineer troubleshoots a failing Kubernetes deployment by analyzing pod logs and events.",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759608861,
+    "last_seen": 1759612221,
+    "prompt_history_ids": [
+      "prompt_ce01b8f9"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.81,
+    "session_id": "session_757",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_a3278b6b",
+    "behavior_text": "The Senior DevOps Engineer optimizes Kubernetes cluster resource allocation to improve application performance.",
+    "credibility": 0.87,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759613821,
+    "last_seen": 1759617200,
+    "prompt_history_ids": [
+      "prompt_bbb592db"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.81,
+    "session_id": "session_683",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_4a46e4ac",
+    "behavior_text": "The Senior DevOps Engineer automates Kubernetes cluster upgrades with minimal downtime.",
+    "credibility": 0.84,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759661757,
+    "last_seen": 1759663987,
+    "prompt_history_ids": [
+      "prompt_23e743b6"
+    ],
+    "clarity_score": 0.95,
+    "extraction_confidence": 0.8,
+    "session_id": "session_836",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "intermediate"
+  },
+  {
+    "behavior_id": "beh_c37463f3",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes network policies to enhance pod security.",
+    "credibility": 0.94,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759724720,
+    "last_seen": 1759728060,
+    "prompt_history_ids": [
+      "prompt_fcc1e035"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.98,
+    "session_id": "session_707",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a23fdcbe",
+    "behavior_text": "The Senior DevOps Engineer sets up monitoring and alerting for Kubernetes clusters using Prometheus and Grafana.",
+    "credibility": 0.71,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1759786950,
+    "last_seen": 1759788249,
+    "prompt_history_ids": [
+      "prompt_40ad272f"
+    ],
+    "clarity_score": 0.89,
+    "extraction_confidence": 0.97,
+    "session_id": "session_387",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d3c43644",
+    "behavior_text": "The Senior DevOps Engineer implements CI/CD pipelines for Kubernetes deployments using Jenkins and Helm charts.",
+    "credibility": 0.9,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759807243,
+    "last_seen": 1759809965,
+    "prompt_history_ids": [
+      "prompt_dd4e747f"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.95,
+    "session_id": "session_349",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_8d4f3659",
+    "behavior_text": "The Senior DevOps Engineer manages Kubernetes secrets securely using external secret management tools.",
+    "credibility": 0.73,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1759844776,
+    "last_seen": 1759845067,
+    "prompt_history_ids": [
+      "prompt_d9280ade"
+    ],
+    "clarity_score": 0.83,
+    "extraction_confidence": 0.96,
+    "session_id": "session_345",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_d14320de",
+    "behavior_text": "The Senior DevOps Engineer designs a multi-cluster Kubernetes architecture for high availability and disaster recovery.",
+    "credibility": 0.76,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759889190,
+    "last_seen": 1759889687,
+    "prompt_history_ids": [
+      "prompt_ef524f8c"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.9,
+    "session_id": "session_646",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_a7805347",
+    "behavior_text": "The Senior DevOps Engineer debugs Kubernetes ingress controller issues affecting external traffic routing.",
+    "credibility": 0.84,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1759950869,
+    "last_seen": 1759952707,
+    "prompt_history_ids": [
+      "prompt_927da76d"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.85,
+    "session_id": "session_669",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_331f26ae",
+    "behavior_text": "The Senior DevOps Engineer evaluates Kubernetes storage options for stateful applications.",
+    "credibility": 0.82,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760031838,
+    "last_seen": 1760032529,
+    "prompt_history_ids": [
+      "prompt_874cc413"
+    ],
+    "clarity_score": 0.76,
+    "extraction_confidence": 0.8,
+    "session_id": "session_543",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_c5f515fc",
+    "behavior_text": "The Senior DevOps Engineer troubleshoots a failing Kubernetes deployment by checking pod logs and events.",
+    "credibility": 0.74,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760101385,
+    "last_seen": 1760104740,
+    "prompt_history_ids": [
+      "prompt_b5772c47"
+    ],
+    "clarity_score": 0.72,
+    "extraction_confidence": 0.87,
+    "session_id": "session_415",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_e1f4c161",
+    "behavior_text": "The Senior DevOps Engineer optimizes Kubernetes cluster resource allocation to improve performance.",
+    "credibility": 0.76,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760147420,
+    "last_seen": 1760149718,
+    "prompt_history_ids": [
+      "prompt_460351c7"
+    ],
+    "clarity_score": 0.91,
+    "extraction_confidence": 0.88,
+    "session_id": "session_487",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_4cd8ceb8",
+    "behavior_text": "The Senior DevOps Engineer automates Kubernetes cluster upgrades with minimal downtime.",
+    "credibility": 0.89,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760156601,
+    "last_seen": 1760159735,
+    "prompt_history_ids": [
+      "prompt_e3c6f584"
+    ],
+    "clarity_score": 0.92,
+    "extraction_confidence": 0.96,
+    "session_id": "session_229",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_5a970bfa",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes network policies to enhance security between pods.",
+    "credibility": 0.8,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760227063,
+    "last_seen": 1760227862,
+    "prompt_history_ids": [
+      "prompt_23962374"
+    ],
+    "clarity_score": 0.98,
+    "extraction_confidence": 0.83,
+    "session_id": "session_666",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_458bcd01",
+    "behavior_text": "The Senior DevOps Engineer sets up monitoring and alerting for Kubernetes clusters using Prometheus and Grafana.",
+    "credibility": 0.81,
+    "reinforcement_count": 1,
+    "decay_rate": 0.01,
+    "created_at": 1760296109,
+    "last_seen": 1760299525,
+    "prompt_history_ids": [
+      "prompt_ccef6a4e"
+    ],
+    "clarity_score": 0.73,
+    "extraction_confidence": 0.88,
+    "session_id": "session_495",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_f9950599",
+    "behavior_text": "The Senior DevOps Engineer manages Kubernetes secrets securely and integrates them with CI/CD pipelines.",
+    "credibility": 0.72,
+    "reinforcement_count": 4,
+    "decay_rate": 0.01,
+    "created_at": 1760378238,
+    "last_seen": 1760379177,
+    "prompt_history_ids": [
+      "prompt_619a6820"
+    ],
+    "clarity_score": 0.79,
+    "extraction_confidence": 0.91,
+    "session_id": "session_446",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_6a795305",
+    "behavior_text": "The Senior DevOps Engineer debugs persistent volume claims that fail to bind in Kubernetes.",
+    "credibility": 0.88,
+    "reinforcement_count": 2,
+    "decay_rate": 0.01,
+    "created_at": 1760441973,
+    "last_seen": 1760445089,
+    "prompt_history_ids": [
+      "prompt_460b1816"
+    ],
+    "clarity_score": 0.96,
+    "extraction_confidence": 0.87,
+    "session_id": "session_561",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9ac3feaf",
+    "behavior_text": "The Senior DevOps Engineer implements Helm charts to standardize Kubernetes application deployments.",
+    "credibility": 0.91,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760479186,
+    "last_seen": 1760481090,
+    "prompt_history_ids": [
+      "prompt_585f8cea"
+    ],
+    "clarity_score": 0.93,
+    "extraction_confidence": 0.91,
+    "session_id": "session_359",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_9a518561",
+    "behavior_text": "The Senior DevOps Engineer configures Kubernetes ingress controllers to manage external access to services.",
+    "credibility": 0.89,
+    "reinforcement_count": 5,
+    "decay_rate": 0.01,
+    "created_at": 1760537201,
+    "last_seen": 1760537683,
+    "prompt_history_ids": [
+      "prompt_87c73e00"
+    ],
+    "clarity_score": 0.82,
+    "extraction_confidence": 0.82,
+    "session_id": "session_865",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  },
+  {
+    "behavior_id": "beh_6d81d249",
+    "behavior_text": "The Senior DevOps Engineer evaluates Kubernetes cluster autoscaling options to handle variable workloads.",
+    "credibility": 0.82,
+    "reinforcement_count": 3,
+    "decay_rate": 0.01,
+    "created_at": 1760551700,
+    "last_seen": 1760552585,
+    "prompt_history_ids": [
+      "prompt_c654692a"
+    ],
+    "clarity_score": 0.86,
+    "extraction_confidence": 0.86,
+    "session_id": "session_110",
+    "user_id": "user_2_1765824099",
+    "domain": "kubernetes",
+    "expertise_level": "advanced"
+  }
+]
