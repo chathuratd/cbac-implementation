@@ -2,9 +2,9 @@
   "user_id": "user_4_1765826173",
   "core_behaviors": [
     {
-      "core_behavior_id": "core_user_4_1765826173_0_d1468b9a",
+      "core_behavior_id": "core_user_4_1765826173_0_de225459",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User demonstrates deep and iterative engagement in cooking at novice level (based on 4 related behaviors)",
+      "generalized_statement": "User consistently asks for quick recipe ideas to prepare meals efficiently.",
       "confidence_score": 0.8211537728379892,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -24,9 +24,9 @@
       },
       "status": "Active",
       "stability_score": 0.6147128597994533,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_9638b49b",
         "beh_53be4594",
@@ -42,13 +42,15 @@
         "avg_credibility": 0.8474999999999999,
         "avg_clarity_score": 0.78,
         "temporal_stability": 0.6147128597994533,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 5,
+        "original_behavior_count": 5
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_1_bf718d12",
+      "core_behavior_id": "core_user_4_1765826173_1_4a15317b",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in weather at novice level (based on 4 related behaviors)",
+      "generalized_statement": "User consistently requests weather updates and information to stay informed about current conditions and forecasts.",
       "confidence_score": 0.748910706858544,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -68,9 +70,9 @@
       },
       "status": "Active",
       "stability_score": 0.6123012757318962,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_a1666a3a",
         "beh_579efc17",
@@ -86,13 +88,15 @@
         "avg_credibility": 0.8124999999999999,
         "avg_clarity_score": 0.8300000000000001,
         "temporal_stability": 0.6123012757318962,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 6,
+        "original_behavior_count": 6
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_2_228d89cd",
+      "core_behavior_id": "core_user_4_1765826173_2_8da2a894",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in entertainment at novice level (based on 8 related behaviors)",
+      "generalized_statement": "User consistently requests movie recommendations, often specifically for popular films.",
       "confidence_score": 0.787520434549122,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -112,9 +116,9 @@
       },
       "status": "Active",
       "stability_score": 0.5832927501782874,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_e3d76735",
         "beh_d9ab4319",
@@ -134,13 +138,15 @@
         "avg_credibility": 0.835,
         "avg_clarity_score": 0.79875,
         "temporal_stability": 0.5832927501782874,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 8,
+        "original_behavior_count": 8
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_5_7c86a96a",
+      "core_behavior_id": "core_user_4_1765826173_5_dfb64531",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User demonstrates deep and iterative engagement in language at novice level (based on 4 related behaviors)",
+      "generalized_statement": "User requests simple and quick language translations for effective communication.",
       "confidence_score": 0.8226613773652098,
       "confidence_grade": "High",
       "confidence_components": {
@@ -160,9 +166,9 @@
       },
       "status": "Active",
       "stability_score": 0.7040544304068386,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_76d37d78",
         "beh_0dba3f29",
@@ -178,13 +184,15 @@
         "avg_credibility": 0.8525,
         "avg_clarity_score": 0.8375,
         "temporal_stability": 0.7040544304068386,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_6_95af1c3e",
+      "core_behavior_id": "core_user_4_1765826173_6_1a2b2292",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in weather at novice level (based on 6 related behaviors)",
+      "generalized_statement": "User repeatedly asks about the weather forecast for tomorrow to plan daily activities.",
       "confidence_score": 0.8348861013383815,
       "confidence_grade": "High",
       "confidence_components": {
@@ -204,9 +212,9 @@
       },
       "status": "Active",
       "stability_score": 0.6655636463865517,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_41edc220",
         "beh_b0c4e825",
@@ -224,13 +232,15 @@
         "avg_credibility": 0.8316666666666666,
         "avg_clarity_score": 0.8683333333333333,
         "temporal_stability": 0.6655636463865517,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 6,
+        "original_behavior_count": 6
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_7_f22ff9c6",
+      "core_behavior_id": "core_user_4_1765826173_7_7e4c3b30",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User demonstrates deep and iterative engagement in cooking at novice level (based on 5 related behaviors)",
+      "generalized_statement": "User repeatedly requests simple recipes for scrambled eggs, indicating a focus on easy breakfast preparation.",
       "confidence_score": 0.8515395950636582,
       "confidence_grade": "High",
       "confidence_components": {
@@ -250,9 +260,9 @@
       },
       "status": "Active",
       "stability_score": 0.6786309400022398,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_0a110f56",
         "beh_b06f43a7",
@@ -269,13 +279,15 @@
         "avg_credibility": 0.858,
         "avg_clarity_score": 0.924,
         "temporal_stability": 0.6786309400022398,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 5,
+        "original_behavior_count": 5
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_8_54e41bdf",
+      "core_behavior_id": "core_user_4_1765826173_8_97ec5467",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in geography at novice level (based on 6 related behaviors)",
+      "generalized_statement": "User repeatedly inquires about the capital city of France.",
       "confidence_score": 0.8304259522951305,
       "confidence_grade": "High",
       "confidence_components": {
@@ -295,9 +307,9 @@
       },
       "status": "Active",
       "stability_score": 0.6521858624761397,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_4499a154",
         "beh_84a8dcd8",
@@ -315,13 +327,15 @@
         "avg_credibility": 0.9016666666666665,
         "avg_clarity_score": 0.8716666666666667,
         "temporal_stability": 0.6521858624761397,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 6,
+        "original_behavior_count": 6
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_9_058e230a",
+      "core_behavior_id": "core_user_4_1765826173_9_9671e4a5",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in time at intermediate level (based on 4 related behaviors)",
+      "generalized_statement": "User repeatedly asks for the current time in New York.",
       "confidence_score": 0.8060341225175488,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -341,9 +355,9 @@
       },
       "status": "Active",
       "stability_score": 0.5040827192686043,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_dc4c7049",
         "beh_fb091b1b",
@@ -359,13 +373,15 @@
         "avg_credibility": 0.85,
         "avg_clarity_score": 0.8350000000000001,
         "temporal_stability": 0.5040827192686043,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_10_84e6437d",
+      "core_behavior_id": "core_user_4_1765826173_10_d3ecd1da",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User demonstrates deep and iterative engagement in space at intermediate level (based on 4 related behaviors)",
+      "generalized_statement": "User repeatedly asks for quick facts about the planet Mars.",
       "confidence_score": 0.8174400044170468,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -385,9 +401,9 @@
       },
       "status": "Active",
       "stability_score": 0.5123783986546476,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_c6b6f149",
         "beh_67db56e2",
@@ -403,13 +419,15 @@
         "avg_credibility": 0.8450000000000001,
         "avg_clarity_score": 0.7724999999999999,
         "temporal_stability": 0.5123783986546476,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_11_f88c6f74",
+      "core_behavior_id": "core_user_4_1765826173_11_40676e48",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in biology at intermediate level (based on 4 related behaviors)",
+      "generalized_statement": "User repeatedly requests the definition of the term 'photosynthesis' for clarification and understanding.",
       "confidence_score": 0.7677105724055195,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -429,9 +447,9 @@
       },
       "status": "Active",
       "stability_score": 0.5282713400115764,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_44e8187b",
         "beh_a270a9ee",
@@ -447,13 +465,15 @@
         "avg_credibility": 0.78,
         "avg_clarity_score": 0.77,
         "temporal_stability": 0.5282713400115764,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_13_e736773f",
+      "core_behavior_id": "core_user_4_1765826173_13_65c50d53",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in math at advanced level (based on 4 related behaviors)",
+      "generalized_statement": "User repeatedly asks for the simple math calculation of 7 times 8.",
       "confidence_score": 0.7868811976492618,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -473,9 +493,9 @@
       },
       "status": "Active",
       "stability_score": 0.5361990963637222,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_6d772825",
         "beh_d302e4ab",
@@ -491,13 +511,15 @@
         "avg_credibility": 0.8200000000000001,
         "avg_clarity_score": 0.905,
         "temporal_stability": 0.5361990963637222,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 4,
+        "original_behavior_count": 4
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_15_f0d7805b",
+      "core_behavior_id": "core_user_4_1765826173_15_89b83eda",
       "user_id": "user_4_1765826173",
-      "generalized_statement": "User exhibits high-clarity understanding in mathematics at novice level (based on 3 related behaviors)",
+      "generalized_statement": "User repeatedly requests simple math calculations for quick problem-solving.",
       "confidence_score": 0.8012587407877272,
       "confidence_grade": "Medium",
       "confidence_components": {
@@ -517,9 +539,9 @@
       },
       "status": "Active",
       "stability_score": 0.7092985038083427,
-      "version": 1,
+      "version": 4,
       "created_at": 1765826588,
-      "last_updated": 1765826588,
+      "last_updated": 1765831792,
       "evidence_chain": [
         "beh_70249565",
         "beh_f111a938",
@@ -534,12 +556,14 @@
         "avg_credibility": 0.79,
         "avg_clarity_score": 0.8133333333333334,
         "temporal_stability": 0.7092985038083427,
-        "support_ratio": 1.0
+        "support_ratio": 1.0,
+        "behaviors_still_present": 3,
+        "original_behavior_count": 3
       }
     }
   ],
   "total_behaviors_analyzed": 100,
   "num_clusters": 22,
-  "analysis_timestamp": "2025-12-15T19:23:08.227923",
-  "saved_at": "2025-12-15T19:23:08.228133"
+  "analysis_timestamp": "2025-12-15T20:49:52.605616",
+  "saved_at": "2025-12-15T20:49:52.605819"
 }

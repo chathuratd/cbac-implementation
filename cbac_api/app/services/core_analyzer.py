@@ -160,8 +160,8 @@ class CoreAnalyzerService:
         """
         Generate a generalized statement from cluster behaviors.
         
-        For Phase 1, using template-based generation.
-        Phase 2 will use LLM-based generation.
+        Uses LLM-based generation with semantic caching when enabled.
+        Falls back to template-based generation on error or when disabled.
         
         Args:
             behaviors: Behaviors in the cluster
@@ -170,11 +170,108 @@ class CoreAnalyzerService:
         Returns:
             Generalized statement string
         """
-        # Extract common patterns
-        domains = [b.domain for b in behaviors]
-        domain_counts = Counter(domains)
-        primary_domain = domain_counts.most_common(1)[0][0] if domain_counts else "general"
+        from app.config.settings import settings
         
+        # Detect domain for context
+        primary_domain = self._detect_domain(behaviors)
+        
+        # Try LLM generation if enabled
+        if settings.ENABLE_LLM_GENERATION:
+            try:
+                llm_statement = self._generate_llm_statement(behaviors, cluster, primary_domain)
+                if llm_statement:
+                    return llm_statement
+                else:
+                    logger.warning(f"LLM generation returned None for cluster {cluster.cluster_id}, using fallback")
+            except Exception as e:
+                logger.error(f"LLM generation failed: {e}, falling back to template", exc_info=True)
+        
+        # Fallback to template-based generation
+        return self._generate_template_statement(behaviors, cluster, primary_domain)
+    
+    def _generate_llm_statement(
+        self,
+        behaviors: List[Behavior],
+        cluster: Cluster,
+        domain: str
+    ) -> Optional[str]:
+        """
+        Generate statement using LLM with semantic caching.
+        
+        Args:
+            behaviors: Behaviors in the cluster
+            cluster: Cluster object
+            domain: Detected domain
+            
+        Returns:
+            LLM-generated statement or None if failed
+        """
+        from app.services.llm_service import LLMService
+        from app.services.cache_service import CacheService
+        from app.services.document_store import DocumentStoreService
+        from app.config.settings import settings
+        
+        # Step 1: Fetch full behavior texts from MongoDB
+        doc_service = DocumentStoreService()
+        behavior_ids = [b.behavior_id for b in behaviors]
+        
+        try:
+            full_behaviors = doc_service.get_behaviors_by_ids(behavior_ids)
+            # full_behaviors is a list of dictionaries
+            behavior_texts = [fb.get('behavior_text', '') for fb in full_behaviors if fb.get('behavior_text')]
+            
+            if not behavior_texts:
+                logger.warning(f"No behavior texts found for cluster {cluster.cluster_id}")
+                return None
+        except Exception as e:
+            logger.error(f"Error fetching behavior texts from MongoDB: {e}")
+            return None
+        
+        # Step 2: Check cache if enabled
+        if settings.ENABLE_STATEMENT_CACHE:
+            cache_service = CacheService()
+            cache_key = cache_service.create_cache_key(behavior_texts)
+            
+            cached_statement = cache_service.get(cache_key)
+            if cached_statement:
+                logger.info(f"Cache HIT for cluster {cluster.cluster_id}: {cache_key[:20]}...")
+                return cached_statement
+            
+            logger.debug(f"Cache MISS for cluster {cluster.cluster_id}")
+        
+        # Step 3: Generate with LLM
+        llm_service = LLMService()
+        statement = llm_service.generate_statement(
+            behavior_texts=behavior_texts,
+            domain=domain,
+            max_tokens=settings.LLM_MAX_TOKENS,
+            temperature=settings.LLM_TEMPERATURE
+        )
+        
+        # Step 4: Cache result if enabled and generation succeeded
+        if statement and settings.ENABLE_STATEMENT_CACHE:
+            cache_service.set(cache_key, statement, ttl=settings.CACHE_TTL_SECONDS)
+            logger.info(f"Cached LLM statement for cluster {cluster.cluster_id}")
+        
+        return statement
+    
+    def _generate_template_statement(
+        self,
+        behaviors: List[Behavior],
+        cluster: Cluster,
+        domain: str
+    ) -> str:
+        """
+        Generate statement using template-based approach (fallback).
+        
+        Args:
+            behaviors: Behaviors in the cluster
+            cluster: Cluster object
+            domain: Detected domain
+            
+        Returns:
+            Template-generated statement string
+        """
         expertise_levels = [b.expertise_level for b in behaviors]
         expertise_counts = Counter(expertise_levels)
         primary_expertise = expertise_counts.most_common(1)[0][0] if expertise_counts else "intermediate"
@@ -194,7 +291,7 @@ class CoreAnalyzerService:
             pattern = "displays regular interest"
         
         statement = (
-            f"User {pattern} in {primary_domain} at {primary_expertise} level "
+            f"User {pattern} in {domain} at {primary_expertise} level "
             f"(based on {len(behaviors)} related behaviors)"
         )
         

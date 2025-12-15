@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     MONGODB_URL: str = "mongodb://admin:admin123@localhost:27017/"
     MONGODB_DATABASE: str = "cbac_system"
     MONGODB_COLLECTION_PROMPTS: str = "prompts"
+    MONGODB_COLLECTION_BEHAVIORS: str = "behaviors"
     
     # Embedding Model
     EMBEDDING_MODEL: str = "all-MiniLM-L6-v2"
@@ -26,6 +27,20 @@ class Settings(BaseSettings):
     API_HOST: str = "0.0.0.0"
     API_PORT: int = 8000
     DEBUG: bool = True
+    
+    # OpenAI / LLM Configuration
+    OPENAI_API_KEY: Optional[str] = None
+    OPENAI_API_BASE: str = "https://digibot365-resource.cognitiveservices.azure.com/"
+    OPENAI_API_TYPE: str = "azure"
+    OPENAI_EMBEDDING_MODEL: str = "text-embedding-3-large"
+    OPENAI_DEPLOYMENT_NAME: str = "gpt-4"  # Azure OpenAI deployment name
+    
+    # LLM Statement Generation
+    ENABLE_LLM_GENERATION: bool = True  # Toggle for LLM vs template-based
+    LLM_MAX_TOKENS: int = 100
+    LLM_TEMPERATURE: float = 0.3
+    ENABLE_STATEMENT_CACHE: bool = True
+    CACHE_TTL_SECONDS: int = 604800  # 7 days
     
     class Config:
         env_file = ".env"

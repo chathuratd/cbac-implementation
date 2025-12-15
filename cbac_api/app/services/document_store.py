@@ -14,6 +14,7 @@ class DocumentStoreService:
         self.client = MongoClient(settings.MONGODB_URL)
         self.db = self.client[settings.MONGODB_DATABASE]
         self.prompts_collection = self.db[settings.MONGODB_COLLECTION_PROMPTS]
+        self.behaviors_collection = self.db[settings.MONGODB_COLLECTION_BEHAVIORS]
         
     def get_prompts_by_ids(self, prompt_ids: List[str]) -> List[Prompt]:
         """
@@ -79,6 +80,35 @@ class DocumentStoreService:
         except Exception as e:
             logger.error(f"MongoDB connection failed: {e}")
             return False
+    
+    def get_behaviors_by_ids(self, behavior_ids: List[str]) -> List[Dict[str, Any]]:
+        """
+        Fetch behaviors by their IDs from MongoDB.
+        
+        Args:
+            behavior_ids: List of behavior IDs to fetch
+            
+        Returns:
+            List of behavior dictionaries with behavior_text and metadata
+        """
+        try:
+            # Query MongoDB for behaviors with matching IDs
+            cursor = self.behaviors_collection.find(
+                {"behavior_id": {"$in": behavior_ids}}
+            )
+            
+            behaviors = []
+            for doc in cursor:
+                # Remove MongoDB's _id field
+                doc.pop("_id", None)
+                behaviors.append(doc)
+            
+            logger.info(f"Retrieved {len(behaviors)} behaviors out of {len(behavior_ids)} requested")
+            return behaviors
+            
+        except Exception as e:
+            logger.error(f"Error fetching behaviors: {e}")
+            return []
     
     def get_collection_stats(self) -> Dict[str, Any]:
         """Get statistics about the prompts collection"""
