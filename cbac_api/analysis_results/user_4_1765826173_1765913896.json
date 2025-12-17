@@ -2,7 +2,7 @@
   "user_id": "user_4_1765826173",
   "core_behaviors": [
     {
-      "core_behavior_id": "core_user_4_1765826173_0_abbabe85",
+      "core_behavior_id": "core_user_4_1765826173_0_98db4322",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User consistently asks for quick recipe ideas to prepare meals efficiently.",
       "confidence_score": 0.8211537728379892,
@@ -24,9 +24,9 @@
       },
       "status": "Active",
       "stability_score": 0.6147128597994533,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_9638b49b",
         "beh_53be4594",
@@ -48,7 +48,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_1_edd9592d",
+      "core_behavior_id": "core_user_4_1765826173_1_be9855bf",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User requests weather updates and information to stay informed about current and upcoming weather conditions.",
       "confidence_score": 0.748910706858544,
@@ -70,9 +70,9 @@
       },
       "status": "Active",
       "stability_score": 0.6123012757318962,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_a1666a3a",
         "beh_579efc17",
@@ -94,7 +94,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_2_36eb392b",
+      "core_behavior_id": "core_user_4_1765826173_2_49c312da",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User frequently requests recommendations for popular movies to enhance their entertainment choices.",
       "confidence_score": 0.787520434549122,
@@ -116,9 +116,9 @@
       },
       "status": "Active",
       "stability_score": 0.5832927501782874,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_e3d76735",
         "beh_d9ab4319",
@@ -144,7 +144,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_5_5615b1dc",
+      "core_behavior_id": "core_user_4_1765826173_5_0ca83326",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User requests simple and quick language translations for efficient communication.",
       "confidence_score": 0.8226613773652098,
@@ -166,9 +166,9 @@
       },
       "status": "Active",
       "stability_score": 0.7040544304068386,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_76d37d78",
         "beh_0dba3f29",
@@ -190,7 +190,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_6_22029260",
+      "core_behavior_id": "core_user_4_1765826173_6_13afa896",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly asks about the weather forecast for tomorrow to plan daily activities.",
       "confidence_score": 0.8348861013383815,
@@ -212,9 +212,9 @@
       },
       "status": "Active",
       "stability_score": 0.6655636463865517,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_41edc220",
         "beh_b0c4e825",
@@ -238,7 +238,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_7_72b1bbbf",
+      "core_behavior_id": "core_user_4_1765826173_7_53cdb52d",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly requests simple recipes for scrambled eggs, indicating a focus on easy breakfast preparation.",
       "confidence_score": 0.8515395950636582,
@@ -260,9 +260,9 @@
       },
       "status": "Active",
       "stability_score": 0.6786309400022398,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_0a110f56",
         "beh_b06f43a7",
@@ -285,7 +285,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_8_a4b50c1e",
+      "core_behavior_id": "core_user_4_1765826173_8_b608c1b4",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly inquires about the capital city of France.",
       "confidence_score": 0.8304259522951305,
@@ -307,9 +307,9 @@
       },
       "status": "Active",
       "stability_score": 0.6521858624761397,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_4499a154",
         "beh_84a8dcd8",
@@ -333,7 +333,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_9_4c7025f9",
+      "core_behavior_id": "core_user_4_1765826173_9_b6f713e9",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly asks for the current time in New York.",
       "confidence_score": 0.8060341225175488,
@@ -355,9 +355,9 @@
       },
       "status": "Active",
       "stability_score": 0.5040827192686043,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_dc4c7049",
         "beh_fb091b1b",
@@ -379,7 +379,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_10_9fc9ab4b",
+      "core_behavior_id": "core_user_4_1765826173_10_8d15cb97",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly asks for quick facts about the planet Mars.",
       "confidence_score": 0.8174400044170468,
@@ -401,9 +401,9 @@
       },
       "status": "Active",
       "stability_score": 0.5123783986546476,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_c6b6f149",
         "beh_67db56e2",
@@ -425,7 +425,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_11_e24e4f64",
+      "core_behavior_id": "core_user_4_1765826173_11_8973f2b5",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly requests the definition of the term 'photosynthesis' for clarification and understanding.",
       "confidence_score": 0.7677105724055195,
@@ -447,9 +447,9 @@
       },
       "status": "Active",
       "stability_score": 0.5282713400115764,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_44e8187b",
         "beh_a270a9ee",
@@ -471,7 +471,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_13_89776d17",
+      "core_behavior_id": "core_user_4_1765826173_13_4130f86b",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly asks for the simple math calculation of 7 times 8.",
       "confidence_score": 0.7868811976492618,
@@ -493,9 +493,9 @@
       },
       "status": "Active",
       "stability_score": 0.5361990963637222,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_6d772825",
         "beh_d302e4ab",
@@ -517,7 +517,7 @@
       }
     },
     {
-      "core_behavior_id": "core_user_4_1765826173_15_009afca9",
+      "core_behavior_id": "core_user_4_1765826173_15_c693b3e5",
       "user_id": "user_4_1765826173",
       "generalized_statement": "User repeatedly requests simple math calculations for quick problem-solving.",
       "confidence_score": 0.8012587407877272,
@@ -539,9 +539,9 @@
       },
       "status": "Active",
       "stability_score": 0.7092985038083427,
-      "version": 7,
+      "version": 6,
       "created_at": 1765826588,
-      "last_updated": 1765933701,
+      "last_updated": 1765933696,
       "evidence_chain": [
         "beh_70249565",
         "beh_f111a938",
@@ -564,8 +564,8 @@
   ],
   "total_behaviors_analyzed": 100,
   "num_clusters": 22,
-  "analysis_timestamp": "2025-12-17T01:08:21.331047",
-  "saved_at": "2025-12-17T01:08:21.331527",
-  "analysis_id": "user_4_1765826173_1765913901",
+  "analysis_timestamp": "2025-12-17T01:08:16.769441",
+  "saved_at": "2025-12-17T01:08:16.769865",
+  "analysis_id": "user_4_1765826173_1765913896",
   "version": "1.0"
 }

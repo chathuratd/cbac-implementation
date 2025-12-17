@@ -328,6 +328,69 @@ async def get_analysis_stats(user_id: str) -> Dict[str, Any]:
         )
 
 
+@router.delete("/by-id/{analysis_id}", response_model=Dict[str, Any])
+async def delete_analysis_by_id(analysis_id: str) -> Dict[str, Any]:
+    """
+    Delete specific analysis by ID.
+    
+    Args:
+        analysis_id: Analysis ID to delete
+        
+    Returns:
+        Success message
+    """
+    try:
+        deleted = analysis_store.delete_analysis(analysis_id)
+        
+        if not deleted:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Analysis {analysis_id} not found"
+            )
+        
+        return {
+            "message": f"Analysis {analysis_id} deleted successfully",
+            "analysis_id": analysis_id
+        }
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error deleting analysis: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to delete analysis: {str(e)}"
+        )
+
+
+@router.delete("/{user_id}/all", response_model=Dict[str, Any])
+async def delete_all_user_analyses(user_id: str) -> Dict[str, Any]:
+    """
+    Delete all analyses for a user.
+    
+    Args:
+        user_id: User ID
+        
+    Returns:
+        Success message with count
+    """
+    try:
+        count = analysis_store.delete_all_user_analyses(user_id)
+        
+        return {
+            "message": f"Deleted {count} analyses for user {user_id}",
+            "user_id": user_id,
+            "deleted_count": count
+        }
+        
+    except Exception as e:
+        logger.error(f"Error deleting user analyses: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to delete user analyses: {str(e)}"
+        )
+
+
 @router.get("/{user_id}/summary", response_model=Dict[str, Any])
 async def get_analysis_summary(user_id: str) -> Dict[str, Any]:
     """

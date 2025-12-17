@@ -3,6 +3,7 @@ from typing import Dict, Any
 from app.models.schemas import HealthResponse
 from app.services.vector_store import VectorStoreService
 from app.services.document_store import DocumentStoreService
+from app.services.analysis_store import AnalysisStore
 from datetime import datetime
 import logging
 
@@ -43,9 +44,20 @@ async def health_check() -> HealthResponse:
         dependencies["mongodb"] = f"error: {str(e)}"
         overall_status = "degraded"
     
+    # Check Analysis Store (MongoDB)
+    try:
+        analysis_store = AnalysisStore()
+        analysis_ok = analysis_store.check_connection()
+        dependencies["analysis_store"] = "connected" if analysis_ok else "disconnected"
+        if not analysis_ok:
+            overall_status = "degraded"
+    except Exception as e:
+        dependencies["analysis_store"] = f"error: {str(e)}"
+        overall_status = "degraded"
+    
     response = HealthResponse(
         status=overall_status,
-        version="0.1.0",
+        version="0.2.0",
         dependencies=dependencies,
         timestamp=datetime.utcnow()
     )
@@ -78,6 +90,19 @@ async def get_metrics() -> Dict[str, Any]:
         metrics["mongodb"] = mongo_stats
     except Exception as e:
         metrics["mongodb"] = {"error": str(e)}
+    
+    # Analysis Store metrics
+    try:
+        analysis_store = AnalysisStore()
+        user_ids = analysis_store.get_all_user_ids()
+        total_analyses = analysis_store.collection.count_documents({})
+        metrics["analysis_store"] = {
+            "total_analyses": total_analyses,
+            "unique_users": len(user_ids),
+            "collection": "analysis_results"
+        }
+    except Exception as e:
+        metrics["analysis_store"] = {"error": str(e)}
     
     return metrics
 
