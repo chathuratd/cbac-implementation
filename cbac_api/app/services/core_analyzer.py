@@ -596,26 +596,32 @@ class CoreAnalyzerService:
         previous_analysis: Optional[Dict[str, Any]]
     ) -> Dict[str, Any]:
         """
-        Detect changes between current and previous analysis.
+        Detect changes between current and previous analysis with enhanced classification.
         
         Identifies:
         - New core behaviors (not in previous)
         - Retired behaviors (in previous, not in current)
-        - Updated behaviors (confidence change > 0.15)
+        - Strengthened behaviors (confidence increased >0.20)
+        - Weakened behaviors (confidence decreased >0.20)
+        - Minor updates (confidence changed 0.10-0.20)
+        - Stable behaviors (confidence changed <0.10)
         
         Args:
             current_core_behaviors: Current analysis core behaviors
             previous_analysis: Previous analysis result dict (or None)
             
         Returns:
-            Dict with new, retired, and updated behaviors
+            Dict with categorized changes and explanations
         """
         if not previous_analysis or "core_behaviors" not in previous_analysis:
             # First analysis - all are new
             return {
                 "new_core_behaviors": [cb.core_behavior_id for cb in current_core_behaviors],
                 "retired_behaviors": [],
-                "updated_behaviors": [],
+                "strengthened": [],
+                "weakened": [],
+                "minor_updates": [],
+                "stable": [],
                 "is_first_analysis": True
             }
         
@@ -626,7 +632,10 @@ class CoreAnalyzerService:
         
         new_behaviors = []
         retired_behaviors = []
-        updated_behaviors = []
+        strengthened = []
+        weakened = []
+        minor_updates = []
+        stable = []
         
         # Find new behaviors
         for domain, cb in current_map.items():
@@ -634,7 +643,8 @@ class CoreAnalyzerService:
                 new_behaviors.append({
                     "core_behavior_id": cb.core_behavior_id,
                     "domain": domain,
-                    "confidence": cb.confidence_score
+                    "confidence": cb.confidence_score,
+                    "explanation": f"New core behavior identified in {domain} domain with {cb.confidence_score:.2%} confidence"
                 })
         
         # Find retired and updated behaviors
@@ -643,28 +653,85 @@ class CoreAnalyzerService:
                 retired_behaviors.append({
                     "core_behavior_id": prev_cb.get("core_behavior_id"),
                     "domain": domain,
-                    "previous_confidence": prev_cb.get("confidence_score", 0.0)
+                    "previous_confidence": prev_cb.get("confidence_score", 0.0),
+                    "explanation": f"Core behavior retired from {domain} domain (previous confidence: {prev_cb.get('confidence_score', 0.0):.2%})"
                 })
             else:
-                # Check for significant confidence change
+                # Classify confidence change with significance scoring
                 curr_cb = current_map[domain]
                 prev_confidence = prev_cb.get("confidence_score", 0.0)
                 curr_confidence = curr_cb.confidence_score
+                delta = curr_confidence - prev_confidence
                 
-                if abs(curr_confidence - prev_confidence) > 0.15:
-                    updated_behaviors.append({
-                        "core_behavior_id": curr_cb.core_behavior_id,
-                        "domain": domain,
-                        "previous_confidence": prev_confidence,
-                        "current_confidence": curr_confidence,
-                        "confidence_delta": curr_confidence - prev_confidence
-                    })
+                # Count evidence chain differences
+                prev_evidence = set(prev_cb.get("evidence_chain", []))
+                curr_evidence = set(curr_cb.evidence_chain)
+                new_behaviors_added = len(curr_evidence - prev_evidence)
+                behaviors_removed = len(prev_evidence - curr_evidence)
+                
+                change_info = {
+                    "core_behavior_id": curr_cb.core_behavior_id,
+                    "domain": domain,
+                    "previous_confidence": prev_confidence,
+                    "current_confidence": curr_confidence,
+                    "confidence_delta": delta,
+                    "new_behaviors_added": new_behaviors_added,
+                    "behaviors_removed": behaviors_removed
+                }
+                
+                if delta > 0.20:
+                    # Strengthened
+                    change_info["change_type"] = "strengthened"
+                    change_info["explanation"] = (
+                        f"User's {domain} pattern confidence increased from {prev_confidence:.2%} "
+                        f"to {curr_confidence:.2%} (+{delta:.2%}) "
+                        f"due to {new_behaviors_added} new related behavior(s)"
+                    )
+                    strengthened.append(change_info)
+                elif delta < -0.20:
+                    # Weakened
+                    change_info["change_type"] = "weakened"
+                    change_info["explanation"] = (
+                        f"User's {domain} pattern confidence decreased from {prev_confidence:.2%} "
+                        f"to {curr_confidence:.2%} ({delta:.2%}) "
+                        f"with {behaviors_removed} behavior(s) removed"
+                    )
+                    weakened.append(change_info)
+                elif abs(delta) >= 0.10:
+                    # Minor update
+                    change_info["change_type"] = "minor_update"
+                    direction = "increased" if delta > 0 else "decreased"
+                    change_info["explanation"] = (
+                        f"User's {domain} pattern confidence {direction} slightly from {prev_confidence:.2%} "
+                        f"to {curr_confidence:.2%} ({delta:+.2%})"
+                    )
+                    minor_updates.append(change_info)
+                else:
+                    # Stable
+                    change_info["change_type"] = "stable"
+                    change_info["explanation"] = (
+                        f"User's {domain} pattern remains stable at {curr_confidence:.2%} "
+                        f"(change: {delta:+.2%})"
+                    )
+                    stable.append(change_info)
         
         return {
             "new_core_behaviors": new_behaviors,
             "retired_behaviors": retired_behaviors,
-            "updated_behaviors": updated_behaviors,
-            "is_first_analysis": False
+            "strengthened": strengthened,
+            "weakened": weakened,
+            "minor_updates": minor_updates,
+            "stable": stable,
+            "is_first_analysis": False,
+            "summary": {
+                "total_changes": len(new_behaviors) + len(retired_behaviors) + len(strengthened) + len(weakened) + len(minor_updates),
+                "new_count": len(new_behaviors),
+                "retired_count": len(retired_behaviors),
+                "strengthened_count": len(strengthened),
+                "weakened_count": len(weakened),
+                "minor_updates_count": len(minor_updates),
+                "stable_count": len(stable)
+            }
         }
     
     def update_versions_and_timestamps(

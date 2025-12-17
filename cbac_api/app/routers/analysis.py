@@ -17,18 +17,23 @@ analysis_store = AnalysisStore()
 
 
 @router.post("", response_model=AnalysisResponse, status_code=status.HTTP_200_OK)
-async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
+async def analyze_user_behaviors(
+    request: AnalysisRequest,
+    force: bool = False
+) -> AnalysisResponse:
     """
     Main endpoint: Analyze user behaviors and derive core behavioral patterns.
     
     Process:
     1. Fetch behaviors from Qdrant (with embeddings)
-    2. Cluster behaviors semantically using HDBSCAN
-    3. Derive generalized core behaviors from clusters
-    4. Return core behaviors with confidence scores and evidence chains
+    2. Check if behaviors changed (incremental analysis)
+    3. Cluster behaviors semantically using HDBSCAN
+    4. Derive generalized core behaviors from clusters
+    5. Return core behaviors with confidence scores and evidence chains
     
     Args:
         request: AnalysisRequest with user_id and optional parameters
+        force: If True, force re-analysis even if no behavior changes detected
         
     Returns:
         AnalysisResponse with derived core behaviors
@@ -36,7 +41,7 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
     start_time = time.time()
     
     try:
-        logger.info(f"Starting analysis for user: {request.user_id}")
+        logger.info(f"Starting analysis for user: {request.user_id} (force={force})")
         
         # Step 1: Fetch behaviors from Qdrant
         vector_service = VectorStoreService()
@@ -49,6 +54,56 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
             )
         
         logger.info(f"Fetched {len(behaviors)} behaviors")
+        
+        # Step 2: Incremental Analysis - Check if behaviors changed
+        if not force:
+            previous_analysis = analysis_store.load_previous_analysis(request.user_id)
+            
+            if previous_analysis:
+                # Extract behavior IDs from previous analysis
+                prev_behavior_ids = set()
+                if "core_behaviors" in previous_analysis:
+                    for cb in previous_analysis["core_behaviors"]:
+                        if "evidence_chain" in cb:
+                            prev_behavior_ids.update(cb["evidence_chain"])
+                
+                # Get current behavior IDs
+                curr_behavior_ids = set(b.behavior_id for b in behaviors)
+                
+                # Check if behaviors changed
+                if prev_behavior_ids == curr_behavior_ids:
+                    processing_time = (time.time() - start_time) * 1000
+                    logger.info(
+                        f"No behavior changes detected for user {request.user_id}, "
+                        f"returning cached analysis (took {processing_time:.2f}ms)"
+                    )
+                    
+                    # Convert to AnalysisResponse format
+                    from app.models.schemas import CoreBehavior
+                    from datetime import datetime
+                    
+                    core_behaviors = [
+                        CoreBehavior(**cb) for cb in previous_analysis.get("core_behaviors", [])
+                    ]
+                    
+                    return AnalysisResponse(
+                        user_id=request.user_id,
+                        core_behaviors=core_behaviors,
+                        total_behaviors_analyzed=previous_analysis.get("total_behaviors_analyzed", len(behaviors)),
+                        num_clusters=previous_analysis.get("num_clusters", 0),
+                        metadata={
+                            **previous_analysis.get("metadata", {}),
+                            "from_cache": True,
+                            "cache_retrieval_time_ms": round(processing_time, 2)
+                        }
+                    )
+                else:
+                    new_behaviors = curr_behavior_ids - prev_behavior_ids
+                    removed_behaviors = prev_behavior_ids - curr_behavior_ids
+                    logger.info(
+                        f"Behavior changes detected for user {request.user_id}: "
+                        f"{len(new_behaviors)} new, {len(removed_behaviors)} removed. Re-analyzing..."
+                    )
         
         # Step 2: Cluster behaviors
         clustering_service = ClusteringService(
@@ -144,6 +199,132 @@ async def analyze_user_behaviors(request: AnalysisRequest) -> AnalysisResponse:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
             detail=f"Analysis failed: {str(e)}"
+        )
+
+
+@router.get("/{user_id}/history", response_model=Dict[str, Any])
+async def get_analysis_history(
+    user_id: str,
+    limit: int = 10,
+    offset: int = 0
+) -> Dict[str, Any]:
+    """
+    Retrieve all past analyses for a user.
+    
+    Args:
+        user_id: User ID
+        limit: Maximum number of results (default 10)
+        offset: Number of results to skip (default 0)
+        
+    Returns:
+        Dictionary with user_id, analyses list, and total_count
+    """
+    try:
+        analyses = analysis_store.list_user_analyses(user_id, limit=limit, offset=offset)
+        
+        # Get total count (without pagination)
+        all_analyses = analysis_store.list_user_analyses(user_id, limit=1000)
+        
+        return {
+            "user_id": user_id,
+            "analyses": analyses,
+            "total_count": len(all_analyses),
+            "limit": limit,
+            "offset": offset
+        }
+        
+    except Exception as e:
+        logger.error(f"Error getting analysis history: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get analysis history: {str(e)}"
+        )
+
+
+@router.get("/{user_id}/latest", response_model=Dict[str, Any])
+async def get_latest_analysis(user_id: str) -> Dict[str, Any]:
+    """
+    Get most recent analysis without re-clustering.
+    
+    Args:
+        user_id: User ID
+        
+    Returns:
+        Cached analysis results
+    """
+    try:
+        analysis = analysis_store.get_latest_analysis(user_id)
+        
+        if not analysis:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"No analysis found for user {user_id}. Run POST /analysis first."
+            )
+        
+        return analysis
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error getting latest analysis: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get latest analysis: {str(e)}"
+        )
+
+
+@router.get("/by-id/{analysis_id}", response_model=Dict[str, Any])
+async def get_analysis_by_id(analysis_id: str) -> Dict[str, Any]:
+    """
+    Retrieve specific analysis by ID.
+    
+    Args:
+        analysis_id: Analysis ID (format: user_id_timestamp)
+        
+    Returns:
+        Full analysis JSON
+    """
+    try:
+        analysis = analysis_store.get_analysis_by_id(analysis_id)
+        
+        if not analysis:
+            raise HTTPException(
+                status_code=status.HTTP_404_NOT_FOUND,
+                detail=f"Analysis {analysis_id} not found"
+            )
+        
+        return analysis
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        logger.error(f"Error getting analysis by ID: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get analysis: {str(e)}"
+        )
+
+
+@router.get("/{user_id}/stats", response_model=Dict[str, Any])
+async def get_analysis_stats(user_id: str) -> Dict[str, Any]:
+    """
+    Get statistics about user's analysis history.
+    
+    Args:
+        user_id: User ID
+        
+    Returns:
+        Statistics dictionary
+    """
+    try:
+        stats = analysis_store.get_analysis_stats(user_id)
+        return stats
+        
+    except Exception as e:
+        logger.error(f"Error getting analysis stats: {e}")
+        raise HTTPException(
+            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
+            detail=f"Failed to get analysis stats: {str(e)}"
         )
 
 

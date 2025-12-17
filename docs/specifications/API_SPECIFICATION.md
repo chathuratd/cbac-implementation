@@ -1505,16 +1505,186 @@ Phase 1 implementation may not include authentication. Future versions will supp
 
 ---
 
+## New Endpoints - Phase 1 Completion (December 2025)
+
+### Analysis Retrieval Endpoints
+
+#### GET /analysis/{user_id}/history
+**Purpose:** Retrieve all past analyses for a user with pagination
+
+**Query Parameters:**
+- `limit` (int, optional): Maximum results to return (default: 10)
+- `offset` (int, optional): Number of results to skip (default: 0)
+
+**Response:** `200 OK`
+```json
+{
+  "user_id": "user_4_1765826173",
+  "analyses": [
+    {
+      "analysis_id": "user_4_1765826173_1765831792",
+      "timestamp": "2025-12-17T10:30:00Z",
+      "num_core_behaviors": 12,
+      "total_behaviors": 100
+    }
+  ],
+  "total_count": 1,
+  "limit": 10,
+  "offset": 0
+}
+```
+
+---
+
+#### GET /analysis/{user_id}/latest
+**Purpose:** Get most recent analysis from cache (no re-clustering)
+
+**Benefits:**
+- Fast response (~10ms vs 30s for full analysis)
+- Consistent results across queries
+- Reduces LLM API costs
+
+**Response:** `200 OK` - Returns full analysis JSON
+**Error:** `404 Not Found` - No previous analysis exists
+
+---
+
+#### GET /analysis/by-id/{analysis_id}
+**Purpose:** Retrieve specific analysis by ID
+
+**Path Parameters:**
+- `analysis_id`: Analysis identifier (format: user_id_timestamp)
+
+**Response:** `200 OK` - Returns full analysis JSON
+**Error:** `404 Not Found` - Analysis not found
+
+---
+
+#### GET /analysis/{user_id}/stats
+**Purpose:** Get statistics about user's analysis history
+
+**Response:** `200 OK`
+```json
+{
+  "user_id": "user_4_1765826173",
+  "total_analyses": 5,
+  "first_analysis": "2025-12-01T10:00:00Z",
+  "last_analysis": "2025-12-17T10:30:00Z",
+  "avg_core_behaviors": 11.4,
+  "avg_total_behaviors": 98.2,
+  "min_core_behaviors": 8,
+  "max_core_behaviors": 15
+}
+```
+
+---
+
+### Incremental Analysis (Query Parameter)
+
+#### POST /analysis?force=true
+**Purpose:** Main analysis endpoint with incremental detection
+
+**Query Parameters:**
+- `force` (bool, optional): Force re-analysis even if no changes (default: false)
+
+**Behavior:**
+- If `force=false` (default): Returns cached analysis when behavior set unchanged
+- If `force=true`: Always performs full re-analysis
+
+**Benefits:**
+- 99% faster for repeat queries (10ms vs 30s)
+- Reduces LLM API costs
+- Automatic change detection
+
+---
+
+### Enhanced Change Detection
+
+The `detect_changes()` method now provides granular change classification:
+
+**Change Types:**
+- `strengthened`: Confidence increased >0.20
+- `weakened`: Confidence decreased >0.20
+- `minor_update`: Confidence changed 0.10-0.20
+- `stable`: Confidence changed <0.10
+- `new_core_behaviors`: Newly identified patterns
+- `retired_behaviors`: Patterns no longer present
+
+**Each change includes:**
+- `change_type`: Classification
+- `explanation`: Human-readable description
+- `confidence_delta`: Numeric change
+- `new_behaviors_added`: Count of supporting behaviors added
+- `behaviors_removed`: Count of supporting behaviors removed
+
+**Example Change Output:**
+```json
+{
+  "changes_detected": {
+    "strengthened": [
+      {
+        "core_behavior_id": "cb_001",
+        "domain": "gardening",
+        "change_type": "strengthened",
+        "previous_confidence": 0.72,
+        "current_confidence": 0.89,
+        "confidence_delta": 0.17,
+        "new_behaviors_added": 3,
+        "explanation": "User's gardening pattern confidence increased from 72% to 89% (+17%) due to 3 new related behavior(s)"
+      }
+    ],
+    "summary": {
+      "total_changes": 4,
+      "new_count": 1,
+      "strengthened_count": 1,
+      "weakened_count": 0,
+      "minor_updates_count": 2,
+      "stable_count": 8
+    }
+  }
+}
+```
+
+---
+
+### LLM Integration & Caching
+
+**Semantic Statement Generation:**
+- Azure OpenAI integration (gpt-4o-mini)
+- MongoDB behaviors collection for full text retrieval
+- Template-based fallback for LLM failures
+
+**Semantic Caching:**
+- In-memory cache with 7-day TTL
+- Cache key generated from behavior text similarity
+- Significant API cost reduction
+- Cache statistics in response metadata
+
+**Configuration:**
+```python
+ENABLE_STATEMENT_CACHE = True
+CACHE_TTL_SECONDS = 604800  # 7 days
+LLM_MAX_TOKENS = 100
+LLM_TEMPERATURE = 0.7
+```
+
+---
+
 ## Implementation Phases
 
 ### Phase 1 (Current - Core Behaviour Focus)
-✅ Implement:
-- All `/analysis` endpoints
-- All `/clustering` endpoints
-- All `/core-behaviors` endpoints
-- Basic `/cache` endpoints
-- All `/health` endpoints
-- Basic `/admin` endpoints
+✅ Implemented (December 2025):
+- POST `/analysis` endpoint with incremental detection
+- GET `/analysis/{user_id}/history` - Analysis history
+- GET `/analysis/{user_id}/latest` - Cached latest analysis
+- GET `/analysis/by-id/{analysis_id}` - Specific analysis retrieval
+- GET `/analysis/{user_id}/stats` - Analysis statistics
+- GET `/analysis/{user_id}/summary` - Behavior summary
+- Enhanced change detection with 6 change types
+- LLM-based statement generation
+- Semantic caching system
+- MongoDB integration for behavior texts
+- Analysis storage service with versioning
 
 ⏸️ Defer to Phase 2:
 - All `/expertise` endpoints (5.1 - 5.5)

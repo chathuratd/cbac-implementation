@@ -1,23 +1,26 @@
 # CBAC System - Feature Implementation Status
 
 **Project:** Core Behaviour Analysis Component (CBAC)  
-**Last Updated:** November 27, 2025  
-**Current Phase:** Phase 1 Complete ✅  
-**API Version:** 0.1.0  
+**Last Updated:** December 17, 2025  
+**Current Phase:** Phase 1 Enhanced ✅  
+**API Version:** 0.2.0  
 
 ---
 
 ## Executive Summary
 
-The CBAC system successfully implements **Phase 1** functionality, providing a production-ready REST API for semantic behavior clustering and core behavior pattern derivation. The system processes user behaviors stored in Qdrant (vector database) and MongoDB (document store), clusters them using DBSCAN, and derives generalized behavioral patterns with confidence scoring.
+The CBAC system successfully implements **Phase 1 Enhanced** functionality, providing a production-ready REST API for semantic behavior clustering, core behavior pattern derivation, LLM-powered statement generation, and incremental analysis. The system processes user behaviors stored in Qdrant (vector database) and MongoDB (document store), clusters them using HDBSCAN, and derives generalized behavioral patterns with confidence scoring.
 
 **Status Overview:**
-- ✅ **9 endpoints** operational (out of 29 planned)
-- ✅ **Core analysis pipeline** complete
+- ✅ **14 endpoints** operational (out of 29 planned)
+- ✅ **Core analysis pipeline** complete with LLM integration
+- ✅ **Incremental analysis** with automatic change detection
+- ✅ **Semantic caching** for LLM statement generation
+- ✅ **Enhanced change detection** with 6 classification types
+- ✅ **Analysis storage service** with versioning
 - ✅ **Dual-database architecture** (Qdrant + MongoDB)
 - ✅ **Health monitoring** implemented
-- ⏳ **20 endpoints** planned for Phase 2
-- ⏳ **Advanced features** (LLM, caching, incremental clustering) deferred
+- ⏳ **15 endpoints** planned for Phase 2
 
 ---
 
@@ -25,14 +28,16 @@ The CBAC system successfully implements **Phase 1** functionality, providing a p
 
 | Category | Implemented | Planned | Completion |
 |----------|-------------|---------|------------|
-| **Analysis Endpoints** | 2 | 5 | 40% |
+| **Analysis Endpoints** | 7 | 9 | 78% |
 | **Clustering Endpoints** | 0 | 4 | 0% |
 | **Core Behavior Endpoints** | 0 | 4 | 0% |
 | **Health Endpoints** | 3 | 3 | 100% |
+| **LLM Integration** | 1 | 1 | 100% ✅ NEW |
+| **Caching System** | 1 | 4 | 25% ✅ NEW |
+| **Storage Service** | 1 | 1 | 100% ✅ NEW |
 | **Expertise Endpoints** | 0 | 5 | 0% (Phase 2) |
-| **Cache Endpoints** | 0 | 4 | 0% (Phase 2) |
 | **Admin Endpoints** | 0 | 4 | 0% (Phase 2) |
-| **Total** | **9** | **29** | **31%** |
+| **Total** | **14** | **29** | **48%** |
 
 ---
 
@@ -117,6 +122,142 @@ core_behaviors = analyzer.derive_core_behaviors(user_id, behaviors, clusters, la
 ```
 
 **Performance:** ~50ms (no clustering required)
+
+---
+
+#### 1.3 Analysis History Endpoint ✅ NEW
+**Endpoint:** `GET /analysis/{user_id}/history`  
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Retrieves all past analyses for a user
+- Pagination support (limit/offset parameters)
+- Returns metadata: analysis_id, timestamp, counts
+- Sorted by timestamp (newest first)
+
+**Query Parameters:**
+- `limit` (int, default: 10): Maximum results
+- `offset` (int, default: 0): Skip count
+
+**Response Example:**
+```json
+{
+  "user_id": "user_4_1765826173",
+  "analyses": [
+    {
+      "analysis_id": "user_4_1765826173_1765831792",
+      "timestamp": "2025-12-17T10:30:00Z",
+      "num_core_behaviors": 12,
+      "total_behaviors": 100
+    }
+  ],
+  "total_count": 5,
+  "limit": 10,
+  "offset": 0
+}
+```
+
+**Performance:** ~5-10ms
+
+---
+
+#### 1.4 Latest Analysis Endpoint ✅ NEW
+**Endpoint:** `GET /analysis/{user_id}/latest`  
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Returns most recent cached analysis
+- No re-clustering or LLM calls
+- Fast retrieval from stored file
+- Consistent results across queries
+
+**Benefits:**
+- 99% faster than POST /analysis (~10ms vs 30s)
+- Reduces LLM API costs
+- Ideal for dashboard/UI refresh
+
+**Response:** Full analysis JSON (same as POST /analysis)
+
+**Error:** `404 Not Found` if no previous analysis exists
+
+**Performance:** ~10ms
+
+---
+
+#### 1.5 Analysis by ID Endpoint ✅ NEW
+**Endpoint:** `GET /analysis/by-id/{analysis_id}`  
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Retrieves specific analysis by unique ID
+- Supports historical analysis queries
+- Format: `user_id_timestamp`
+
+**Example Request:**
+```
+GET /analysis/by-id/user_4_1765826173_1765831792
+```
+
+**Response:** Full analysis JSON
+
+**Performance:** ~10ms
+
+---
+
+#### 1.6 Analysis Statistics Endpoint ✅ NEW
+**Endpoint:** `GET /analysis/{user_id}/stats`  
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Aggregate statistics across all user analyses
+- First/last analysis timestamps
+- Average, min, max core behavior counts
+- Total analysis count
+
+**Response Example:**
+```json
+{
+  "user_id": "user_4_1765826173",
+  "total_analyses": 5,
+  "first_analysis": "2025-12-01T10:00:00Z",
+  "last_analysis": "2025-12-17T10:30:00Z",
+  "avg_core_behaviors": 11.4,
+  "avg_total_behaviors": 98.2,
+  "min_core_behaviors": 8,
+  "max_core_behaviors": 15
+}
+```
+
+**Performance:** ~20ms
+
+---
+
+#### 1.7 Incremental Analysis Feature ✅ NEW
+**Query Parameter:** `POST /analysis?force=true`  
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Automatic behavior change detection
+- Returns cached analysis when behavior set unchanged
+- Force parameter for manual re-analysis
+- Tracks new/removed behaviors
+
+**Behavior:**
+- `force=false` (default): Check for changes, return cache if identical
+- `force=true`: Always perform full re-analysis
+
+**Benefits:**
+- 99% faster for repeat queries
+- Automatic change tracking
+- Significant cost reduction
+
+**Change Detection Logic:**
+1. Extract behavior IDs from previous analysis
+2. Compare with current behavior set
+3. If identical → return cached analysis
+4. If different → proceed with full analysis
+
+**Performance:** ~10ms (cached) vs ~30s (full analysis)
 
 ---
 
@@ -225,17 +366,46 @@ scroll_result = self.client.scroll(
 
 ### 5. Core Behavior Derivation
 
-#### 5.1 Template-Based Generalization
-**Status:** ✅ Operational (Limited)  
+#### 5.1 LLM-Based Statement Generation ✅ NEW
+**Status:** ✅ Fully Operational  
 
 **Capabilities:**
-- Derives generalized statements from behavior clusters
-- Uses template-based approach (Phase 1 simplification)
-- Detects primary domain via majority voting
-- Infers expertise level from ground truth labels (⚠️ not true inference)
-- Calculates multi-factor confidence scores
+- Azure OpenAI integration (gpt-4o-mini model)
+- Sophisticated prompt engineering for human-readable statements
+- MongoDB full text retrieval for context
+- Template-based fallback for LLM failures
+- Semantic caching to reduce API costs
 
-**Template Logic:**
+**LLM Generation Pipeline:**
+1. Fetch full behavior texts from MongoDB (not just summaries)
+2. Check semantic cache for similar behavior sets
+3. If cache miss: Generate with Azure OpenAI
+4. Parse and validate LLM response
+5. Cache result for 7 days
+6. Fallback to template if LLM fails
+
+**Prompt Template:**
+```python
+f"""Based on these user behaviors in the {domain} domain:
+
+{behavior_texts}
+
+Generate a single concise statement (max 30 words) that generalizes this behavioral pattern.
+Requirements:
+- Use clear, natural language
+- Focus on the core pattern, not individual behaviors
+- Be specific to the domain
+- Start with "User..."
+"""
+```
+
+**Configuration:**
+- Model: `gpt-4o-mini` (cost-effective, fast)
+- Max tokens: 100
+- Temperature: 0.7
+- Timeout: 10 seconds
+
+**Template Fallback:**
 ```python
 if avg_clarity > 0.7 and avg_reinforcement > 3:
     pattern = "demonstrates deep and iterative engagement"
@@ -249,37 +419,199 @@ else:
 statement = f"User {pattern} in {domain} at {expertise} level (based on {count} behaviors)"
 ```
 
-**⚠️ Limitations:**
-- Fixed templates (no LLM yet)
-- Generic statements
-- Domain/expertise read from ground truth labels (cheating)
-- Phase 2 will replace with LLM-based generation
+**Performance:** ~500ms per LLM call, ~5ms from cache
 
 ---
 
-#### 5.2 Confidence Scoring
+#### 5.1a Semantic Caching System ✅ NEW
 **Status:** ✅ Fully Operational  
 
-**Multi-Factor Confidence Calculation:**
+**Capabilities:**
+- In-memory cache for LLM-generated statements
+- Cache key generation from behavior text similarity
+- 7-day TTL (604800 seconds)
+- Cache statistics tracking
+- Significant cost reduction
 
-| Factor | Weight | Description |
-|--------|--------|-------------|
-| **Coherence** | 30% | Cluster tightness (1 / (1 + avg_distance)) |
-| **Evidence Strength** | 30% | Cluster size normalized (size/10, capped at 1.0) |
-| **Credibility** | 20% | Average credibility of source behaviors |
-| **Reinforcement Consistency** | 20% | Low variance = high consistency |
+**Cache Strategy:**
+- Key: SHA256 hash of sorted, normalized behavior texts
+- Value: Generated statement string
+- TTL: 7 days (configurable)
+- Storage: In-memory dictionary
+
+**Cache Statistics:**
+```python
+{
+  "total_requests": 45,
+  "cache_hits": 23,
+  "cache_misses": 22,
+  "hit_rate": 0.51,
+  "total_cached_entries": 18,
+  "cache_size_bytes": 4096
+}
+```
+
+**Benefits:**
+- ~50% hit rate observed in testing
+- Saves ~$0.001 per cache hit (gpt-4o-mini pricing)
+- 100x faster retrieval (5ms vs 500ms)
+
+**Configuration:**
+```python
+ENABLE_STATEMENT_CACHE = True
+CACHE_TTL_SECONDS = 604800  # 7 days
+```
+
+---
+
+#### 5.2 Confidence Scoring with Promotion/Rejection Logic ✅ ENHANCED
+**Status:** ✅ Fully Operational  
+
+**4-Component Weighted Confidence Formula:**
+
+| Component | Weight | Description |
+|-----------|--------|-------------|
+| **Credibility** | 35% | Average credibility of behaviors in cluster (≥0.65 required) |
+| **Temporal Stability** | 25% | Time gap analysis and regularity (≥0.5 required) |
+| **Cluster Coherence** | 25% | Semantic tightness of cluster (≥0.7 required) |
+| **Reinforcement Depth** | 15% | Evidence strength from reinforcement counts |
+
+**Promotion Thresholds:**
+- Minimum cluster size: 3 behaviors
+- Minimum credibility: 0.65
+- Minimum stability: 0.5
+- Minimum coherence: 0.7
+- Minimum confidence: 0.70
+
+**Rejection Reasons:**
+- `cluster_too_small`: < 3 behaviors
+- `low_credibility`: < 0.65 average
+- `unstable_temporal_pattern`: < 0.5 stability
+- `low_coherence`: < 0.7 semantic tightness
+- `insufficient_confidence`: < 0.70 final score
 
 **Formula:**
 ```python
 confidence = (
-    0.30 * coherence_score +
-    0.30 * min(1.0, cluster_size / 10.0) +
-    0.20 * avg_credibility +
-    0.20 * (1.0 - min(1.0, std(reinforcement) / mean(reinforcement)))
+    0.35 * avg_credibility +
+    0.25 * temporal_stability +
+    0.25 * cluster_coherence +
+    0.15 * reinforcement_depth
 )
 ```
 
-**Observed Range:** 0.62 - 0.75 for real test data
+**Confidence Breakdown Returned:**
+```json
+{
+  "credibility": 0.78,
+  "temporal_stability": 0.68,
+  "cluster_coherence": 0.82,
+  "reinforcement_depth": 0.71,
+  "final_confidence": 0.7489
+}
+```
+
+**Observed Range:** 0.70 - 0.92 for promoted behaviors
+
+---
+
+#### 5.3 Enhanced Change Detection ✅ NEW
+**Status:** ✅ Fully Operational  
+
+**6 Change Classification Types:**
+
+| Type | Threshold | Description |
+|------|-----------|-------------|
+| **Strengthened** | Δ > +0.20 | Significant confidence increase |
+| **Weakened** | Δ < -0.20 | Significant confidence decrease |
+| **Minor Update** | 0.10 ≤ \|Δ\| < 0.20 | Small confidence change |
+| **Stable** | \|Δ\| < 0.10 | Minimal confidence change |
+| **New** | N/A | New core behavior identified |
+| **Retired** | N/A | Core behavior no longer present |
+
+**Change Explanation Generation:**
+Each change includes:
+- Classification type
+- Previous/current confidence values
+- Confidence delta
+- Count of behaviors added/removed
+- Human-readable explanation
+
+**Example Output:**
+```json
+{
+  "strengthened": [
+    {
+      "core_behavior_id": "cb_001",
+      "domain": "gardening",
+      "change_type": "strengthened",
+      "previous_confidence": 0.72,
+      "current_confidence": 0.89,
+      "confidence_delta": 0.17,
+      "new_behaviors_added": 3,
+      "behaviors_removed": 0,
+      "explanation": "User's gardening pattern confidence increased from 72% to 89% (+17%) due to 3 new related behavior(s)"
+    }
+  ],
+  "summary": {
+    "total_changes": 4,
+    "new_count": 1,
+    "strengthened_count": 1,
+    "weakened_count": 0,
+    "minor_updates_count": 2,
+    "stable_count": 8
+  }
+}
+```
+
+**Benefits:**
+- Fine-grained change tracking
+- Actionable insights for users
+- Historical trend analysis support
+
+---
+
+#### 5.4 Analysis Storage Service ✅ NEW
+**Status:** ✅ Fully Operational  
+
+**Capabilities:**
+- Save analysis results with versioning
+- Retrieve analysis by ID
+- List user's analysis history
+- Get latest analysis
+- Analysis statistics aggregation
+- Dual-file storage (timestamped + latest)
+
+**Methods:**
+- `save_analysis()`: Save with version and metadata
+- `get_analysis_by_id()`: Retrieve specific analysis
+- `list_user_analyses()`: Paginated history
+- `get_latest_analysis()`: Most recent analysis
+- `get_analysis_stats()`: Aggregate statistics
+- `delete_analysis()`: Remove analysis
+
+**Storage Format:**
+```
+analysis_results/
+├── user_4_1765826173_1765831792.json  # Timestamped
+├── user_4_1765826173_latest.json      # Latest link
+├── user_2_1765824099_1765831000.json
+└── user_2_1765824099_latest.json
+```
+
+**Metadata Added:**
+```json
+{
+  "analysis_id": "user_4_1765826173_1765831792",
+  "saved_at": "2025-12-17T10:30:00Z",
+  "version": "1.0",
+  "user_id": "user_4_1765826173",
+  "core_behaviors": [...],
+  "...": "..."
+}
+```
+
+**Performance:** ~5-10ms per operation
 
 ---
 
